@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block page_title %}{{ farm.name }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ farm.name }}</h1>
+{% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' %}<a class="btn btn-outline-primary btn-sm" href="{% url 'farms:farm_update' farm.uid %}"><i class="bi bi-pencil"></i> Edit</a>{% endif %}</div>
+<div class="row g-3">
+<div class="col-md-5"><div class="card"><div class="card-header">Details</div><div class="card-body">
+<p><strong>Code:</strong> {{ farm.code }}</p>
+<p><strong>Location:</strong> {{ farm.location }}, {{ farm.city }}, {{ farm.region }}</p>
+<p><strong>Owner:</strong> {{ farm.owner|default:"—" }}</p>
+<p class="mb-0"><strong>Status:</strong> {% if farm.is_active %}Active{% else %}Inactive{% endif %}</p>
+</div></div></div>
+<div class="col-md-7"><div class="card mb-3"><div class="card-header">Pens ({{ pens|length }})</div>
+<ul class="list-group list-group-flush">{% for p in pens %}<li class="list-group-item d-flex justify-content-between"><a href="{% url 'farms:pen_detail' p.uid %}">{{ p.name }}</a><span class="text-muted">cap {{ p.capacity }}</span></li>{% empty %}<li class="list-group-item text-muted">No pens.</li>{% endfor %}</ul></div>
+<div class="card"><div class="card-header">Recent batches</div>
+<ul class="list-group list-group-flush">{% for b in batches %}<li class="list-group-item d-flex justify-content-between"><a href="{% url 'flocks:batch_detail' b.uid %}">{{ b.code }}</a><span class="badge status-ok">{{ b.get_status_display }}</span></li>{% empty %}<li class="list-group-item text-muted">No batches.</li>{% endfor %}</ul></div>
+</div></div>
+{% endblock %}

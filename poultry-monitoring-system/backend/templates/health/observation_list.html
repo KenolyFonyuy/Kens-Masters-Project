@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block page_title %}Health records{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Health observations</h1>
+<div class="d-flex gap-2">
+<form method="get"><select name="severity" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All severities</option>{% for v,l in severities %}<option value="{{ v }}" {% if request.GET.severity == v %}selected{% endif %}>{{ l }}</option>{% endfor %}</select></form>
+<a class="btn btn-primary btn-sm" href="{% url 'health:observation_create' %}"><i class="bi bi-plus-lg"></i> Add observation</a></div></div>
+<div class="card"><div class="table-responsive"><table class="table table-hover align-middle mb-0">
+<thead><tr><th>Date</th><th>Batch</th><th>Title</th><th>Severity</th><th>Affected</th><th></th></tr></thead><tbody>
+{% for o in observations %}<tr><td>{{ o.observation_date }}</td><td>{{ o.batch.code }}</td><td><a href="{% url 'health:observation_detail' o.uid %}">{{ o.title }}</a></td>
+<td><span class="badge sev-{{ o.severity }}">{{ o.get_severity_display }}</span></td><td>{{ o.affected_count }}</td>
+<td><a class="btn btn-sm btn-outline-primary" href="{% url 'health:observation_detail' o.uid %}">View</a></td></tr>
+{% empty %}<tr><td colspan="6"><div class="empty-state"><i class="bi bi-heart-pulse"></i> No health observations.</div></td></tr>{% endfor %}
+</tbody></table></div></div>{% include "partials/_pagination.html" %}{% endblock %}

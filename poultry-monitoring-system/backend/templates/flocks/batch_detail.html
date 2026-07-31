@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block page_title %}Batch {{ batch.code }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Batch {{ batch.code }}</h1>
+{% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' or user.role == 'MANAGER' %}<a class="btn btn-outline-primary btn-sm" href="{% url 'flocks:batch_update' batch.uid %}"><i class="bi bi-pencil"></i> Edit</a>{% endif %}</div>
+<div class="row g-3 mb-3">
+{% include "dashboard/_stat.html" with label="Placed" value=batch.total_entries icon="bi-egg" %}
+{% include "dashboard/_stat.html" with label="Current" value=batch.current_quantity icon="bi-collection" %}
+{% include "dashboard/_stat.html" with label="Mortality" value=batch.total_mortality icon="bi-clipboard-x" %}
+{% include "dashboard/_stat.html" with label="Mortality %" value=batch.cumulative_mortality_rate icon="bi-graph-down" %}
+</div>
+<div class="row g-3">
+<div class="col-md-6"><div class="card"><div class="card-header">Recent mortality</div><ul class="list-group list-group-flush">
+{% for m in mortality %}<li class="list-group-item d-flex justify-content-between">{{ m.record_date }} — {{ m.get_cause_display }}<strong>{{ m.quantity }}</strong></li>{% empty %}<li class="list-group-item text-muted">None.</li>{% endfor %}</ul></div></div>
+<div class="col-md-6"><div class="card"><div class="card-header">Recent weights</div><ul class="list-group list-group-flush">
+{% for w in weights %}<li class="list-group-item d-flex justify-content-between">{{ w.record_date }}<strong>{{ w.average_weight_g }} g</strong></li>{% empty %}<li class="list-group-item text-muted">None.</li>{% endfor %}</ul></div></div>
+</div>{% endblock %}

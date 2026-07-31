@@ -1,0 +1,1 @@
+{"nodes": [{"id": "poultry_monitoring_system_backend_templates_dashboard__stat_stat_card", "label": "Reusable dashboard stat card partial", "file_type": "code", "source_file": "poultry-monitoring-system/backend/templates/dashboard/_stat.html", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

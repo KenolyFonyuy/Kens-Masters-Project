@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page_title %}Sale {{ object.uid }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Sale detail</h1>
+<a class="btn btn-outline-primary btn-sm" href="{% url 'finance:sale_update' object.uid %}"><i class="bi bi-pencil"></i> Edit</a></div>
+<div class="row g-3"><div class="col-md-6"><div class="card"><div class="card-body">
+<p><strong>Batch:</strong> {{ object.batch.code }}</p>
+<p><strong>Customer:</strong> {{ object.customer|default:"—" }}</p>
+<p><strong>Quantity:</strong> {{ object.quantity }}</p>
+<p><strong>Total:</strong> {{ object.total_amount }}</p>
+<p><strong>Paid:</strong> {{ object.amount_paid }} &middot; <strong>Balance:</strong> {{ object.balance_due }}</p>
+</div></div></div>
+<div class="col-md-6"><div class="card"><div class="card-header d-flex justify-content-between">Payments
+<a class="btn btn-sm btn-outline-primary" href="{% url 'finance:payment_create' %}">Add payment</a></div>
+<ul class="list-group list-group-flush">{% for p in payments %}<li class="list-group-item d-flex justify-content-between">{{ p.payment_date }} — {{ p.get_method_display }}<strong>{{ p.amount }}</strong></li>{% empty %}<li class="list-group-item text-muted">No payments.</li>{% endfor %}</ul></div></div></div>
+{% endblock %}

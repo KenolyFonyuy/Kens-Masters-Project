@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block page_title %}{{ pen.name }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ pen.name }}</h1></div>
+<div class="card"><div class="card-body">
+<p><strong>Farm:</strong> <a href="{% url 'farms:farm_detail' pen.farm.uid %}">{{ pen.farm.name }}</a></p>
+<p><strong>Code:</strong> {{ pen.code }}</p>
+<p><strong>Capacity:</strong> {{ pen.capacity }} birds</p>
+<p class="mb-0"><strong>Floor area:</strong> {{ pen.floor_area_m2|default:"—" }} m²</p>
+</div></div>{% endblock %}

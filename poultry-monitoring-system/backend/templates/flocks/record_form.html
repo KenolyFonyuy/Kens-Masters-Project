@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block page_title %}{% if object %}Edit{% else %}Add{% endif %} {{ object_label|default:"record" }}{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>{% if object %}Edit{% else %}Add{% endif %} {{ object_label|default:"record" }}</h1>
+  <a href="javascript:history.back()" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i> Back</a>
+</div>
+<div class="card">
+  <div class="card-body" style="max-width: 760px;">
+    <form method="post" enctype="multipart/form-data" novalidate>
+      {% csrf_token %}
+      {% include "partials/_form_fields.html" %}
+      <div class="d-flex gap-2 mt-2">
+        <button type="submit" class="btn btn-primary"><i class="bi bi-check2"></i> Save</button>
+        <a href="javascript:history.back()" class="btn btn-light">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+# Mapping between YOLO model classes and web-application risk categories.
+#
+# Only classes with actual labelled training data should be enabled. Classes in
+# the `supplementary` block require additional labelled data before training and
+# are documented here for the configurable mapping but NOT assumed to exist.
+#
+# `uncertain` is an inference/review OUTCOME, not a trained class.
+#
+# Severity values map to apps.alerts.models.Severity: information | warning | critical
+# Risk categories map to alert types in the web application.
+
+model:
+  name: yolo11n
+  task: detect
+  note: >
+    Default lightweight detector for reproducibility and edge deployment. The
+    final trained model + version are recorded in ml/models/MODEL_CARD.md after
+    training on real data.
+
+class_mapping:
+  healthy:
+    risk_category: normal
+    severity: information
+    alert_type: null
+
+  lethargic:
+    risk_category: inactive_or_lethargic
+    severity: warning
+    alert_type: lethargy
+
+  open_beak_stress:
+    risk_category: open_beak_distress
+    severity: warning
+    alert_type: open_beak_stress
+
+  diseased_eye:
+    risk_category: visible_physical_abnormality
+    severity: warning
+    alert_type: diseased_eye
+
+  slipped_tendon:
+    risk_category: mobility_abnormality
+    severity: critical
+    alert_type: mobility_abnormality
+
+  pendulous_crop:
+    risk_category: visible_physical_abnormality
+    severity: warning
+    alert_type: physical_abnormality
+
+# Documented but require labelled data before enabling for training.
+supplementary:
+  huddling:
+    risk_category: huddling
+    severity: warning
+    alert_type: huddling
+  inactivity:
+    risk_category: inactive_or_lethargic
+    severity: warning
+    alert_type: lethargy
+  abnormal_gathering:
+    risk_category: huddling
+    severity: warning
+    alert_type: huddling
+
+# Review/inference outcomes (not trained classes).
+review_outcomes:
+  - uncertain
+
+# Default alert severity when a class maps to an alert but no severity is given.
+default_severity: warning

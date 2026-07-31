@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block title %}Access denied{% endblock %}
+{% block auth_content %}{% include "errors/_error_body.html" with code="403" head="Access denied" msg="You don't have permission to view this page." %}{% endblock %}
+{% block content %}{% include "errors/_error_body.html" with code="403" head="Access denied" msg="You don't have permission to view this page." %}{% endblock %}

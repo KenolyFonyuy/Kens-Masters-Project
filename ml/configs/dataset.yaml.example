@@ -1,0 +1,15 @@
+# Example Ultralytics dataset config. Generate the real one with:
+#   python -m src.data.create_dataset_yaml --out data/processed/dataset.yaml
+# Class order MUST match ml/configs/class_mapping.yaml class_mapping keys.
+path: data/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 6
+names:
+  - healthy
+  - lethargic
+  - open_beak_stress
+  - diseased_eye
+  - slipped_tendon
+  - pendulous_crop

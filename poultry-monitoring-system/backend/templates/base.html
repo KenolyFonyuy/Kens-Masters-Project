@@ -1,0 +1,99 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ SITE_NAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-brand">
+            <i class="bi bi-egg-fried"></i> <span>{{ SITE_SHORT_NAME }}</span>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="{% url 'dashboard:home' %}" class="nav-link {% if request.resolver_match.namespace == 'dashboard' %}active{% endif %}"><i class="bi bi-speedometer2"></i> Dashboard</a>
+            <div class="nav-section">Farm operations</div>
+            <a href="{% url 'farms:farm_list' %}" class="nav-link"><i class="bi bi-houses"></i> Farms</a>
+            <a href="{% url 'farms:pen_list' %}" class="nav-link"><i class="bi bi-grid"></i> Pens</a>
+            <a href="{% url 'flocks:batch_list' %}" class="nav-link"><i class="bi bi-collection"></i> Batches</a>
+            <a href="{% url 'flocks:mortality_list' %}" class="nav-link"><i class="bi bi-clipboard-x"></i> Mortality</a>
+            <a href="{% url 'feeding:usage_list' %}" class="nav-link"><i class="bi bi-basket"></i> Feed usage</a>
+            <a href="{% url 'flocks:weight_list' %}" class="nav-link"><i class="bi bi-speedometer"></i> Weights</a>
+            <a href="{% url 'flocks:observation_list' %}" class="nav-link"><i class="bi bi-journal-text"></i> Observations</a>
+            <div class="nav-section">Health</div>
+            <a href="{% url 'health:observation_list' %}" class="nav-link"><i class="bi bi-heart-pulse"></i> Health records</a>
+            <a href="{% url 'health:treatment_list' %}" class="nav-link"><i class="bi bi-capsule"></i> Treatments</a>
+            <a href="{% url 'health:vaccination_record_list' %}" class="nav-link"><i class="bi bi-shield-plus"></i> Vaccinations</a>
+            <div class="nav-section">Inventory &amp; finance</div>
+            <a href="{% url 'inventory:item_list' %}" class="nav-link"><i class="bi bi-box-seam"></i> Inventory</a>
+            {% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' or user.role == 'MANAGER' %}
+            <a href="{% url 'finance:expense_list' %}" class="nav-link"><i class="bi bi-cash-stack"></i> Expenses</a>
+            <a href="{% url 'finance:sale_list' %}" class="nav-link"><i class="bi bi-bag-check"></i> Sales</a>
+            {% endif %}
+            <div class="nav-section">Monitoring</div>
+            <a href="{% url 'iot:device_list' %}" class="nav-link"><i class="bi bi-cpu"></i> Devices</a>
+            <a href="{% url 'iot:environment' %}" class="nav-link"><i class="bi bi-thermometer-half"></i> Environment</a>
+            <a href="{% url 'vision:result_list' %}" class="nav-link"><i class="bi bi-camera-video"></i> Vision review</a>
+            <a href="{% url 'alerts:alert_list' %}" class="nav-link"><i class="bi bi-bell"></i> Alerts
+                {% if active_alert_count %}<span class="badge bg-danger">{{ active_alert_count }}</span>{% endif %}</a>
+            <div class="nav-section">Insights</div>
+            <a href="{% url 'reports:index' %}" class="nav-link"><i class="bi bi-graph-up"></i> Reports</a>
+            {% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' %}
+            <a href="{% url 'accounts:user_list' %}" class="nav-link"><i class="bi bi-people"></i> Users</a>
+            <a href="{% url 'audit:log_list' %}" class="nav-link"><i class="bi bi-list-check"></i> Audit log</a>
+            {% endif %}
+        </nav>
+    </aside>
+    <div class="app-main">
+        <header class="topbar">
+            <button class="btn btn-sm btn-light d-lg-none" id="sidebarToggle"><i class="bi bi-list"></i></button>
+            <div class="topbar-title">{% block page_title %}{% endblock %}</div>
+            <div class="topbar-right dropdown">
+                <a href="#" class="user-chip dropdown-toggle" data-bs-toggle="dropdown">
+                    <i class="bi bi-person-circle"></i>
+                    <span>{{ user.get_full_name|default:user.username }}</span>
+                    <small class="role-badge">{{ user.role_label }}</small>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="{% url 'accounts:profile' %}"><i class="bi bi-person"></i> Profile</a></li>
+                    <li><a class="dropdown-item" href="{% url 'accounts:password_change' %}"><i class="bi bi-key"></i> Change password</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <form method="post" action="{% url 'accounts:logout' %}" class="px-2">
+                            {% csrf_token %}
+                            <button class="dropdown-item text-danger" type="submit"><i class="bi bi-box-arrow-right"></i> Log out</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="content">
+            {% include "partials/_messages.html" %}
+            {% block content %}{% endblock %}
+        </main>
+        <footer class="app-footer">
+            <small>{{ SITE_NAME }} &middot; IoT-based broiler health monitoring &middot; Yaoundé</small>
+        </footer>
+    </div>
+</div>
+{% else %}
+    {% include "partials/_messages.html" %}
+    {% block auth_content %}{% endblock %}
+{% endif %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script>
+  const t = document.getElementById('sidebarToggle');
+  if (t) t.addEventListener('click', () => document.getElementById('sidebar').classList.toggle('open'));
+</script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>

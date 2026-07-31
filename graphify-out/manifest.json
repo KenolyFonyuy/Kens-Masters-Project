@@ -1,0 +1,3557 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1784889508.2283156,
+    "ast_hash": "cb0151214a87e19f92d311f5cd34801b",
+    "semantic_hash": "cb0151214a87e19f92d311f5cd34801b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/art.c": {
+    "mtime": 1782004117.4066622,
+    "ast_hash": "01609d4f19b8f67bd123642663c5bdb2",
+    "semantic_hash": "01609d4f19b8f67bd123642663c5bdb2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/attention.c": {
+    "mtime": 1782004117.436765,
+    "ast_hash": "43c7580db08548ee28da4795866aefa4",
+    "semantic_hash": "43c7580db08548ee28da4795866aefa4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/captcha.c": {
+    "mtime": 1782004117.4545252,
+    "ast_hash": "9894f2a3e6a9509b9a63d912e2a2ac13",
+    "semantic_hash": "9894f2a3e6a9509b9a63d912e2a2ac13"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/cifar.c": {
+    "mtime": 1782004117.4743936,
+    "ast_hash": "0d235dc40e6535486bdfbd49d41639a8",
+    "semantic_hash": "0d235dc40e6535486bdfbd49d41639a8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/classifier.c": {
+    "mtime": 1782004117.4879882,
+    "ast_hash": "cae1d52993626c9032ff5cdc5bd1726f",
+    "semantic_hash": "cae1d52993626c9032ff5cdc5bd1726f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/coco.c": {
+    "mtime": 1782004117.5112605,
+    "ast_hash": "0f447eaaa6599f552749ac46fe1f356e",
+    "semantic_hash": "0f447eaaa6599f552749ac46fe1f356e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/darknet.c": {
+    "mtime": 1782004117.5221746,
+    "ast_hash": "4d82992277ecdad7fccae28898159bea",
+    "semantic_hash": "4d82992277ecdad7fccae28898159bea"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/detector-scipy-opencv.py": {
+    "mtime": 1782004117.541181,
+    "ast_hash": "ff2101c745330c72c0e6f9dfe4012637",
+    "semantic_hash": "ff2101c745330c72c0e6f9dfe4012637"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/detector.c": {
+    "mtime": 1782004117.5573685,
+    "ast_hash": "4f8403e9e4968551a4f6e75e047f3640",
+    "semantic_hash": "4f8403e9e4968551a4f6e75e047f3640"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/detector.py": {
+    "mtime": 1782004117.5710783,
+    "ast_hash": "58856c6ae40857cc2fd72d63904a3fc3",
+    "semantic_hash": "58856c6ae40857cc2fd72d63904a3fc3"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/dice.c": {
+    "mtime": 1782004117.5874808,
+    "ast_hash": "129b685eb6c176425661afecd99ebdb9",
+    "semantic_hash": "129b685eb6c176425661afecd99ebdb9"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/go.c": {
+    "mtime": 1782004117.599237,
+    "ast_hash": "dda2823e1fa366d7d7d3569fc7ffc0bc",
+    "semantic_hash": "dda2823e1fa366d7d7d3569fc7ffc0bc"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/instance-segmenter.c": {
+    "mtime": 1782004117.6109097,
+    "ast_hash": "6a5e8bf8764f32563c604c1deead65ac",
+    "semantic_hash": "6a5e8bf8764f32563c604c1deead65ac"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/lsd.c": {
+    "mtime": 1782004117.6253858,
+    "ast_hash": "9e8e12910f50c5986db19d51370edac7",
+    "semantic_hash": "9e8e12910f50c5986db19d51370edac7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/nightmare.c": {
+    "mtime": 1782004117.6375966,
+    "ast_hash": "baf579e4ba5830f5e3755d8f503f3da6",
+    "semantic_hash": "baf579e4ba5830f5e3755d8f503f3da6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/regressor.c": {
+    "mtime": 1782004117.6478188,
+    "ast_hash": "28304ea7e969763e38df6adba957b3b6",
+    "semantic_hash": "28304ea7e969763e38df6adba957b3b6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/rnn.c": {
+    "mtime": 1782004117.6572897,
+    "ast_hash": "aa8d3788b441523180559a912ff5c5a9",
+    "semantic_hash": "aa8d3788b441523180559a912ff5c5a9"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/rnn_vid.c": {
+    "mtime": 1782004117.6572897,
+    "ast_hash": "4f65afa44c5f2ce6d4b5e0c9c4daee3b",
+    "semantic_hash": "4f65afa44c5f2ce6d4b5e0c9c4daee3b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/segmenter.c": {
+    "mtime": 1782004117.6824133,
+    "ast_hash": "8d0427a5f239cf658e983182c40d4f61",
+    "semantic_hash": "8d0427a5f239cf658e983182c40d4f61"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/super.c": {
+    "mtime": 1782004117.6954067,
+    "ast_hash": "357ff474ac08d4a7fe66bcc6bfb13733",
+    "semantic_hash": "357ff474ac08d4a7fe66bcc6bfb13733"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/swag.c": {
+    "mtime": 1782004117.708463,
+    "ast_hash": "793723f4f1f93fcba7f0eb71c46b0619",
+    "semantic_hash": "793723f4f1f93fcba7f0eb71c46b0619"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/tag.c": {
+    "mtime": 1782004117.7233622,
+    "ast_hash": "624c9383af012251591c6c7f9f27be8f",
+    "semantic_hash": "624c9383af012251591c6c7f9f27be8f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/voxel.c": {
+    "mtime": 1782004117.7365115,
+    "ast_hash": "07199c7dcf78cb6ad6a704da48e88e41",
+    "semantic_hash": "07199c7dcf78cb6ad6a704da48e88e41"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/writing.c": {
+    "mtime": 1782004117.757758,
+    "ast_hash": "4120ac3614720210844397de064a0183",
+    "semantic_hash": "4120ac3614720210844397de064a0183"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/examples/yolo.c": {
+    "mtime": 1782004117.785534,
+    "ast_hash": "1c3af25e66ed776b18c5c7c74f909fa2",
+    "semantic_hash": "1c3af25e66ed776b18c5c7c74f909fa2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/include/darknet.h": {
+    "mtime": 1782004117.8257997,
+    "ast_hash": "92d1b1087b234f9e8c2fe6c72b3da3f6",
+    "semantic_hash": "92d1b1087b234f9e8c2fe6c72b3da3f6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/python/darknet.py": {
+    "mtime": 1782004119.395362,
+    "ast_hash": "3e766665c270cdd3e2a8952dee3bc1c9",
+    "semantic_hash": "3e766665c270cdd3e2a8952dee3bc1c9"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/python/proverbot.py": {
+    "mtime": 1782004119.4132094,
+    "ast_hash": "6f936ed285ab4083f2ac46aeaac4f6ed",
+    "semantic_hash": "6f936ed285ab4083f2ac46aeaac4f6ed"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/scripts/dice_label.sh": {
+    "mtime": 1782004119.427231,
+    "ast_hash": "0e1ceede49b31e52dca710204d7a680a",
+    "semantic_hash": "0e1ceede49b31e52dca710204d7a680a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/scripts/gen_tactic.sh": {
+    "mtime": 1782004119.4589684,
+    "ast_hash": "a2804e72771c74f02f17a54d46a8f87a",
+    "semantic_hash": "a2804e72771c74f02f17a54d46a8f87a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/scripts/get_coco_dataset.sh": {
+    "mtime": 1782004119.4747162,
+    "ast_hash": "fe9e524836a1eca101aed266e8e9f8dd",
+    "semantic_hash": "fe9e524836a1eca101aed266e8e9f8dd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/scripts/imagenet_label.sh": {
+    "mtime": 1782004119.490589,
+    "ast_hash": "1cfca8806843b2fd645e238632234a38",
+    "semantic_hash": "1cfca8806843b2fd645e238632234a38"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/scripts/voc_label.py": {
+    "mtime": 1782004119.5066185,
+    "ast_hash": "f08885cc23de9f3cd273c69839fede59",
+    "semantic_hash": "f08885cc23de9f3cd273c69839fede59"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/activation_kernels.cu": {
+    "mtime": 1782004119.5305555,
+    "ast_hash": "0989fea5c694afe77659c781b2ef1a9e",
+    "semantic_hash": "0989fea5c694afe77659c781b2ef1a9e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/activation_layer.c": {
+    "mtime": 1782004119.5443206,
+    "ast_hash": "aff04917d535a0fa3d6f57494a657067",
+    "semantic_hash": "aff04917d535a0fa3d6f57494a657067"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/activation_layer.h": {
+    "mtime": 1782004119.5556712,
+    "ast_hash": "4ef22d67736a74fcc6a568bf7490210c",
+    "semantic_hash": "4ef22d67736a74fcc6a568bf7490210c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/activations.c": {
+    "mtime": 1782004119.571397,
+    "ast_hash": "5428f7e1abd64384ba40c1682c3d82b7",
+    "semantic_hash": "5428f7e1abd64384ba40c1682c3d82b7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/activations.h": {
+    "mtime": 1782004119.586282,
+    "ast_hash": "85f28ba60ece4c423b88cb54ca8483fd",
+    "semantic_hash": "85f28ba60ece4c423b88cb54ca8483fd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/avgpool_layer.c": {
+    "mtime": 1782004119.5977979,
+    "ast_hash": "785f52adf00a9afd46187cc9427cbb4d",
+    "semantic_hash": "785f52adf00a9afd46187cc9427cbb4d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/avgpool_layer.h": {
+    "mtime": 1782004119.6116357,
+    "ast_hash": "8e8bac01b51aaf6f5921807b7fa1db2f",
+    "semantic_hash": "8e8bac01b51aaf6f5921807b7fa1db2f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/avgpool_layer_kernels.cu": {
+    "mtime": 1782004119.6224644,
+    "ast_hash": "d2b0beabe162324088e17db81eb39e68",
+    "semantic_hash": "d2b0beabe162324088e17db81eb39e68"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/batchnorm_layer.c": {
+    "mtime": 1782004119.6359923,
+    "ast_hash": "298d6e2927e1dc5970205ba9a5fb4494",
+    "semantic_hash": "298d6e2927e1dc5970205ba9a5fb4494"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/batchnorm_layer.h": {
+    "mtime": 1782004119.6470087,
+    "ast_hash": "04d016fc190953100b9275c778b72083",
+    "semantic_hash": "04d016fc190953100b9275c778b72083"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/blas.c": {
+    "mtime": 1782004119.6608799,
+    "ast_hash": "899d67834d5941a464c2ffb448c0ea49",
+    "semantic_hash": "899d67834d5941a464c2ffb448c0ea49"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/blas.h": {
+    "mtime": 1782004119.671393,
+    "ast_hash": "b6c3c3d11846e8c2bb7513fc7d2d7351",
+    "semantic_hash": "b6c3c3d11846e8c2bb7513fc7d2d7351"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/blas_kernels.cu": {
+    "mtime": 1782004119.6885545,
+    "ast_hash": "a9ec506cb06278c7a3431234c68151d8",
+    "semantic_hash": "a9ec506cb06278c7a3431234c68151d8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/box.c": {
+    "mtime": 1782004119.705429,
+    "ast_hash": "2ded407c0a5da65b5f4a943513537a7b",
+    "semantic_hash": "2ded407c0a5da65b5f4a943513537a7b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/box.h": {
+    "mtime": 1782004119.7184243,
+    "ast_hash": "0d505c4b50f5e4e56658944a09fcfec0",
+    "semantic_hash": "0d505c4b50f5e4e56658944a09fcfec0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/classifier.h": {
+    "mtime": 1782004119.7294745,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": "68b329da9893e34099c7d8ad5cb9c940"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/col2im.c": {
+    "mtime": 1782004119.7464552,
+    "ast_hash": "6bb653e141438bfee059e7a5adf42ea4",
+    "semantic_hash": "6bb653e141438bfee059e7a5adf42ea4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/col2im.h": {
+    "mtime": 1782004119.7609034,
+    "ast_hash": "a458605e8c92124d346753172a21f52f",
+    "semantic_hash": "a458605e8c92124d346753172a21f52f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/col2im_kernels.cu": {
+    "mtime": 1782004119.7765565,
+    "ast_hash": "1ab9b43608d0e9b3032fe45f37f2d9cf",
+    "semantic_hash": "1ab9b43608d0e9b3032fe45f37f2d9cf"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/compare.c": {
+    "mtime": 1782004119.7922666,
+    "ast_hash": "0c4201ae74ea0cc504adccdcf2aef42c",
+    "semantic_hash": "0c4201ae74ea0cc504adccdcf2aef42c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/connected_layer.c": {
+    "mtime": 1782004119.807937,
+    "ast_hash": "b776211c3b329211301dd59eabe84b2d",
+    "semantic_hash": "b776211c3b329211301dd59eabe84b2d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/connected_layer.h": {
+    "mtime": 1782004119.817447,
+    "ast_hash": "020260d259cb7e2503cd85cc4c4312d8",
+    "semantic_hash": "020260d259cb7e2503cd85cc4c4312d8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/convolutional_kernels.cu": {
+    "mtime": 1782004119.8339682,
+    "ast_hash": "a56455369b614df82c3b35c7474bc369",
+    "semantic_hash": "a56455369b614df82c3b35c7474bc369"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/convolutional_layer.c": {
+    "mtime": 1782004119.8457682,
+    "ast_hash": "a17ae5550d51ae47ab1cee5d11bbf931",
+    "semantic_hash": "a17ae5550d51ae47ab1cee5d11bbf931"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/convolutional_layer.h": {
+    "mtime": 1782004119.8649857,
+    "ast_hash": "9eab0bff4352755f23197cbd22007e5b",
+    "semantic_hash": "9eab0bff4352755f23197cbd22007e5b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/cost_layer.c": {
+    "mtime": 1782004119.8788414,
+    "ast_hash": "1db38aeb363f57ceda6aed30ad97fb7d",
+    "semantic_hash": "1db38aeb363f57ceda6aed30ad97fb7d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/cost_layer.h": {
+    "mtime": 1782004119.892493,
+    "ast_hash": "81a80d70f4f5a350e1e591f65f422aba",
+    "semantic_hash": "81a80d70f4f5a350e1e591f65f422aba"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/crnn_layer.c": {
+    "mtime": 1782004119.9053535,
+    "ast_hash": "8868102ac042ed7e08ad79174e82d586",
+    "semantic_hash": "8868102ac042ed7e08ad79174e82d586"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/crnn_layer.h": {
+    "mtime": 1782004119.9210818,
+    "ast_hash": "33d5abe77607f460748c5b9028634a4f",
+    "semantic_hash": "33d5abe77607f460748c5b9028634a4f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/crop_layer.c": {
+    "mtime": 1782004119.925104,
+    "ast_hash": "3f71d5ef60ad2308323ab3f6404d911f",
+    "semantic_hash": "3f71d5ef60ad2308323ab3f6404d911f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/crop_layer.h": {
+    "mtime": 1782004119.940773,
+    "ast_hash": "1af5dbf8a624998db149ad0bef4aabb6",
+    "semantic_hash": "1af5dbf8a624998db149ad0bef4aabb6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/crop_layer_kernels.cu": {
+    "mtime": 1782004119.9553523,
+    "ast_hash": "a8a22f11d9a302811051c76eb27e9a17",
+    "semantic_hash": "a8a22f11d9a302811051c76eb27e9a17"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/cuda.c": {
+    "mtime": 1782004119.9786277,
+    "ast_hash": "55253717de9aa812472c7ff9ecd5cc97",
+    "semantic_hash": "55253717de9aa812472c7ff9ecd5cc97"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/cuda.h": {
+    "mtime": 1782004119.989407,
+    "ast_hash": "e109c9cd8cf25adc062451a2e315c817",
+    "semantic_hash": "e109c9cd8cf25adc062451a2e315c817"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/data.c": {
+    "mtime": 1782004120.0089464,
+    "ast_hash": "dc5c97a665e7ec13a14512ffc55f60b0",
+    "semantic_hash": "dc5c97a665e7ec13a14512ffc55f60b0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/data.h": {
+    "mtime": 1782004120.0208066,
+    "ast_hash": "49cb98ad30496dc8acf21413cc2a6a28",
+    "semantic_hash": "49cb98ad30496dc8acf21413cc2a6a28"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/deconvolutional_kernels.cu": {
+    "mtime": 1782004120.0311258,
+    "ast_hash": "b30043212245ad1e372eded7f8db9495",
+    "semantic_hash": "b30043212245ad1e372eded7f8db9495"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/deconvolutional_layer.c": {
+    "mtime": 1782004120.046899,
+    "ast_hash": "e3e20a5cdcddb0fa1af2c5eb4cb980fb",
+    "semantic_hash": "e3e20a5cdcddb0fa1af2c5eb4cb980fb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/deconvolutional_layer.h": {
+    "mtime": 1782004120.0615096,
+    "ast_hash": "0b4508352e26906cb22f5331e9d158cc",
+    "semantic_hash": "0b4508352e26906cb22f5331e9d158cc"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/demo.c": {
+    "mtime": 1782004120.0791807,
+    "ast_hash": "a54d5aefe053d3a7f002d25e079575d4",
+    "semantic_hash": "a54d5aefe053d3a7f002d25e079575d4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/demo.h": {
+    "mtime": 1782004120.0876904,
+    "ast_hash": "e76337b3d41d4060fa758aca9103be7d",
+    "semantic_hash": "e76337b3d41d4060fa758aca9103be7d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/detection_layer.c": {
+    "mtime": 1782004120.1041498,
+    "ast_hash": "671ddd01ec895a60556f89bac4a1cecb",
+    "semantic_hash": "671ddd01ec895a60556f89bac4a1cecb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/detection_layer.h": {
+    "mtime": 1782004120.1234012,
+    "ast_hash": "7d3de33193364266d7be4d9e5de1a82d",
+    "semantic_hash": "7d3de33193364266d7be4d9e5de1a82d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/dropout_layer.c": {
+    "mtime": 1782004120.1369793,
+    "ast_hash": "3fae03f4c069de2a2d1eee75445bbc06",
+    "semantic_hash": "3fae03f4c069de2a2d1eee75445bbc06"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/dropout_layer.h": {
+    "mtime": 1782004120.1556876,
+    "ast_hash": "efeda9dd2b422a9adbae4125a2f8cccd",
+    "semantic_hash": "efeda9dd2b422a9adbae4125a2f8cccd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/dropout_layer_kernels.cu": {
+    "mtime": 1782004120.1615753,
+    "ast_hash": "f2972dcb1dedd22c32f46f4291a9fbc8",
+    "semantic_hash": "f2972dcb1dedd22c32f46f4291a9fbc8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/gemm.c": {
+    "mtime": 1782004120.181258,
+    "ast_hash": "4ab9e4ffec8df0b3981cf7b3318da859",
+    "semantic_hash": "4ab9e4ffec8df0b3981cf7b3318da859"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/gemm.h": {
+    "mtime": 1782004120.2039335,
+    "ast_hash": "45d43655863851822cf182dc491d65b1",
+    "semantic_hash": "45d43655863851822cf182dc491d65b1"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/gru_layer.c": {
+    "mtime": 1782004120.2207668,
+    "ast_hash": "632f94c86cac6b7a3b5e1ca137e7efbe",
+    "semantic_hash": "632f94c86cac6b7a3b5e1ca137e7efbe"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/gru_layer.h": {
+    "mtime": 1782004120.238797,
+    "ast_hash": "1cb0803883c9471f97399567272fbabb",
+    "semantic_hash": "1cb0803883c9471f97399567272fbabb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/im2col.c": {
+    "mtime": 1782004120.2595026,
+    "ast_hash": "b94246d1ca2c5a1c8cbe2ca7fd77aec4",
+    "semantic_hash": "b94246d1ca2c5a1c8cbe2ca7fd77aec4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/im2col.h": {
+    "mtime": 1782004120.2718513,
+    "ast_hash": "0fe088545076caef5a4c20fa72380fe6",
+    "semantic_hash": "0fe088545076caef5a4c20fa72380fe6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/im2col_kernels.cu": {
+    "mtime": 1782004120.2867138,
+    "ast_hash": "3dd317388efc83273d7bbef68182a0f5",
+    "semantic_hash": "3dd317388efc83273d7bbef68182a0f5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/image.c": {
+    "mtime": 1782004120.3001282,
+    "ast_hash": "9254d2ffa95694e423cb9023b6e2a0a0",
+    "semantic_hash": "9254d2ffa95694e423cb9023b6e2a0a0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/image.h": {
+    "mtime": 1782004120.3110626,
+    "ast_hash": "b1e92fba6942fd04b17dd93e6147b6a2",
+    "semantic_hash": "b1e92fba6942fd04b17dd93e6147b6a2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/image_opencv.cpp": {
+    "mtime": 1782004120.3179984,
+    "ast_hash": "c4c520fb564b54afb71df9f826adef39",
+    "semantic_hash": "c4c520fb564b54afb71df9f826adef39"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/iseg_layer.c": {
+    "mtime": 1782004120.330671,
+    "ast_hash": "9cf17ae82d6eb2774a3b8f73c233c96b",
+    "semantic_hash": "9cf17ae82d6eb2774a3b8f73c233c96b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/iseg_layer.h": {
+    "mtime": 1782004120.3489408,
+    "ast_hash": "b5180a3c9a3255164669a0405c5c33a1",
+    "semantic_hash": "b5180a3c9a3255164669a0405c5c33a1"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/l2norm_layer.c": {
+    "mtime": 1782004120.3710432,
+    "ast_hash": "0b4a6dff00fa23442b910518132e6168",
+    "semantic_hash": "0b4a6dff00fa23442b910518132e6168"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/l2norm_layer.h": {
+    "mtime": 1782004120.3874187,
+    "ast_hash": "e51c4276bc0e36c4eed22180013028de",
+    "semantic_hash": "e51c4276bc0e36c4eed22180013028de"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/layer.c": {
+    "mtime": 1782004120.4041786,
+    "ast_hash": "e0977edcfebf251b225ad1132f77951a",
+    "semantic_hash": "e0977edcfebf251b225ad1132f77951a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/layer.h": {
+    "mtime": 1782004120.4106627,
+    "ast_hash": "a15afbea4a91e0d992f37d64ed2cc029",
+    "semantic_hash": "a15afbea4a91e0d992f37d64ed2cc029"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/list.c": {
+    "mtime": 1782004120.4266236,
+    "ast_hash": "164e8461d6ebc269c345f12c362c5cdd",
+    "semantic_hash": "164e8461d6ebc269c345f12c362c5cdd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/list.h": {
+    "mtime": 1782004120.4266236,
+    "ast_hash": "0dac622cc7faa6040468b87fc3562fea",
+    "semantic_hash": "0dac622cc7faa6040468b87fc3562fea"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/local_layer.c": {
+    "mtime": 1782004120.4426897,
+    "ast_hash": "db8d37ffd21439dc14f2defa270f124b",
+    "semantic_hash": "db8d37ffd21439dc14f2defa270f124b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/local_layer.h": {
+    "mtime": 1782004120.4584093,
+    "ast_hash": "899fb2bb314e3f21cefdd9ebda69b700",
+    "semantic_hash": "899fb2bb314e3f21cefdd9ebda69b700"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/logistic_layer.c": {
+    "mtime": 1782004120.4743245,
+    "ast_hash": "e3dc0e4ac59b0e3a1ae003a75ec2bc89",
+    "semantic_hash": "e3dc0e4ac59b0e3a1ae003a75ec2bc89"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/logistic_layer.h": {
+    "mtime": 1782004120.4803622,
+    "ast_hash": "0b5bc1f60d28bfe5d403a741cb12c33e",
+    "semantic_hash": "0b5bc1f60d28bfe5d403a741cb12c33e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/lstm_layer.c": {
+    "mtime": 1782004120.49905,
+    "ast_hash": "8839697e400872c7da3cb2e590ebfe6a",
+    "semantic_hash": "8839697e400872c7da3cb2e590ebfe6a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/lstm_layer.h": {
+    "mtime": 1782004120.5150666,
+    "ast_hash": "1464287836e249e466fd0c8647ed34f5",
+    "semantic_hash": "1464287836e249e466fd0c8647ed34f5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/matrix.c": {
+    "mtime": 1782004120.529419,
+    "ast_hash": "d483eb59f2b6e67428c753c8d6967faf",
+    "semantic_hash": "d483eb59f2b6e67428c753c8d6967faf"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/matrix.h": {
+    "mtime": 1782004120.5445251,
+    "ast_hash": "716a4751c1f193d418a2911a4fcd0621",
+    "semantic_hash": "716a4751c1f193d418a2911a4fcd0621"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/maxpool_layer.c": {
+    "mtime": 1782004120.557093,
+    "ast_hash": "d0c6367bd918089f36fefe2526edc931",
+    "semantic_hash": "d0c6367bd918089f36fefe2526edc931"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/maxpool_layer.h": {
+    "mtime": 1782004120.5701628,
+    "ast_hash": "95084edc253b843b6fc23ab38d8c3e3d",
+    "semantic_hash": "95084edc253b843b6fc23ab38d8c3e3d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/maxpool_layer_kernels.cu": {
+    "mtime": 1782004120.5926201,
+    "ast_hash": "0b7cf9a067f84bb57c9f114b5dae84c6",
+    "semantic_hash": "0b7cf9a067f84bb57c9f114b5dae84c6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/network.c": {
+    "mtime": 1782004120.6034732,
+    "ast_hash": "ed171f366d916c7491b0b2af76dede00",
+    "semantic_hash": "ed171f366d916c7491b0b2af76dede00"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/network.h": {
+    "mtime": 1782004120.6182365,
+    "ast_hash": "3b88f784f7c514a67f9ae53dd2a3f34e",
+    "semantic_hash": "3b88f784f7c514a67f9ae53dd2a3f34e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/normalization_layer.c": {
+    "mtime": 1782004120.6499126,
+    "ast_hash": "3363d6121bef1d64374d2df4d4c83eaa",
+    "semantic_hash": "3363d6121bef1d64374d2df4d4c83eaa"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/normalization_layer.h": {
+    "mtime": 1782004120.6728728,
+    "ast_hash": "41c5381b79f2e5f9530aec9c61bb1443",
+    "semantic_hash": "41c5381b79f2e5f9530aec9c61bb1443"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/option_list.c": {
+    "mtime": 1782004120.7009552,
+    "ast_hash": "fbcb77a394418884026168eb40e074c0",
+    "semantic_hash": "fbcb77a394418884026168eb40e074c0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/option_list.h": {
+    "mtime": 1782004120.714769,
+    "ast_hash": "287543f0a4477d0e3aa58bd54d09f215",
+    "semantic_hash": "287543f0a4477d0e3aa58bd54d09f215"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/parser.c": {
+    "mtime": 1782004120.7393095,
+    "ast_hash": "77bc22c813d665a3e66d9c5c6f7942ef",
+    "semantic_hash": "77bc22c813d665a3e66d9c5c6f7942ef"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/parser.h": {
+    "mtime": 1782004120.758202,
+    "ast_hash": "5864e06a6e9a8ba78ef35be6afcfa118",
+    "semantic_hash": "5864e06a6e9a8ba78ef35be6afcfa118"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/region_layer.c": {
+    "mtime": 1782004120.7788239,
+    "ast_hash": "b2b3596681c4920407e561d8513f4336",
+    "semantic_hash": "b2b3596681c4920407e561d8513f4336"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/region_layer.h": {
+    "mtime": 1782004120.793231,
+    "ast_hash": "84f475767a1f65873eadadb7abe88075",
+    "semantic_hash": "84f475767a1f65873eadadb7abe88075"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/reorg_layer.c": {
+    "mtime": 1782004120.8091006,
+    "ast_hash": "dfad9708df44d5a566a7b7a91f5cf51f",
+    "semantic_hash": "dfad9708df44d5a566a7b7a91f5cf51f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/reorg_layer.h": {
+    "mtime": 1782004120.8418803,
+    "ast_hash": "889d1338a461de73372f179a8eff3870",
+    "semantic_hash": "889d1338a461de73372f179a8eff3870"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/rnn_layer.c": {
+    "mtime": 1782004120.8628466,
+    "ast_hash": "91c040617dfe2e4888cf676185f42f98",
+    "semantic_hash": "91c040617dfe2e4888cf676185f42f98"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/rnn_layer.h": {
+    "mtime": 1782004120.872116,
+    "ast_hash": "c1addd107611b83af2dc9904c01d9b0a",
+    "semantic_hash": "c1addd107611b83af2dc9904c01d9b0a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/route_layer.c": {
+    "mtime": 1782004120.8994317,
+    "ast_hash": "4944f31da334ccfa7c9bb7f2d776e9b1",
+    "semantic_hash": "4944f31da334ccfa7c9bb7f2d776e9b1"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/route_layer.h": {
+    "mtime": 1782004120.9192622,
+    "ast_hash": "5e196fc5169953b46854865c65e2f4a5",
+    "semantic_hash": "5e196fc5169953b46854865c65e2f4a5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/shortcut_layer.c": {
+    "mtime": 1782004120.938784,
+    "ast_hash": "21d068faa34f2fd1611c8885f59f56dd",
+    "semantic_hash": "21d068faa34f2fd1611c8885f59f56dd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/shortcut_layer.h": {
+    "mtime": 1782004120.9594595,
+    "ast_hash": "160d6af063af18aba8879973c2624971",
+    "semantic_hash": "160d6af063af18aba8879973c2624971"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/softmax_layer.c": {
+    "mtime": 1782004120.9778128,
+    "ast_hash": "3fe9b8f269f9498943a5504eae4aaf7e",
+    "semantic_hash": "3fe9b8f269f9498943a5504eae4aaf7e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/softmax_layer.h": {
+    "mtime": 1782004120.9997714,
+    "ast_hash": "aa5f64f2b9f51c865d7ca1e7beb42385",
+    "semantic_hash": "aa5f64f2b9f51c865d7ca1e7beb42385"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/stb_image.h": {
+    "mtime": 1782004121.0179777,
+    "ast_hash": "2a512ad9f82f104b8120e52babd37cc7",
+    "semantic_hash": "2a512ad9f82f104b8120e52babd37cc7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/stb_image_write.h": {
+    "mtime": 1782004121.0470123,
+    "ast_hash": "1d43520ec288f3064fb73b1d0fb97cd4",
+    "semantic_hash": "1d43520ec288f3064fb73b1d0fb97cd4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/tree.c": {
+    "mtime": 1782004121.0644867,
+    "ast_hash": "5428ca990c81fc5d2c7bca069f855aa8",
+    "semantic_hash": "5428ca990c81fc5d2c7bca069f855aa8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/tree.h": {
+    "mtime": 1782004121.0845149,
+    "ast_hash": "87b0b5e2b2e86b9578d5ebf97758bfa3",
+    "semantic_hash": "87b0b5e2b2e86b9578d5ebf97758bfa3"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/upsample_layer.c": {
+    "mtime": 1782004121.0948267,
+    "ast_hash": "4ad08ebc90effe79871fee9550571227",
+    "semantic_hash": "4ad08ebc90effe79871fee9550571227"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/upsample_layer.h": {
+    "mtime": 1782004121.1095624,
+    "ast_hash": "5cdb1be9e6a974bfa3e115fdafa3fae7",
+    "semantic_hash": "5cdb1be9e6a974bfa3e115fdafa3fae7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/utils.c": {
+    "mtime": 1782004121.1252587,
+    "ast_hash": "ae68062804005ceb022f4f8981ece048",
+    "semantic_hash": "ae68062804005ceb022f4f8981ece048"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/utils.h": {
+    "mtime": 1782004121.135259,
+    "ast_hash": "de01a51272fb1825d4a69a12dd7a51ee",
+    "semantic_hash": "de01a51272fb1825d4a69a12dd7a51ee"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/yolo_layer.c": {
+    "mtime": 1782004121.141219,
+    "ast_hash": "68884e033e0ebe1e1487fb146e73e876",
+    "semantic_hash": "68884e033e0ebe1e1487fb146e73e876"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/src/yolo_layer.h": {
+    "mtime": 1782004121.1695046,
+    "ast_hash": "69ca62afdea43f5c3cd906dbf09c84ad",
+    "semantic_hash": "69ca62afdea43f5c3cd906dbf09c84ad"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/detector_Caffe_SSDMobileNet.py": {
+    "mtime": 1782004125.2437758,
+    "ast_hash": "130d698b9c05a743a130c8b0845a3f7b",
+    "semantic_hash": "130d698b9c05a743a130c8b0845a3f7b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/detector_TF_SSDMobileNetV2.py": {
+    "mtime": 1782004125.2546673,
+    "ast_hash": "e4b6b91edcf3db70a62068ce0d0ec4bb",
+    "semantic_hash": "e4b6b91edcf3db70a62068ce0d0ec4bb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/detector_YOLOv3.py": {
+    "mtime": 1782004125.2839756,
+    "ast_hash": "bd3a9999e0556cc349be22b1f337bed0",
+    "semantic_hash": "bd3a9999e0556cc349be22b1f337bed0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/mot_Caffe_SSDMobileNet.py": {
+    "mtime": 1782004125.2992623,
+    "ast_hash": "3fcbe184f6a5744a2937bb1920eb3206",
+    "semantic_hash": "3fcbe184f6a5744a2937bb1920eb3206"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/mot_TF_SSDMobileNet.py": {
+    "mtime": 1782004125.3156419,
+    "ast_hash": "66e97223aa66b41fa57bf3ea110a8932",
+    "semantic_hash": "66e97223aa66b41fa57bf3ea110a8932"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/mot_YOLOv3.py": {
+    "mtime": 1782004125.3357906,
+    "ast_hash": "3095649cb0e36dd0250879441060b641",
+    "semantic_hash": "3095649cb0e36dd0250879441060b641"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/motmeterics.py": {
+    "mtime": 1782004125.368886,
+    "ast_hash": "533505368a4e8cfa25344ecef606d7b7",
+    "semantic_hash": "533505368a4e8cfa25344ecef606d7b7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/caffemodel_weights/get_caffemodel.sh": {
+    "mtime": 1782004125.6161,
+    "ast_hash": "04d96e77159b01dc3425d40b96017b65",
+    "semantic_hash": "04d96e77159b01dc3425d40b96017b65"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/caffemodel_weights/ssd_mobilenet_caffe_names.json": {
+    "mtime": 1782004125.631802,
+    "ast_hash": "865250d555fc6402c785d82fe3ef71b5",
+    "semantic_hash": "865250d555fc6402c785d82fe3ef71b5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/tensorflow_weights/get_ssd_model.sh": {
+    "mtime": 1782004125.6605525,
+    "ast_hash": "030e216e4c416a8cc8f0962b5387277f",
+    "semantic_hash": "030e216e4c416a8cc8f0962b5387277f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/tensorflow_weights/ssd_mobilenet_v2_coco_names.json": {
+    "mtime": 1782004125.6734126,
+    "ast_hash": "24392efc51c510ca3e03cbffdc021b0d",
+    "semantic_hash": "24392efc51c510ca3e03cbffdc021b0d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/yolo_weights/coco_names.json": {
+    "mtime": 1782004125.6981478,
+    "ast_hash": "6b294cf49bb2a0ed2d8096dab1cb39dc",
+    "semantic_hash": "6b294cf49bb2a0ed2d8096dab1cb39dc"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/pretrained_models/yolo_weights/get_yolo.sh": {
+    "mtime": 1782004125.711075,
+    "ast_hash": "8490a0772750d51cb6c7b24c923fa05b",
+    "semantic_hash": "8490a0772750d51cb6c7b24c923fa05b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/__init__.py": {
+    "mtime": 1782004125.7582889,
+    "ast_hash": "d460f82260e1c3f0d7738869eb6c0d99",
+    "semantic_hash": "d460f82260e1c3f0d7738869eb6c0d99"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/centroid_kf_tracker.py": {
+    "mtime": 1782004125.7743754,
+    "ast_hash": "47e004dd3018724be02301032de3b2fb",
+    "semantic_hash": "47e004dd3018724be02301032de3b2fb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/detectors/__init__.py": {
+    "mtime": 1782004126.0431159,
+    "ast_hash": "59b2d95086a2bf0022878393c9e591a2",
+    "semantic_hash": "59b2d95086a2bf0022878393c9e591a2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/detectors/caffe.py": {
+    "mtime": 1782004126.059183,
+    "ast_hash": "28539587f88a51f035ef8e9fd1a22245",
+    "semantic_hash": "28539587f88a51f035ef8e9fd1a22245"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/detectors/detector.py": {
+    "mtime": 1782004126.077977,
+    "ast_hash": "c2896c3ae2150f14148f1b27e3e538c8",
+    "semantic_hash": "c2896c3ae2150f14148f1b27e3e538c8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/detectors/tf.py": {
+    "mtime": 1782004126.097725,
+    "ast_hash": "31aa2b766802c05fb869abe2c350f75a",
+    "semantic_hash": "31aa2b766802c05fb869abe2c350f75a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/detectors/yolo.py": {
+    "mtime": 1782004126.1126547,
+    "ast_hash": "81e15662e8f7a56bd5be4bf21c6b18ee",
+    "semantic_hash": "81e15662e8f7a56bd5be4bf21c6b18ee"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/iou_tracker.py": {
+    "mtime": 1782004125.7901528,
+    "ast_hash": "44b2ca3311cdfd157601595e0684c7ba",
+    "semantic_hash": "44b2ca3311cdfd157601595e0684c7ba"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/kalman_tracker.py": {
+    "mtime": 1782004125.8140142,
+    "ast_hash": "b11334a6ad02a0ea5da8697786354b02",
+    "semantic_hash": "b11334a6ad02a0ea5da8697786354b02"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/sort_tracker.py": {
+    "mtime": 1782004125.8226657,
+    "ast_hash": "66b46f6bdaea72680397b8f839776e0b",
+    "semantic_hash": "66b46f6bdaea72680397b8f839776e0b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/track.py": {
+    "mtime": 1782004125.8486972,
+    "ast_hash": "3329c21b98f48a0979ecd7223c6bd2dd",
+    "semantic_hash": "3329c21b98f48a0979ecd7223c6bd2dd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/tracker.py": {
+    "mtime": 1782004125.8652382,
+    "ast_hash": "5850fbdb1faa8eb9a5b6b992ec9fb8e0",
+    "semantic_hash": "5850fbdb1faa8eb9a5b6b992ec9fb8e0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/tracker_img.py": {
+    "mtime": 1782004125.8758664,
+    "ast_hash": "38973c34c3368c706a4d0e100276f24c",
+    "semantic_hash": "38973c34c3368c706a4d0e100276f24c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/utils/__init__.py": {
+    "mtime": 1782004126.1397796,
+    "ast_hash": "3aa8f7e8684d3e5e923cd03854a97793",
+    "semantic_hash": "3aa8f7e8684d3e5e923cd03854a97793"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/utils/filechooser_utils.py": {
+    "mtime": 1782004126.155297,
+    "ast_hash": "e39363070f7656ba5bcc02f6cec7c256",
+    "semantic_hash": "e39363070f7656ba5bcc02f6cec7c256"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/motrackers/utils/misc.py": {
+    "mtime": 1782004126.17564,
+    "ast_hash": "c69061e882f045784223015224d9b9d7",
+    "semantic_hash": "c69061e882f045784223015224d9b9d7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/config.py": {
+    "mtime": 1782004126.5487812,
+    "ast_hash": "e0b457fcb4ecac1d1bbeadf43bcbe41a",
+    "semantic_hash": "e0b457fcb4ecac1d1bbeadf43bcbe41a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/custom_callbacks.py": {
+    "mtime": 1782004126.5804396,
+    "ast_hash": "6b5945afc51e4d55cd38af1ae4e090d5",
+    "semantic_hash": "6b5945afc51e4d55cd38af1ae4e090d5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/custom_layers.py": {
+    "mtime": 1782004126.6024673,
+    "ast_hash": "d0a68e350d5f0d4d830e7e26450c0be5",
+    "semantic_hash": "d0a68e350d5f0d4d830e7e26450c0be5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/loss.py": {
+    "mtime": 1782004126.6217277,
+    "ast_hash": "bb91a9a6c6ac97edc7f47a4fc719aacc",
+    "semantic_hash": "bb91a9a6c6ac97edc7f47a4fc719aacc"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/models.py": {
+    "mtime": 1782004126.645505,
+    "ast_hash": "73bd470533f394f2314df6445c7ae883",
+    "semantic_hash": "73bd470533f394f2314df6445c7ae883"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/detector_Caffe_SSDMobileNet.py": {
+    "mtime": 1782004128.0013528,
+    "ast_hash": "130d698b9c05a743a130c8b0845a3f7b",
+    "semantic_hash": "130d698b9c05a743a130c8b0845a3f7b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/detector_TF_SSDMobileNetV2.py": {
+    "mtime": 1782004128.0351107,
+    "ast_hash": "e4b6b91edcf3db70a62068ce0d0ec4bb",
+    "semantic_hash": "e4b6b91edcf3db70a62068ce0d0ec4bb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/detector_YOLOv3.py": {
+    "mtime": 1782004128.0715735,
+    "ast_hash": "bd3a9999e0556cc349be22b1f337bed0",
+    "semantic_hash": "bd3a9999e0556cc349be22b1f337bed0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/mot_Caffe_SSDMobileNet.py": {
+    "mtime": 1782004128.1019664,
+    "ast_hash": "3fcbe184f6a5744a2937bb1920eb3206",
+    "semantic_hash": "3fcbe184f6a5744a2937bb1920eb3206"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/mot_TF_SSDMobileNet.py": {
+    "mtime": 1782004128.133084,
+    "ast_hash": "66e97223aa66b41fa57bf3ea110a8932",
+    "semantic_hash": "66e97223aa66b41fa57bf3ea110a8932"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/mot_YOLOv3.py": {
+    "mtime": 1782004128.158403,
+    "ast_hash": "3095649cb0e36dd0250879441060b641",
+    "semantic_hash": "3095649cb0e36dd0250879441060b641"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/motmeterics.py": {
+    "mtime": 1782004128.2301319,
+    "ast_hash": "533505368a4e8cfa25344ecef606d7b7",
+    "semantic_hash": "533505368a4e8cfa25344ecef606d7b7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/caffemodel_weights/get_caffemodel.sh": {
+    "mtime": 1782004128.5848465,
+    "ast_hash": "04d96e77159b01dc3425d40b96017b65",
+    "semantic_hash": "04d96e77159b01dc3425d40b96017b65"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/caffemodel_weights/ssd_mobilenet_caffe_names.json": {
+    "mtime": 1782004128.6010225,
+    "ast_hash": "865250d555fc6402c785d82fe3ef71b5",
+    "semantic_hash": "865250d555fc6402c785d82fe3ef71b5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/tensorflow_weights/get_ssd_model.sh": {
+    "mtime": 1782004128.6276107,
+    "ast_hash": "030e216e4c416a8cc8f0962b5387277f",
+    "semantic_hash": "030e216e4c416a8cc8f0962b5387277f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/tensorflow_weights/ssd_mobilenet_v2_coco_names.json": {
+    "mtime": 1782004128.6424532,
+    "ast_hash": "24392efc51c510ca3e03cbffdc021b0d",
+    "semantic_hash": "24392efc51c510ca3e03cbffdc021b0d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/yolo_weights/coco_names.json": {
+    "mtime": 1782004128.6728244,
+    "ast_hash": "6b294cf49bb2a0ed2d8096dab1cb39dc",
+    "semantic_hash": "6b294cf49bb2a0ed2d8096dab1cb39dc"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/pretrained_models/yolo_weights/get_yolo.sh": {
+    "mtime": 1782004128.6882641,
+    "ast_hash": "8490a0772750d51cb6c7b24c923fa05b",
+    "semantic_hash": "8490a0772750d51cb6c7b24c923fa05b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/__init__.py": {
+    "mtime": 1782004128.7707455,
+    "ast_hash": "d460f82260e1c3f0d7738869eb6c0d99",
+    "semantic_hash": "d460f82260e1c3f0d7738869eb6c0d99"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/centroid_kf_tracker.py": {
+    "mtime": 1782004128.7993655,
+    "ast_hash": "47e004dd3018724be02301032de3b2fb",
+    "semantic_hash": "47e004dd3018724be02301032de3b2fb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/detectors/__init__.py": {
+    "mtime": 1782004129.0125303,
+    "ast_hash": "59b2d95086a2bf0022878393c9e591a2",
+    "semantic_hash": "59b2d95086a2bf0022878393c9e591a2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/detectors/caffe.py": {
+    "mtime": 1782004129.0391655,
+    "ast_hash": "28539587f88a51f035ef8e9fd1a22245",
+    "semantic_hash": "28539587f88a51f035ef8e9fd1a22245"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/detectors/detector.py": {
+    "mtime": 1782004129.0671475,
+    "ast_hash": "c2896c3ae2150f14148f1b27e3e538c8",
+    "semantic_hash": "c2896c3ae2150f14148f1b27e3e538c8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/detectors/tf.py": {
+    "mtime": 1782004129.0853455,
+    "ast_hash": "31aa2b766802c05fb869abe2c350f75a",
+    "semantic_hash": "31aa2b766802c05fb869abe2c350f75a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/detectors/yolo.py": {
+    "mtime": 1782004129.1221964,
+    "ast_hash": "81e15662e8f7a56bd5be4bf21c6b18ee",
+    "semantic_hash": "81e15662e8f7a56bd5be4bf21c6b18ee"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/iou_tracker.py": {
+    "mtime": 1782004128.8235419,
+    "ast_hash": "44b2ca3311cdfd157601595e0684c7ba",
+    "semantic_hash": "44b2ca3311cdfd157601595e0684c7ba"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/kalman_tracker.py": {
+    "mtime": 1782004128.856391,
+    "ast_hash": "b11334a6ad02a0ea5da8697786354b02",
+    "semantic_hash": "b11334a6ad02a0ea5da8697786354b02"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/sort_tracker.py": {
+    "mtime": 1782004128.8828218,
+    "ast_hash": "66b46f6bdaea72680397b8f839776e0b",
+    "semantic_hash": "66b46f6bdaea72680397b8f839776e0b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/track.py": {
+    "mtime": 1782004128.9097621,
+    "ast_hash": "3329c21b98f48a0979ecd7223c6bd2dd",
+    "semantic_hash": "3329c21b98f48a0979ecd7223c6bd2dd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/tracker.py": {
+    "mtime": 1782004128.9374263,
+    "ast_hash": "5850fbdb1faa8eb9a5b6b992ec9fb8e0",
+    "semantic_hash": "5850fbdb1faa8eb9a5b6b992ec9fb8e0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/tracker_img.py": {
+    "mtime": 1782004128.958403,
+    "ast_hash": "38973c34c3368c706a4d0e100276f24c",
+    "semantic_hash": "38973c34c3368c706a4d0e100276f24c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/utils/__init__.py": {
+    "mtime": 1782004129.1652744,
+    "ast_hash": "3aa8f7e8684d3e5e923cd03854a97793",
+    "semantic_hash": "3aa8f7e8684d3e5e923cd03854a97793"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/utils/filechooser_utils.py": {
+    "mtime": 1782004129.194054,
+    "ast_hash": "e39363070f7656ba5bcc02f6cec7c256",
+    "semantic_hash": "e39363070f7656ba5bcc02f6cec7c256"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/motrackers/utils/misc.py": {
+    "mtime": 1782004129.2195725,
+    "ast_hash": "dd80e33e5eef8b6ea5c6f5b54c246a30",
+    "semantic_hash": "dd80e33e5eef8b6ea5c6f5b54c246a30"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/utils.py": {
+    "mtime": 1782004126.675093,
+    "ast_hash": "241da0ca09b42b92ab306664b144e338",
+    "semantic_hash": "241da0ca09b42b92ab306664b144e338"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/xml_to_txt.py": {
+    "mtime": 1782004126.6990292,
+    "ast_hash": "7095b81421688c9e61fed3a26860d131",
+    "semantic_hash": "7095b81421688c9e61fed3a26860d131"
+  },
+  "Dissertation_IoT_AI_Poultry.toc": {
+    "mtime": 1784846373.1027446,
+    "ast_hash": "6b927bc029331487c1367eb5afa5f671",
+    "semantic_hash": "6b927bc029331487c1367eb5afa5f671"
+  },
+  "figures/diagram_sources/gen_diagrams.py": {
+    "mtime": 1782430863.0425274,
+    "ast_hash": "322a0bf00ae8ebe98295b97be7e5fec9",
+    "semantic_hash": "322a0bf00ae8ebe98295b97be7e5fec9"
+  },
+  "figures/diagram_sources/gen_diagrams2.py": {
+    "mtime": 1782430863.0465457,
+    "ast_hash": "2a7c326ec944b96f9e214da10fd2a4ad",
+    "semantic_hash": "2a7c326ec944b96f9e214da10fd2a4ad"
+  },
+  "figures/diagram_sources/gen_seq.py": {
+    "mtime": 1782430863.0497286,
+    "ast_hash": "b9f2ae69205118f5e425fbc80e90e47d",
+    "semantic_hash": "b9f2ae69205118f5e425fbc80e90e47d"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/__init__.py": {
+    "mtime": 1782507436.781582,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/admin.py": {
+    "mtime": 1782507745.305172,
+    "ast_hash": "2419b1a19f47b6a43012c57327960999",
+    "semantic_hash": "2419b1a19f47b6a43012c57327960999"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/apps.py": {
+    "mtime": 1782507693.572441,
+    "ast_hash": "57f235e3969c81a30b1f3fb85f2e38f6",
+    "semantic_hash": "57f235e3969c81a30b1f3fb85f2e38f6"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/constants.py": {
+    "mtime": 1782518883.584432,
+    "ast_hash": "3d8f55d0d930fdf18e93bff548bc7ff5",
+    "semantic_hash": "3d8f55d0d930fdf18e93bff548bc7ff5"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/forms.py": {
+    "mtime": 1782507712.2221904,
+    "ast_hash": "d03e04c8b707d4dcf84c6903e1797228",
+    "semantic_hash": "d03e04c8b707d4dcf84c6903e1797228"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/management/__init__.py": {
+    "mtime": 1782507755.880802,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/management/commands/__init__.py": {
+    "mtime": 1782507755.881457,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/management/commands/setup_roles.py": {
+    "mtime": 1782546206.46823,
+    "ast_hash": "8e6abf610eff73959fa08261fd038401",
+    "semantic_hash": "8e6abf610eff73959fa08261fd038401"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/managers.py": {
+    "mtime": 1782507672.8425956,
+    "ast_hash": "59a42cbaee4820131c1b027c2b5e6808",
+    "semantic_hash": "59a42cbaee4820131c1b027c2b5e6808"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/migrations/0001_initial.py": {
+    "mtime": 1782518563.6250646,
+    "ast_hash": "da377067d8067b367257c9b1805415b5",
+    "semantic_hash": "da377067d8067b367257c9b1805415b5"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/migrations/0002_initial.py": {
+    "mtime": 1782518563.6250646,
+    "ast_hash": "9d6afa627ea45671db5d03254e6ef725",
+    "semantic_hash": "9d6afa627ea45671db5d03254e6ef725"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/migrations/__init__.py": {
+    "mtime": 1782507436.7822502,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/models.py": {
+    "mtime": 1782507687.0257993,
+    "ast_hash": "9b8da3fba5aa91909d609f8fb69bb782",
+    "semantic_hash": "9b8da3fba5aa91909d609f8fb69bb782"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/signals.py": {
+    "mtime": 1782507701.66967,
+    "ast_hash": "0b5ce67b6c678c56cb75f320127d9f59",
+    "semantic_hash": "0b5ce67b6c678c56cb75f320127d9f59"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/urls.py": {
+    "mtime": 1782507739.075585,
+    "ast_hash": "9a7026edb607b5f1e80704b0a1d55d78",
+    "semantic_hash": "9a7026edb607b5f1e80704b0a1d55d78"
+  },
+  "poultry-monitoring-system/backend/apps/accounts/views.py": {
+    "mtime": 1782546206.5035996,
+    "ast_hash": "7e7117e6b9e0d74b753450226ed42ba6",
+    "semantic_hash": "7e7117e6b9e0d74b753450226ed42ba6"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/__init__.py": {
+    "mtime": 1782507437.2875025,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/admin.py": {
+    "mtime": 1782508956.2233827,
+    "ast_hash": "29f5ec57659656ff79cbd5f26e42e550",
+    "semantic_hash": "29f5ec57659656ff79cbd5f26e42e550"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/api_urls.py": {
+    "mtime": 1782508916.7290933,
+    "ast_hash": "830d36850aacab9a8e7cb7f08ba0bc03",
+    "semantic_hash": "830d36850aacab9a8e7cb7f08ba0bc03"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/api_views.py": {
+    "mtime": 1782546206.4930038,
+    "ast_hash": "2ea6e80934463e064d4f01cc9defdd0b",
+    "semantic_hash": "2ea6e80934463e064d4f01cc9defdd0b"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/apps.py": {
+    "mtime": 1782508923.7364762,
+    "ast_hash": "e20fa47bac6b61a8a3d4877394df8a6c",
+    "semantic_hash": "e20fa47bac6b61a8a3d4877394df8a6c"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/migrations/0001_initial.py": {
+    "mtime": 1782518563.6941226,
+    "ast_hash": "95e5a2eaeb622ed3202dae2774ae96aa",
+    "semantic_hash": "95e5a2eaeb622ed3202dae2774ae96aa"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/migrations/__init__.py": {
+    "mtime": 1782507437.287983,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/models.py": {
+    "mtime": 1782546206.502589,
+    "ast_hash": "16f070781d3d77dc6fa07c673b4ee2dc",
+    "semantic_hash": "16f070781d3d77dc6fa07c673b4ee2dc"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/serializers.py": {
+    "mtime": 1782508899.979397,
+    "ast_hash": "7d2e0986a1f2a06816791eb618d6b327",
+    "semantic_hash": "7d2e0986a1f2a06816791eb618d6b327"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/services.py": {
+    "mtime": 1782546206.5368495,
+    "ast_hash": "9350f3d221ad8d9a60e14247839f403a",
+    "semantic_hash": "9350f3d221ad8d9a60e14247839f403a"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/urls.py": {
+    "mtime": 1782508949.1867497,
+    "ast_hash": "4691700cc029fbfaa8e1227a16756d06",
+    "semantic_hash": "4691700cc029fbfaa8e1227a16756d06"
+  },
+  "poultry-monitoring-system/backend/apps/alerts/views.py": {
+    "mtime": 1782546206.5929797,
+    "ast_hash": "80d4b9d25e8a3dead29e3e92ee0d35b1",
+    "semantic_hash": "80d4b9d25e8a3dead29e3e92ee0d35b1"
+  },
+  "poultry-monitoring-system/backend/apps/audit/__init__.py": {
+    "mtime": 1782507437.391126,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/audit/admin.py": {
+    "mtime": 1782507569.7341304,
+    "ast_hash": "2a75f9488b585f638c0805d7d0dc61ea",
+    "semantic_hash": "2a75f9488b585f638c0805d7d0dc61ea"
+  },
+  "poultry-monitoring-system/backend/apps/audit/apps.py": {
+    "mtime": 1782507525.5215943,
+    "ast_hash": "54264765e238dd339d4ee37c78e81dcc",
+    "semantic_hash": "54264765e238dd339d4ee37c78e81dcc"
+  },
+  "poultry-monitoring-system/backend/apps/audit/middleware.py": {
+    "mtime": 1782507521.1796074,
+    "ast_hash": "106d0fb28e8374686a314eae73dc60e3",
+    "semantic_hash": "106d0fb28e8374686a314eae73dc60e3"
+  },
+  "poultry-monitoring-system/backend/apps/audit/migrations/0001_initial.py": {
+    "mtime": 1782518563.7245045,
+    "ast_hash": "f2517783fb65ce14dc787f06e8360d64",
+    "semantic_hash": "f2517783fb65ce14dc787f06e8360d64"
+  },
+  "poultry-monitoring-system/backend/apps/audit/migrations/__init__.py": {
+    "mtime": 1782507437.3915412,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/audit/models.py": {
+    "mtime": 1782546206.578348,
+    "ast_hash": "9758ee3e7b5d714a6a08e1764281c98f",
+    "semantic_hash": "9758ee3e7b5d714a6a08e1764281c98f"
+  },
+  "poultry-monitoring-system/backend/apps/audit/services.py": {
+    "mtime": 1782507549.1610198,
+    "ast_hash": "7b246fe70fba63723c0ee4d8b8d769e6",
+    "semantic_hash": "7b246fe70fba63723c0ee4d8b8d769e6"
+  },
+  "poultry-monitoring-system/backend/apps/audit/urls.py": {
+    "mtime": 1782507563.522118,
+    "ast_hash": "bfb61748c035da981ca5a803e9e6e875",
+    "semantic_hash": "bfb61748c035da981ca5a803e9e6e875"
+  },
+  "poultry-monitoring-system/backend/apps/audit/views.py": {
+    "mtime": 1782546206.625518,
+    "ast_hash": "8a4ed4725c8824a0afe4a5108a1ba033",
+    "semantic_hash": "8a4ed4725c8824a0afe4a5108a1ba033"
+  },
+  "poultry-monitoring-system/backend/apps/core/__init__.py": {
+    "mtime": 1782507436.7303083,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/core/api.py": {
+    "mtime": 1782507483.4750218,
+    "ast_hash": "308fa9bacd35e7e37841d7ff525ee4fd",
+    "semantic_hash": "308fa9bacd35e7e37841d7ff525ee4fd"
+  },
+  "poultry-monitoring-system/backend/apps/core/apps.py": {
+    "mtime": 1782507442.079771,
+    "ast_hash": "2842d7849433ed58b8e00e8a91b3d4d0",
+    "semantic_hash": "2842d7849433ed58b8e00e8a91b3d4d0"
+  },
+  "poultry-monitoring-system/backend/apps/core/context_processors.py": {
+    "mtime": 1782507467.4772494,
+    "ast_hash": "23ab5c65c277e70bfba303e2126ea90c",
+    "semantic_hash": "23ab5c65c277e70bfba303e2126ea90c"
+  },
+  "poultry-monitoring-system/backend/apps/core/export.py": {
+    "mtime": 1782507512.850749,
+    "ast_hash": "e01e7a365d53025e3d27f59f8c32f75c",
+    "semantic_hash": "e01e7a365d53025e3d27f59f8c32f75c"
+  },
+  "poultry-monitoring-system/backend/apps/core/migrations/__init__.py": {
+    "mtime": 1782507436.730783,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/core/mixins.py": {
+    "mtime": 1782507890.7135148,
+    "ast_hash": "87cc372381c9b2abf6f6ff2cc2c543a1",
+    "semantic_hash": "87cc372381c9b2abf6f6ff2cc2c543a1"
+  },
+  "poultry-monitoring-system/backend/apps/core/models.py": {
+    "mtime": 1782507461.1806157,
+    "ast_hash": "0983e672dea4a3d4549554dc81bd865b",
+    "semantic_hash": "0983e672dea4a3d4549554dc81bd865b"
+  },
+  "poultry-monitoring-system/backend/apps/core/permissions.py": {
+    "mtime": 1782508814.8808827,
+    "ast_hash": "f66d2bbbe5df5bc940e7925700449157",
+    "semantic_hash": "f66d2bbbe5df5bc940e7925700449157"
+  },
+  "poultry-monitoring-system/backend/apps/core/views.py": {
+    "mtime": 1782507474.6885948,
+    "ast_hash": "a42f1ac4d019a295f833632ff7f2352f",
+    "semantic_hash": "a42f1ac4d019a295f833632ff7f2352f"
+  },
+  "poultry-monitoring-system/backend/apps/dashboard/__init__.py": {
+    "mtime": 1782507437.441906,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/dashboard/apps.py": {
+    "mtime": 1782509069.4278753,
+    "ast_hash": "6938ebb1ccf9e34121256bf2e0c640ea",
+    "semantic_hash": "6938ebb1ccf9e34121256bf2e0c640ea"
+  },
+  "poultry-monitoring-system/backend/apps/dashboard/migrations/__init__.py": {
+    "mtime": 1782507437.4423158,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/dashboard/urls.py": {
+    "mtime": 1782509100.062642,
+    "ast_hash": "81adb7010b10353960d5a4b428ff2905",
+    "semantic_hash": "81adb7010b10353960d5a4b428ff2905"
+  },
+  "poultry-monitoring-system/backend/apps/dashboard/views.py": {
+    "mtime": 1782546206.472252,
+    "ast_hash": "02cdc9bd411033f43939c03ee6215db1",
+    "semantic_hash": "02cdc9bd411033f43939c03ee6215db1"
+  },
+  "poultry-monitoring-system/backend/apps/farms/__init__.py": {
+    "mtime": 1782507436.8331256,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/farms/admin.py": {
+    "mtime": 1782508096.1651585,
+    "ast_hash": "ad627a6909b0d44bc2f7e1eddfd897ca",
+    "semantic_hash": "ad627a6909b0d44bc2f7e1eddfd897ca"
+  },
+  "poultry-monitoring-system/backend/apps/farms/apps.py": {
+    "mtime": 1782507815.6518593,
+    "ast_hash": "538498d3e87d5b79f0927f67cfda24a6",
+    "semantic_hash": "538498d3e87d5b79f0927f67cfda24a6"
+  },
+  "poultry-monitoring-system/backend/apps/farms/forms.py": {
+    "mtime": 1782546206.518152,
+    "ast_hash": "55ee89de5836aaa58dc378a1277d7711",
+    "semantic_hash": "55ee89de5836aaa58dc378a1277d7711"
+  },
+  "poultry-monitoring-system/backend/apps/farms/management/__init__.py": {
+    "mtime": 1782518652.2325714,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/farms/management/commands/__init__.py": {
+    "mtime": 1782518652.2337203,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/farms/management/commands/seed_demo.py": {
+    "mtime": 1782546206.5581043,
+    "ast_hash": "48af4252c82a84e05631a891820e289c",
+    "semantic_hash": "48af4252c82a84e05631a891820e289c"
+  },
+  "poultry-monitoring-system/backend/apps/farms/migrations/0001_initial.py": {
+    "mtime": 1782518563.638441,
+    "ast_hash": "3ab498c9783bd48c724ce7e9c25eb71b",
+    "semantic_hash": "3ab498c9783bd48c724ce7e9c25eb71b"
+  },
+  "poultry-monitoring-system/backend/apps/farms/migrations/__init__.py": {
+    "mtime": 1782507436.8337018,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/farms/models.py": {
+    "mtime": 1782546206.5765991,
+    "ast_hash": "833508e618938d59bf8aeba45a950567",
+    "semantic_hash": "833508e618938d59bf8aeba45a950567"
+  },
+  "poultry-monitoring-system/backend/apps/farms/services.py": {
+    "mtime": 1782507805.0716143,
+    "ast_hash": "4e9194157690bea829e3d642b16a6c39",
+    "semantic_hash": "4e9194157690bea829e3d642b16a6c39"
+  },
+  "poultry-monitoring-system/backend/apps/farms/urls.py": {
+    "mtime": 1782507863.4930556,
+    "ast_hash": "76f74a93efb840e942c6eac4ef4051ab",
+    "semantic_hash": "76f74a93efb840e942c6eac4ef4051ab"
+  },
+  "poultry-monitoring-system/backend/apps/farms/views.py": {
+    "mtime": 1782546206.6351492,
+    "ast_hash": "b299db156e8149bbbd44eb3cbf79343f",
+    "semantic_hash": "b299db156e8149bbbd44eb3cbf79343f"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/__init__.py": {
+    "mtime": 1782507436.935184,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/admin.py": {
+    "mtime": 1782508352.1849854,
+    "ast_hash": "19a5f842c71235b2a342cd86017a92ae",
+    "semantic_hash": "19a5f842c71235b2a342cd86017a92ae"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/apps.py": {
+    "mtime": 1782508285.7344627,
+    "ast_hash": "7f0faca3a8b18dcf708781f6f63967d9",
+    "semantic_hash": "7f0faca3a8b18dcf708781f6f63967d9"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/forms.py": {
+    "mtime": 1782546206.688359,
+    "ast_hash": "ff7dd0072ebf557b62b0afad2969a422",
+    "semantic_hash": "ff7dd0072ebf557b62b0afad2969a422"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/migrations/0001_initial.py": {
+    "mtime": 1782518563.700774,
+    "ast_hash": "50de6bfec044041f8d8a46880535b682",
+    "semantic_hash": "50de6bfec044041f8d8a46880535b682"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/migrations/__init__.py": {
+    "mtime": 1782507436.9358492,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/models.py": {
+    "mtime": 1782546206.7083266,
+    "ast_hash": "8c92cb1973cbf35f0dee8bc140ab4ee8",
+    "semantic_hash": "8c92cb1973cbf35f0dee8bc140ab4ee8"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/signals.py": {
+    "mtime": 1782508292.1486168,
+    "ast_hash": "93dd223b35d7e3dcf2a89fe033e3d129",
+    "semantic_hash": "93dd223b35d7e3dcf2a89fe033e3d129"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/urls.py": {
+    "mtime": 1782508318.0587249,
+    "ast_hash": "bd91f0040410c754971fc04af3677df1",
+    "semantic_hash": "bd91f0040410c754971fc04af3677df1"
+  },
+  "poultry-monitoring-system/backend/apps/feeding/views.py": {
+    "mtime": 1782546206.7445416,
+    "ast_hash": "557563c95d28c253badfbde5d81ac952",
+    "semantic_hash": "557563c95d28c253badfbde5d81ac952"
+  },
+  "poultry-monitoring-system/backend/apps/finance/__init__.py": {
+    "mtime": 1782507437.118712,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/finance/admin.py": {
+    "mtime": 1782508478.703633,
+    "ast_hash": "49e8f13d2cd8ee8cf1a78070d599b8e5",
+    "semantic_hash": "49e8f13d2cd8ee8cf1a78070d599b8e5"
+  },
+  "poultry-monitoring-system/backend/apps/finance/apps.py": {
+    "mtime": 1782508435.8727286,
+    "ast_hash": "8d65bac86fa8a0de98a5876f1226c061",
+    "semantic_hash": "8d65bac86fa8a0de98a5876f1226c061"
+  },
+  "poultry-monitoring-system/backend/apps/finance/forms.py": {
+    "mtime": 1782546206.8342063,
+    "ast_hash": "c7bceac5de1c60ef2ef280f00211aa27",
+    "semantic_hash": "c7bceac5de1c60ef2ef280f00211aa27"
+  },
+  "poultry-monitoring-system/backend/apps/finance/migrations/0001_initial.py": {
+    "mtime": 1782518563.7129061,
+    "ast_hash": "5e01d6f9f7b0069544b400423c26cf0a",
+    "semantic_hash": "5e01d6f9f7b0069544b400423c26cf0a"
+  },
+  "poultry-monitoring-system/backend/apps/finance/migrations/__init__.py": {
+    "mtime": 1782507437.119645,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/finance/models.py": {
+    "mtime": 1782546206.8565733,
+    "ast_hash": "5010c078c3a32f7c1984db6ad0a5f494",
+    "semantic_hash": "5010c078c3a32f7c1984db6ad0a5f494"
+  },
+  "poultry-monitoring-system/backend/apps/finance/services.py": {
+    "mtime": 1782546206.884948,
+    "ast_hash": "72a95713f7a644172b37dab802783903",
+    "semantic_hash": "72a95713f7a644172b37dab802783903"
+  },
+  "poultry-monitoring-system/backend/apps/finance/urls.py": {
+    "mtime": 1782508467.2509904,
+    "ast_hash": "448a84443aa78e3e45a1db154882c0d8",
+    "semantic_hash": "448a84443aa78e3e45a1db154882c0d8"
+  },
+  "poultry-monitoring-system/backend/apps/finance/views.py": {
+    "mtime": 1782546206.884948,
+    "ast_hash": "19006336776015bf467ff2c83fa4e943",
+    "semantic_hash": "19006336776015bf467ff2c83fa4e943"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/__init__.py": {
+    "mtime": 1782507436.8828292,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/admin.py": {
+    "mtime": 1782508225.2259252,
+    "ast_hash": "cc84010618e269e06e158d1cc6bfffdd",
+    "semantic_hash": "cc84010618e269e06e158d1cc6bfffdd"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/apps.py": {
+    "mtime": 1782508159.9729712,
+    "ast_hash": "bdb7e43fd53c3e6903f3875532600c22",
+    "semantic_hash": "bdb7e43fd53c3e6903f3875532600c22"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/forms.py": {
+    "mtime": 1782546206.9005158,
+    "ast_hash": "712b2874cbb86a6d7b5d999bb928f14a",
+    "semantic_hash": "712b2874cbb86a6d7b5d999bb928f14a"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/migrations/0001_initial.py": {
+    "mtime": 1782518563.654677,
+    "ast_hash": "2178c30e607a9ff67cc02fa462897001",
+    "semantic_hash": "2178c30e607a9ff67cc02fa462897001"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/migrations/__init__.py": {
+    "mtime": 1782507436.8836296,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/models.py": {
+    "mtime": 1782546206.9329367,
+    "ast_hash": "bb03094b3ffc1a59569aea5e844b220e",
+    "semantic_hash": "bb03094b3ffc1a59569aea5e844b220e"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/services.py": {
+    "mtime": 1782508154.2572005,
+    "ast_hash": "379bb7523b3c8e2c7a6edf325fc3f309",
+    "semantic_hash": "379bb7523b3c8e2c7a6edf325fc3f309"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/urls.py": {
+    "mtime": 1782508214.1099408,
+    "ast_hash": "22b54f64450cc0376ce21e7cb41c9bc1",
+    "semantic_hash": "22b54f64450cc0376ce21e7cb41c9bc1"
+  },
+  "poultry-monitoring-system/backend/apps/flocks/views.py": {
+    "mtime": 1782546206.8735046,
+    "ast_hash": "387132f22bbbe25301a6dea49dddb293",
+    "semantic_hash": "387132f22bbbe25301a6dea49dddb293"
+  },
+  "poultry-monitoring-system/backend/apps/health/__init__.py": {
+    "mtime": 1782507436.9876916,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/health/admin.py": {
+    "mtime": 1782508562.8182137,
+    "ast_hash": "cc5ceb85d4cd256864da2b99930d1e76",
+    "semantic_hash": "cc5ceb85d4cd256864da2b99930d1e76"
+  },
+  "poultry-monitoring-system/backend/apps/health/apps.py": {
+    "mtime": 1782508509.5851345,
+    "ast_hash": "6b1831c6971a0134939a1eefd4364722",
+    "semantic_hash": "6b1831c6971a0134939a1eefd4364722"
+  },
+  "poultry-monitoring-system/backend/apps/health/forms.py": {
+    "mtime": 1782546206.8756225,
+    "ast_hash": "d69edfe2b1480fa22b5220c4bc7e6c57",
+    "semantic_hash": "d69edfe2b1480fa22b5220c4bc7e6c57"
+  },
+  "poultry-monitoring-system/backend/apps/health/migrations/0001_initial.py": {
+    "mtime": 1782518563.7162416,
+    "ast_hash": "519e0d1a951ff8860f6ed8b29f839460",
+    "semantic_hash": "519e0d1a951ff8860f6ed8b29f839460"
+  },
+  "poultry-monitoring-system/backend/apps/health/migrations/__init__.py": {
+    "mtime": 1782507436.9881425,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/health/models.py": {
+    "mtime": 1782546206.9010231,
+    "ast_hash": "ec160f4bb93378fd8c3ec61a517cb3aa",
+    "semantic_hash": "ec160f4bb93378fd8c3ec61a517cb3aa"
+  },
+  "poultry-monitoring-system/backend/apps/health/urls.py": {
+    "mtime": 1782508555.2667534,
+    "ast_hash": "92ffae29842a362891de011308f375d9",
+    "semantic_hash": "92ffae29842a362891de011308f375d9"
+  },
+  "poultry-monitoring-system/backend/apps/health/views.py": {
+    "mtime": 1782546206.9090633,
+    "ast_hash": "0f78e623084e94e42e41fe4399fe4361",
+    "semantic_hash": "0f78e623084e94e42e41fe4399fe4361"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/__init__.py": {
+    "mtime": 1782507437.0497425,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/admin.py": {
+    "mtime": 1782508395.715617,
+    "ast_hash": "d502258f42f54b879cf8ced03629351b",
+    "semantic_hash": "d502258f42f54b879cf8ced03629351b"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/apps.py": {
+    "mtime": 1782508360.1906543,
+    "ast_hash": "94f0cbe44e529b1e1674ea89a7c2ec6e",
+    "semantic_hash": "94f0cbe44e529b1e1674ea89a7c2ec6e"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/forms.py": {
+    "mtime": 1782546206.5005815,
+    "ast_hash": "6c3ad3e0687f794306f9cf7abd8b5faa",
+    "semantic_hash": "6c3ad3e0687f794306f9cf7abd8b5faa"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/migrations/0001_initial.py": {
+    "mtime": 1782518563.6647787,
+    "ast_hash": "3e5c0dc8dd2e40fbc35fe620afcec50b",
+    "semantic_hash": "3e5c0dc8dd2e40fbc35fe620afcec50b"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/migrations/__init__.py": {
+    "mtime": 1782507437.0505836,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/models.py": {
+    "mtime": 1782546206.5318215,
+    "ast_hash": "d86a1cf3bb98be487ae3a2ed1086dafe",
+    "semantic_hash": "d86a1cf3bb98be487ae3a2ed1086dafe"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/services.py": {
+    "mtime": 1782508277.389458,
+    "ast_hash": "bf23868e0dd6386f75168bb4ed752306",
+    "semantic_hash": "bf23868e0dd6386f75168bb4ed752306"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/urls.py": {
+    "mtime": 1782508389.0572739,
+    "ast_hash": "82cc8803b9e8d322f4add098fd3bfeba",
+    "semantic_hash": "82cc8803b9e8d322f4add098fd3bfeba"
+  },
+  "poultry-monitoring-system/backend/apps/inventory/views.py": {
+    "mtime": 1782546206.6060722,
+    "ast_hash": "ec7450cb2edebf941747e64dd1708327",
+    "semantic_hash": "ec7450cb2edebf941747e64dd1708327"
+  },
+  "poultry-monitoring-system/backend/apps/iot/__init__.py": {
+    "mtime": 1782507437.175742,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/iot/admin.py": {
+    "mtime": 1782509062.2821293,
+    "ast_hash": "75f640a8bffc5b73882e17beb5e37b71",
+    "semantic_hash": "75f640a8bffc5b73882e17beb5e37b71"
+  },
+  "poultry-monitoring-system/backend/apps/iot/api_urls.py": {
+    "mtime": 1782508859.8000226,
+    "ast_hash": "ec5a544b2509b6d39e7ea92db0e55ef4",
+    "semantic_hash": "ec5a544b2509b6d39e7ea92db0e55ef4"
+  },
+  "poultry-monitoring-system/backend/apps/iot/api_views.py": {
+    "mtime": 1782546206.6768296,
+    "ast_hash": "9880b462151301e2a66a477b1d16f5aa",
+    "semantic_hash": "9880b462151301e2a66a477b1d16f5aa"
+  },
+  "poultry-monitoring-system/backend/apps/iot/apps.py": {
+    "mtime": 1782508629.8803458,
+    "ast_hash": "415fb9e56c9977cc617d68c46bf6af1f",
+    "semantic_hash": "415fb9e56c9977cc617d68c46bf6af1f"
+  },
+  "poultry-monitoring-system/backend/apps/iot/authentication.py": {
+    "mtime": 1782508624.8858566,
+    "ast_hash": "c47201f1c3f6257645d79d303c42d5c9",
+    "semantic_hash": "c47201f1c3f6257645d79d303c42d5c9"
+  },
+  "poultry-monitoring-system/backend/apps/iot/forms.py": {
+    "mtime": 1782546206.7247496,
+    "ast_hash": "d3dcca82cbfd5f36d2300e2c80379a8c",
+    "semantic_hash": "d3dcca82cbfd5f36d2300e2c80379a8c"
+  },
+  "poultry-monitoring-system/backend/apps/iot/migrations/0001_initial.py": {
+    "mtime": 1782518563.6796544,
+    "ast_hash": "a087cbe5de1c0d950ea9fbd1be97de21",
+    "semantic_hash": "a087cbe5de1c0d950ea9fbd1be97de21"
+  },
+  "poultry-monitoring-system/backend/apps/iot/migrations/__init__.py": {
+    "mtime": 1782507437.1761644,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/iot/models.py": {
+    "mtime": 1782546206.7888744,
+    "ast_hash": "bcd9135d6a7448404f05def86ee99a65",
+    "semantic_hash": "bcd9135d6a7448404f05def86ee99a65"
+  },
+  "poultry-monitoring-system/backend/apps/iot/serializers.py": {
+    "mtime": 1782546206.8342063,
+    "ast_hash": "a1192c4d9e9be87cc7e8e79263957d83",
+    "semantic_hash": "a1192c4d9e9be87cc7e8e79263957d83"
+  },
+  "poultry-monitoring-system/backend/apps/iot/services.py": {
+    "mtime": 1782546206.7713692,
+    "ast_hash": "c3fc4eaca2a8e50d94dc9bfa979430bd",
+    "semantic_hash": "c3fc4eaca2a8e50d94dc9bfa979430bd"
+  },
+  "poultry-monitoring-system/backend/apps/iot/urls.py": {
+    "mtime": 1782509051.5382957,
+    "ast_hash": "e236265755b91dbec2071920d4a68076",
+    "semantic_hash": "e236265755b91dbec2071920d4a68076"
+  },
+  "poultry-monitoring-system/backend/apps/iot/views.py": {
+    "mtime": 1782546206.8005297,
+    "ast_hash": "43e894b64d119e39e4b65fb33273b36b",
+    "semantic_hash": "43e894b64d119e39e4b65fb33273b36b"
+  },
+  "poultry-monitoring-system/backend/apps/reports/__init__.py": {
+    "mtime": 1782507437.3406975,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/reports/apps.py": {
+    "mtime": 1782509110.513046,
+    "ast_hash": "8ec86077372b30655716ddc934fa8512",
+    "semantic_hash": "8ec86077372b30655716ddc934fa8512"
+  },
+  "poultry-monitoring-system/backend/apps/reports/migrations/__init__.py": {
+    "mtime": 1782507437.3411021,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/reports/urls.py": {
+    "mtime": 1782509161.7802794,
+    "ast_hash": "5295a1e5c57bcd3aabfb557e3eb374ea",
+    "semantic_hash": "5295a1e5c57bcd3aabfb557e3eb374ea"
+  },
+  "poultry-monitoring-system/backend/apps/reports/views.py": {
+    "mtime": 1782546206.627527,
+    "ast_hash": "9256aaa5bc733ac143e481e9173fae8d",
+    "semantic_hash": "9256aaa5bc733ac143e481e9173fae8d"
+  },
+  "poultry-monitoring-system/backend/apps/vision/__init__.py": {
+    "mtime": 1782507437.2344298,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/vision/admin.py": {
+    "mtime": 1782509006.23459,
+    "ast_hash": "aeb59732f6647c2942e4d16e27dfdf40",
+    "semantic_hash": "aeb59732f6647c2942e4d16e27dfdf40"
+  },
+  "poultry-monitoring-system/backend/apps/vision/api_urls.py": {
+    "mtime": 1782508889.0837405,
+    "ast_hash": "59bdc3dfe3de86b04388b60dd189a37b",
+    "semantic_hash": "59bdc3dfe3de86b04388b60dd189a37b"
+  },
+  "poultry-monitoring-system/backend/apps/vision/api_views.py": {
+    "mtime": 1782546206.688359,
+    "ast_hash": "02a39417e7d1844b0207f9bce4af8dad",
+    "semantic_hash": "02a39417e7d1844b0207f9bce4af8dad"
+  },
+  "poultry-monitoring-system/backend/apps/vision/apps.py": {
+    "mtime": 1782508996.7991552,
+    "ast_hash": "fb13c9ca206ff95f3e2442a177ea940f",
+    "semantic_hash": "fb13c9ca206ff95f3e2442a177ea940f"
+  },
+  "poultry-monitoring-system/backend/apps/vision/class_mapping.py": {
+    "mtime": 1782508755.8014703,
+    "ast_hash": "b0c5c2075728144228a69025e9f7b24d",
+    "semantic_hash": "b0c5c2075728144228a69025e9f7b24d"
+  },
+  "poultry-monitoring-system/backend/apps/vision/migrations/0001_initial.py": {
+    "mtime": 1782518563.6860912,
+    "ast_hash": "b5cac2e9a706d3a94c6783f3cc6c7775",
+    "semantic_hash": "b5cac2e9a706d3a94c6783f3cc6c7775"
+  },
+  "poultry-monitoring-system/backend/apps/vision/migrations/__init__.py": {
+    "mtime": 1782507437.2348516,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/apps/vision/models.py": {
+    "mtime": 1782546206.7445416,
+    "ast_hash": "d589e1091e0b85303ffa78d806a3ef19",
+    "semantic_hash": "d589e1091e0b85303ffa78d806a3ef19"
+  },
+  "poultry-monitoring-system/backend/apps/vision/serializers.py": {
+    "mtime": 1782508871.1154835,
+    "ast_hash": "feac37e3546732a327eb79d27d2b090a",
+    "semantic_hash": "feac37e3546732a327eb79d27d2b090a"
+  },
+  "poultry-monitoring-system/backend/apps/vision/services.py": {
+    "mtime": 1782508775.9808822,
+    "ast_hash": "0d066e4c9d2e39e41486470d50d1866f",
+    "semantic_hash": "0d066e4c9d2e39e41486470d50d1866f"
+  },
+  "poultry-monitoring-system/backend/apps/vision/urls.py": {
+    "mtime": 1782508988.3235419,
+    "ast_hash": "f29347d5091e62288782858c1a5d3875",
+    "semantic_hash": "f29347d5091e62288782858c1a5d3875"
+  },
+  "poultry-monitoring-system/backend/apps/vision/views.py": {
+    "mtime": 1782546206.8374407,
+    "ast_hash": "38a085f35e8cb23e755c507967f802c6",
+    "semantic_hash": "38a085f35e8cb23e755c507967f802c6"
+  },
+  "poultry-monitoring-system/backend/capture_screenshots.py": {
+    "mtime": 1784709730.5691652,
+    "ast_hash": "f8595c64ba62da636278b4c95bd508b8",
+    "semantic_hash": "f8595c64ba62da636278b4c95bd508b8"
+  },
+  "poultry-monitoring-system/backend/config/__init__.py": {
+    "mtime": 1782506631.3640864,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/config/api_urls.py": {
+    "mtime": 1782506745.2720404,
+    "ast_hash": "395398acf32c6440c1b6d23041dd7f26",
+    "semantic_hash": "395398acf32c6440c1b6d23041dd7f26"
+  },
+  "poultry-monitoring-system/backend/config/asgi.py": {
+    "mtime": 1782506755.0095904,
+    "ast_hash": "6f887fd037cef0dad4175b1a1509842b",
+    "semantic_hash": "6f887fd037cef0dad4175b1a1509842b"
+  },
+  "poultry-monitoring-system/backend/config/settings/__init__.py": {
+    "mtime": 1782506631.4470975,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/config/settings/base.py": {
+    "mtime": 1782506701.3870552,
+    "ast_hash": "573bbf781a37d4cb4b6778eb8c16203a",
+    "semantic_hash": "573bbf781a37d4cb4b6778eb8c16203a"
+  },
+  "poultry-monitoring-system/backend/config/settings/dev.py": {
+    "mtime": 1782519231.2910826,
+    "ast_hash": "c972f99cc9047c5ee6638eb6a068586f",
+    "semantic_hash": "c972f99cc9047c5ee6638eb6a068586f"
+  },
+  "poultry-monitoring-system/backend/config/settings/env.py": {
+    "mtime": 1782506707.8862,
+    "ast_hash": "f6fd64fe9b3dc77200778a24e8b9a5d2",
+    "semantic_hash": "f6fd64fe9b3dc77200778a24e8b9a5d2"
+  },
+  "poultry-monitoring-system/backend/config/settings/prod.py": {
+    "mtime": 1782506730.1619053,
+    "ast_hash": "f4994b3ce68ab0ae5f715d3d7ec2bf6b",
+    "semantic_hash": "f4994b3ce68ab0ae5f715d3d7ec2bf6b"
+  },
+  "poultry-monitoring-system/backend/config/urls.py": {
+    "mtime": 1782546206.896497,
+    "ast_hash": "e91c33908010959eddf377e31c4e086e",
+    "semantic_hash": "e91c33908010959eddf377e31c4e086e"
+  },
+  "poultry-monitoring-system/backend/config/wsgi.py": {
+    "mtime": 1782506750.087539,
+    "ast_hash": "45b156d210d08e80e6ba6859a3542ef6",
+    "semantic_hash": "45b156d210d08e80e6ba6859a3542ef6"
+  },
+  "poultry-monitoring-system/backend/manage.py": {
+    "mtime": 1782506623.8631115,
+    "ast_hash": "fec1c2aa56062fae274a64bafff9fa60",
+    "semantic_hash": "fec1c2aa56062fae274a64bafff9fa60"
+  },
+  "poultry-monitoring-system/backend/tests/__init__.py": {
+    "mtime": 1782518784.4672887,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/backend/tests/conftest.py": {
+    "mtime": 1782546206.5348415,
+    "ast_hash": "8f45ac0a1763791aee96255a73e120c6",
+    "semantic_hash": "8f45ac0a1763791aee96255a73e120c6"
+  },
+  "poultry-monitoring-system/backend/tests/test_alerts.py": {
+    "mtime": 1782546206.5601141,
+    "ast_hash": "0ea361ef893600e5c7242f704b4c0a22",
+    "semantic_hash": "0ea361ef893600e5c7242f704b4c0a22"
+  },
+  "poultry-monitoring-system/backend/tests/test_api.py": {
+    "mtime": 1782546206.6351492,
+    "ast_hash": "763cb26c0a6f3f4f111ca47c8e134c0f",
+    "semantic_hash": "763cb26c0a6f3f4f111ca47c8e134c0f"
+  },
+  "poultry-monitoring-system/backend/tests/test_flock_balance.py": {
+    "mtime": 1782546206.69969,
+    "ast_hash": "30861ff2dffa368800019cb7e43e9f54",
+    "semantic_hash": "30861ff2dffa368800019cb7e43e9f54"
+  },
+  "poultry-monitoring-system/backend/tests/test_inventory.py": {
+    "mtime": 1782546206.7754877,
+    "ast_hash": "1ee55bcd14f36b72ed4236038c24ee29",
+    "semantic_hash": "1ee55bcd14f36b72ed4236038c24ee29"
+  },
+  "poultry-monitoring-system/backend/tests/test_permissions.py": {
+    "mtime": 1782546206.8037052,
+    "ast_hash": "c23815a30910e1ea957bc9e485610d5d",
+    "semantic_hash": "c23815a30910e1ea957bc9e485610d5d"
+  },
+  "poultry-monitoring-system/backend/tests/test_vision_and_reports.py": {
+    "mtime": 1782546206.7555847,
+    "ast_hash": "229732003989d30afc04ef67e70936c4",
+    "semantic_hash": "229732003989d30afc04ef67e70936c4"
+  },
+  "poultry-monitoring-system/docs/api/poultry_api.postman_collection.json": {
+    "mtime": 1782546396.6181028,
+    "ast_hash": "5c6b9453bbaf101b8cdac3a305eefa21",
+    "semantic_hash": "5c6b9453bbaf101b8cdac3a305eefa21"
+  },
+  "poultry-monitoring-system/edge/src/__init__.py": {
+    "mtime": 1782521835.1283557,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/edge/src/alert_service.py": {
+    "mtime": 1782521835.1564546,
+    "ast_hash": "a655d0df93a880b89d630a7a8761d117",
+    "semantic_hash": "a655d0df93a880b89d630a7a8761d117"
+  },
+  "poultry-monitoring-system/edge/src/api_client.py": {
+    "mtime": 1782521835.156947,
+    "ast_hash": "ca214d3a6cfc0462dc144f8fb0513697",
+    "semantic_hash": "ca214d3a6cfc0462dc144f8fb0513697"
+  },
+  "poultry-monitoring-system/edge/src/camera.py": {
+    "mtime": 1782521835.1494274,
+    "ast_hash": "c980a6c5b67d0c6cd552f164940e3131",
+    "semantic_hash": "c980a6c5b67d0c6cd552f164940e3131"
+  },
+  "poultry-monitoring-system/edge/src/config.py": {
+    "mtime": 1782521835.143019,
+    "ast_hash": "882dd9ee1dd65af693651bc5670c711a",
+    "semantic_hash": "882dd9ee1dd65af693651bc5670c711a"
+  },
+  "poultry-monitoring-system/edge/src/control_service.py": {
+    "mtime": 1782521835.1519864,
+    "ast_hash": "8a8667ad5cd0a1d1912b5feb0d1312b2",
+    "semantic_hash": "8a8667ad5cd0a1d1912b5feb0d1312b2"
+  },
+  "poultry-monitoring-system/edge/src/heartbeat.py": {
+    "mtime": 1782521835.1599567,
+    "ast_hash": "0c9988b2ec5c61e80d1a0df0618d8ca2",
+    "semantic_hash": "0c9988b2ec5c61e80d1a0df0618d8ca2"
+  },
+  "poultry-monitoring-system/edge/src/inference_service.py": {
+    "mtime": 1782521835.1519864,
+    "ast_hash": "06776d20ba93e2ea2ab50f485425625c",
+    "semantic_hash": "06776d20ba93e2ea2ab50f485425625c"
+  },
+  "poultry-monitoring-system/edge/src/local_queue.py": {
+    "mtime": 1782521835.143019,
+    "ast_hash": "bd5bba7f1c47541a6210fbcda2f80263",
+    "semantic_hash": "bd5bba7f1c47541a6210fbcda2f80263"
+  },
+  "poultry-monitoring-system/edge/src/logging_config.py": {
+    "mtime": 1782521835.14255,
+    "ast_hash": "37b6a6265db4aed74237451fffae82dc",
+    "semantic_hash": "37b6a6265db4aed74237451fffae82dc"
+  },
+  "poultry-monitoring-system/edge/src/main.py": {
+    "mtime": 1782521835.1625404,
+    "ast_hash": "93546dcb4a325c01f8367cabff304d12",
+    "semantic_hash": "93546dcb4a325c01f8367cabff304d12"
+  },
+  "poultry-monitoring-system/edge/src/sensor_service.py": {
+    "mtime": 1782521835.1477141,
+    "ast_hash": "e5a2bb069a212b60575e5c37893c14a1",
+    "semantic_hash": "e5a2bb069a212b60575e5c37893c14a1"
+  },
+  "poultry-monitoring-system/edge/tests/__init__.py": {
+    "mtime": 1782521835.140318,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/edge/tests/test_edge.py": {
+    "mtime": 1782546206.5430033,
+    "ast_hash": "36a7229c9e96c46384e2d376ddc99d5b",
+    "semantic_hash": "36a7229c9e96c46384e2d376ddc99d5b"
+  },
+  "poultry-monitoring-system/ml/src/__init__.py": {
+    "mtime": 1782521180.696242,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/common/__init__.py": {
+    "mtime": 1782521180.7104824,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/common/class_mapping.py": {
+    "mtime": 1782546206.8170743,
+    "ast_hash": "5fca82701c966e23e715fd2d4ae39e0f",
+    "semantic_hash": "5fca82701c966e23e715fd2d4ae39e0f"
+  },
+  "poultry-monitoring-system/ml/src/data/__init__.py": {
+    "mtime": 1782521180.6967597,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/data/create_dataset_yaml.py": {
+    "mtime": 1782521180.7355018,
+    "ast_hash": "502ec76e43e9551a2453a634be0677d2",
+    "semantic_hash": "502ec76e43e9551a2453a634be0677d2"
+  },
+  "poultry-monitoring-system/ml/src/data/find_duplicates.py": {
+    "mtime": 1782521180.728457,
+    "ast_hash": "92293b2dddc84129045ef94a7c7176c2",
+    "semantic_hash": "92293b2dddc84129045ef94a7c7176c2"
+  },
+  "poultry-monitoring-system/ml/src/data/generate_statistics.py": {
+    "mtime": 1782521180.7375226,
+    "ast_hash": "e7e5098027388f80cfecac59f91053e9",
+    "semantic_hash": "e7e5098027388f80cfecac59f91053e9"
+  },
+  "poultry-monitoring-system/ml/src/data/import_dataset.py": {
+    "mtime": 1782521180.7179182,
+    "ast_hash": "63d47a09d9e93aced7813abada164a5c",
+    "semantic_hash": "63d47a09d9e93aced7813abada164a5c"
+  },
+  "poultry-monitoring-system/ml/src/data/split_dataset.py": {
+    "mtime": 1782521180.7312675,
+    "ast_hash": "ef7c774f0cd6c6bcf84eae534b1927f7",
+    "semantic_hash": "ef7c774f0cd6c6bcf84eae534b1927f7"
+  },
+  "poultry-monitoring-system/ml/src/data/verify_images.py": {
+    "mtime": 1782521180.7179182,
+    "ast_hash": "6c1b254191983639659a0e1597733ed6",
+    "semantic_hash": "6c1b254191983639659a0e1597733ed6"
+  },
+  "poultry-monitoring-system/ml/src/data/verify_labels.py": {
+    "mtime": 1782521180.7264361,
+    "ast_hash": "e4a85608533badf4211dfe1bdc1f9e05",
+    "semantic_hash": "e4a85608533badf4211dfe1bdc1f9e05"
+  },
+  "poultry-monitoring-system/ml/src/deployment/__init__.py": {
+    "mtime": 1782521180.7042768,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/deployment/benchmark.py": {
+    "mtime": 1782521180.7559457,
+    "ast_hash": "41a56e346086580339011db569487491",
+    "semantic_hash": "41a56e346086580339011db569487491"
+  },
+  "poultry-monitoring-system/ml/src/deployment/export_model.py": {
+    "mtime": 1782521180.7499576,
+    "ast_hash": "9ab91a466f9625055ac6c73c00695873",
+    "semantic_hash": "9ab91a466f9625055ac6c73c00695873"
+  },
+  "poultry-monitoring-system/ml/src/deployment/inference.py": {
+    "mtime": 1782521180.753855,
+    "ast_hash": "5238b13971d8d711ab77616c69e91b46",
+    "semantic_hash": "5238b13971d8d711ab77616c69e91b46"
+  },
+  "poultry-monitoring-system/ml/src/evaluation/__init__.py": {
+    "mtime": 1782521180.7042768,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/evaluation/evaluate_detection.py": {
+    "mtime": 1782521180.7455733,
+    "ast_hash": "69561167d93004dd52f89f012818764b",
+    "semantic_hash": "69561167d93004dd52f89f012818764b"
+  },
+  "poultry-monitoring-system/ml/src/training/__init__.py": {
+    "mtime": 1782521180.7022562,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/src/training/train_efficientnet.py": {
+    "mtime": 1782521180.7435522,
+    "ast_hash": "ce938e31c522d2432903e1b813e4ce56",
+    "semantic_hash": "ce938e31c522d2432903e1b813e4ce56"
+  },
+  "poultry-monitoring-system/ml/src/training/train_yolo.py": {
+    "mtime": 1782546206.7713692,
+    "ast_hash": "21065bf967a05bf21d8048975f1b33d6",
+    "semantic_hash": "21065bf967a05bf21d8048975f1b33d6"
+  },
+  "poultry-monitoring-system/ml/tests/__init__.py": {
+    "mtime": 1782521180.7125087,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "poultry-monitoring-system/ml/tests/test_class_mapping.py": {
+    "mtime": 1782546206.7888744,
+    "ast_hash": "fc8c5619ae4a5480c2805635d80d9102",
+    "semantic_hash": "fc8c5619ae4a5480c2805635d80d9102"
+  },
+  "poultry-monitoring-system/ml/tests/test_data_tools.py": {
+    "mtime": 1782546206.8181496,
+    "ast_hash": "2ba0547712cbb3f76cf6228aa242e58f",
+    "semantic_hash": "2ba0547712cbb3f76cf6228aa242e58f"
+  },
+  "poultry-monitoring-system/ml/tests/test_inference_contract.py": {
+    "mtime": 1782546206.8374407,
+    "ast_hash": "bb673c9c53a207eb145219cb4090c0d3",
+    "semantic_hash": "bb673c9c53a207eb145219cb4090c0d3"
+  },
+  "poultry-monitoring-system/pyproject.toml": {
+    "mtime": 1782546195.5191479,
+    "ast_hash": "d9441da35c57d09a57cf7651971cd3b9",
+    "semantic_hash": "d9441da35c57d09a57cf7651971cd3b9"
+  },
+  "CHANGELOG_CHAPTER2_CHAPTER3.md": {
+    "mtime": 1782434002.1066298,
+    "ast_hash": "355c8bff26cb5b3333a5ba7fead13db4",
+    "semantic_hash": "355c8bff26cb5b3333a5ba7fead13db4"
+  },
+  "COMPILATION_REPORT.md": {
+    "mtime": 1782434002.1225393,
+    "ast_hash": "4195681aa97ae9c8900110d78cca4a97",
+    "semantic_hash": "4195681aa97ae9c8900110d78cca4a97"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Annotation/anno3.txt": {
+    "mtime": 1782004107.7536843,
+    "ast_hash": "e2afd8ca78f3dd5a9a395507258c3a02",
+    "semantic_hash": "e2afd8ca78f3dd5a9a395507258c3a02"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Annotation/anno4.txt": {
+    "mtime": 1782004107.7788172,
+    "ast_hash": "d82388f905db186905072918823fa967",
+    "semantic_hash": "d82388f905db186905072918823fa967"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Classes/classes.txt": {
+    "mtime": 1782004107.8176527,
+    "ast_hash": "897316929176464ebc9ad085f31e7284",
+    "semantic_hash": "897316929176464ebc9ad085f31e7284"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Classes/classes_gathering.txt": {
+    "mtime": 1782004107.8350923,
+    "ast_hash": "b026324c6904b2a9cb4b88d6d61c81d1",
+    "semantic_hash": "b026324c6904b2a9cb4b88d6d61c81d1"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/README.md": {
+    "mtime": 1782004107.71044,
+    "ast_hash": "4cdd562bc89b6d8dc354c9511eb78fd3",
+    "semantic_hash": "4cdd562bc89b6d8dc354c9511eb78fd3"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/darknet/README.md": {
+    "mtime": 1782004117.3368802,
+    "ast_hash": "03651fc8001a0aea7af909f0798a84de",
+    "semantic_hash": "03651fc8001a0aea7af909f0798a84de"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/DOWNLOAD_WEIGHTS.md": {
+    "mtime": 1782004124.492511,
+    "ast_hash": "b4fa80e91c44580cc337189ca4d298c7",
+    "semantic_hash": "b4fa80e91c44580cc337189ca4d298c7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/example_scripts/readme.md": {
+    "mtime": 1782004125.347704,
+    "ast_hash": "ea5affc51a1427aa6b841dcbd1a24cc6",
+    "semantic_hash": "ea5affc51a1427aa6b841dcbd1a24cc6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/TUD-Campus/gt.txt": {
+    "mtime": 1782004125.4270892,
+    "ast_hash": "fc39ce6577324c799d1152d0ff6824cf",
+    "semantic_hash": "fc39ce6577324c799d1152d0ff6824cf"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/TUD-Campus/test.txt": {
+    "mtime": 1782004125.4431586,
+    "ast_hash": "b6e6868e5b47745f3fc1de1cfc864eb2",
+    "semantic_hash": "b6e6868e5b47745f3fc1de1cfc864eb2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/TUD-Stadtmitte/gt.txt": {
+    "mtime": 1782004125.476352,
+    "ast_hash": "852b2963789fc8e1bc94691a5f6d0d5d",
+    "semantic_hash": "852b2963789fc8e1bc94691a5f6d0d5d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/TUD-Stadtmitte/test.txt": {
+    "mtime": 1782004125.50295,
+    "ast_hash": "0e7aaf3d392fb9061eeb2db97a63864a",
+    "semantic_hash": "0e7aaf3d392fb9061eeb2db97a63864a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/iotest/motchallenge.txt": {
+    "mtime": 1782004125.5637913,
+    "ast_hash": "67b89054b3adac4c347c0a7e4d3acbef",
+    "semantic_hash": "67b89054b3adac4c347c0a7e4d3acbef"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/data/iotest/vatic.txt": {
+    "mtime": 1782004125.5706222,
+    "ast_hash": "7d5073c3926552fa23a2b87b77b5c7d0",
+    "semantic_hash": "7d5073c3926552fa23a2b87b77b5c7d0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/motmetrics_eval/readme.md": {
+    "mtime": 1782004125.3833518,
+    "ast_hash": "941b284fd10c18457bbb3844cd50392c",
+    "semantic_hash": "941b284fd10c18457bbb3844cd50392c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/readme.md": {
+    "mtime": 1782004124.5524435,
+    "ast_hash": "0aeb95bee6713bc8c24a549d8fe267ad",
+    "semantic_hash": "0aeb95bee6713bc8c24a549d8fe267ad"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/video_data/readme.md": {
+    "mtime": 1782004125.7340198,
+    "ast_hash": "d345648b5b0cb6a6941b47fcc8da5e7f",
+    "semantic_hash": "d345648b5b0cb6a6941b47fcc8da5e7f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/requirements.txt": {
+    "mtime": 1782004124.5233696,
+    "ast_hash": "a32290f089e5857bff6ad32f148307da",
+    "semantic_hash": "a32290f089e5857bff6ad32f148307da"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/class_names/bccd_classes.txt": {
+    "mtime": 1782004126.983353,
+    "ast_hash": "4b7b44d7408a5b31c3f41eeadeaffc00",
+    "semantic_hash": "4b7b44d7408a5b31c3f41eeadeaffc00"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/class_names/coco_classes.txt": {
+    "mtime": 1782004126.99851,
+    "ast_hash": "8fc50561361f8bcf96b0177086e7616c",
+    "semantic_hash": "8fc50561361f8bcf96b0177086e7616c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/DOWNLOAD_WEIGHTS.md": {
+    "mtime": 1782004127.3242602,
+    "ast_hash": "b4fa80e91c44580cc337189ca4d298c7",
+    "semantic_hash": "b4fa80e91c44580cc337189ca4d298c7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/example_scripts/readme.md": {
+    "mtime": 1782004128.1800942,
+    "ast_hash": "ea5affc51a1427aa6b841dcbd1a24cc6",
+    "semantic_hash": "ea5affc51a1427aa6b841dcbd1a24cc6"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/TUD-Campus/gt.txt": {
+    "mtime": 1782004128.3164697,
+    "ast_hash": "fc39ce6577324c799d1152d0ff6824cf",
+    "semantic_hash": "fc39ce6577324c799d1152d0ff6824cf"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/TUD-Campus/test.txt": {
+    "mtime": 1782004128.345151,
+    "ast_hash": "b6e6868e5b47745f3fc1de1cfc864eb2",
+    "semantic_hash": "b6e6868e5b47745f3fc1de1cfc864eb2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/TUD-Stadtmitte/gt.txt": {
+    "mtime": 1782004128.4009423,
+    "ast_hash": "852b2963789fc8e1bc94691a5f6d0d5d",
+    "semantic_hash": "852b2963789fc8e1bc94691a5f6d0d5d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/TUD-Stadtmitte/test.txt": {
+    "mtime": 1782004128.4206474,
+    "ast_hash": "0e7aaf3d392fb9061eeb2db97a63864a",
+    "semantic_hash": "0e7aaf3d392fb9061eeb2db97a63864a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/iotest/motchallenge.txt": {
+    "mtime": 1782004128.5171247,
+    "ast_hash": "67b89054b3adac4c347c0a7e4d3acbef",
+    "semantic_hash": "67b89054b3adac4c347c0a7e4d3acbef"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/data/iotest/vatic.txt": {
+    "mtime": 1782004128.5378644,
+    "ast_hash": "7d5073c3926552fa23a2b87b77b5c7d0",
+    "semantic_hash": "7d5073c3926552fa23a2b87b77b5c7d0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/motmetrics_eval/readme.md": {
+    "mtime": 1782004128.2436812,
+    "ast_hash": "941b284fd10c18457bbb3844cd50392c",
+    "semantic_hash": "941b284fd10c18457bbb3844cd50392c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/readme.md": {
+    "mtime": 1782004127.3925076,
+    "ast_hash": "0aeb95bee6713bc8c24a549d8fe267ad",
+    "semantic_hash": "0aeb95bee6713bc8c24a549d8fe267ad"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/video_data/readme.md": {
+    "mtime": 1782004128.7194598,
+    "ast_hash": "d345648b5b0cb6a6941b47fcc8da5e7f",
+    "semantic_hash": "d345648b5b0cb6a6941b47fcc8da5e7f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/requirements.txt": {
+    "mtime": 1782004127.3554242,
+    "ast_hash": "a32290f089e5857bff6ad32f148307da",
+    "semantic_hash": "a32290f089e5857bff6ad32f148307da"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/requirements.txt": {
+    "mtime": 1782004126.66741,
+    "ast_hash": "e4d7c17ee6aef50ddc98f69c6c81c35f",
+    "semantic_hash": "e4d7c17ee6aef50ddc98f69c6c81c35f"
+  },
+  "PENDING_EVIDENCE_REGISTER.md": {
+    "mtime": 1784709840.4638364,
+    "ast_hash": "e6faf7f87d086c3f0b7dec5b39ba36bb",
+    "semantic_hash": "e6faf7f87d086c3f0b7dec5b39ba36bb"
+  },
+  "poultry-monitoring-system/IMPLEMENTATION_STATUS.md": {
+    "mtime": 1782546789.1304793,
+    "ast_hash": "b1bbdfc16e2ff2d96087f7e5fec670cf",
+    "semantic_hash": "b1bbdfc16e2ff2d96087f7e5fec670cf"
+  },
+  "poultry-monitoring-system/README.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "0cc003c3762c1e6617a84be17817ece9",
+    "semantic_hash": "0cc003c3762c1e6617a84be17817ece9"
+  },
+  "poultry-monitoring-system/backend/requirements.txt": {
+    "mtime": 1782515717.9913554,
+    "ast_hash": "a9ad8e9ec0e71c65bbe16fe4d3490a43",
+    "semantic_hash": "a9ad8e9ec0e71c65bbe16fe4d3490a43"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/login.html": {
+    "mtime": 1782515331.5397882,
+    "ast_hash": "f97d98443f5cb6a54a404d5f35eb0611",
+    "semantic_hash": "f97d98443f5cb6a54a404d5f35eb0611"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/password_change_done.html": {
+    "mtime": 1782515361.3892078,
+    "ast_hash": "088aea29a2c00f1021ab061da6cbdd16",
+    "semantic_hash": "088aea29a2c00f1021ab061da6cbdd16"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/password_reset_complete.html": {
+    "mtime": 1782515361.6803193,
+    "ast_hash": "fba5b471ad17815afee1d6c982ff9fc9",
+    "semantic_hash": "fba5b471ad17815afee1d6c982ff9fc9"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/password_reset_confirm.html": {
+    "mtime": 1782515361.608777,
+    "ast_hash": "ebd75077eaaaa3ca60807f78d94ce23b",
+    "semantic_hash": "ebd75077eaaaa3ca60807f78d94ce23b"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/password_reset_done.html": {
+    "mtime": 1782515361.5371034,
+    "ast_hash": "b1d2c18cfeaff62b667064e568e638bd",
+    "semantic_hash": "b1d2c18cfeaff62b667064e568e638bd"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/password_reset_email.html": {
+    "mtime": 1782515361.753121,
+    "ast_hash": "469a7835e225b239987c1a02c1bebf37",
+    "semantic_hash": "469a7835e225b239987c1a02c1bebf37"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/profile.html": {
+    "mtime": 1782515642.1645324,
+    "ast_hash": "54fe1de711dcbe1aa41dd43cd926e239",
+    "semantic_hash": "54fe1de711dcbe1aa41dd43cd926e239"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/user_detail.html": {
+    "mtime": 1782515642.1752605,
+    "ast_hash": "8275e571f07d2231652da82b45d573a0",
+    "semantic_hash": "8275e571f07d2231652da82b45d573a0"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/user_form.html": {
+    "mtime": 1782515188.09171,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/accounts/user_list.html": {
+    "mtime": 1782515642.1675782,
+    "ast_hash": "01d94ca5e9670aec465fc50ecae4161e",
+    "semantic_hash": "01d94ca5e9670aec465fc50ecae4161e"
+  },
+  "poultry-monitoring-system/backend/templates/alerts/alert_detail.html": {
+    "mtime": 1782515642.148175,
+    "ast_hash": "edc544498903630f05f84b3349bee6d4",
+    "semantic_hash": "edc544498903630f05f84b3349bee6d4"
+  },
+  "poultry-monitoring-system/backend/templates/alerts/alert_list.html": {
+    "mtime": 1782515642.1422954,
+    "ast_hash": "c95cdb80316c26bd3b5e9efce668b8e3",
+    "semantic_hash": "c95cdb80316c26bd3b5e9efce668b8e3"
+  },
+  "poultry-monitoring-system/backend/templates/audit/auditlog_list.html": {
+    "mtime": 1782515642.160929,
+    "ast_hash": "6d1082b3c95f6e449d278aefb8b5e3f3",
+    "semantic_hash": "6d1082b3c95f6e449d278aefb8b5e3f3"
+  },
+  "poultry-monitoring-system/backend/templates/base.html": {
+    "mtime": 1782509227.6458197,
+    "ast_hash": "f116dde749b6b1c67775e16fcc8f7847",
+    "semantic_hash": "f116dde749b6b1c67775e16fcc8f7847"
+  },
+  "poultry-monitoring-system/backend/templates/dashboard/_stat.html": {
+    "mtime": 1782515402.452543,
+    "ast_hash": "4b68d8041f18f5150df958f6be647c83",
+    "semantic_hash": "4b68d8041f18f5150df958f6be647c83"
+  },
+  "poultry-monitoring-system/backend/templates/dashboard/home.html": {
+    "mtime": 1782515385.0366368,
+    "ast_hash": "d0a49b57096402991a140a0776556ec1",
+    "semantic_hash": "d0a49b57096402991a140a0776556ec1"
+  },
+  "poultry-monitoring-system/backend/templates/errors/403.html": {
+    "mtime": 1782515360.9280255,
+    "ast_hash": "89431cb03bad7bb9fca8ecce103adea2",
+    "semantic_hash": "89431cb03bad7bb9fca8ecce103adea2"
+  },
+  "poultry-monitoring-system/backend/templates/errors/404.html": {
+    "mtime": 1782515361.0174618,
+    "ast_hash": "00c453b7bbb884adc79c918c5ccfb905",
+    "semantic_hash": "00c453b7bbb884adc79c918c5ccfb905"
+  },
+  "poultry-monitoring-system/backend/templates/errors/500.html": {
+    "mtime": 1782515361.105296,
+    "ast_hash": "93e0da78ad7264a4002603dc36b3d46a",
+    "semantic_hash": "93e0da78ad7264a4002603dc36b3d46a"
+  },
+  "poultry-monitoring-system/backend/templates/errors/_error_body.html": {
+    "mtime": 1782515361.208693,
+    "ast_hash": "fd9ebab5792bbe38c81725e6654d0717",
+    "semantic_hash": "fd9ebab5792bbe38c81725e6654d0717"
+  },
+  "poultry-monitoring-system/backend/templates/farms/breed_list.html": {
+    "mtime": 1782515314.1894796,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/farms/customer_list.html": {
+    "mtime": 1782515314.722984,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/farms/farm_detail.html": {
+    "mtime": 1782515642.0671742,
+    "ast_hash": "850466c6e20d3ae352c53e0be64c60a6",
+    "semantic_hash": "850466c6e20d3ae352c53e0be64c60a6"
+  },
+  "poultry-monitoring-system/backend/templates/farms/farm_form.html": {
+    "mtime": 1782509297.7581613,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/farms/farm_list.html": {
+    "mtime": 1782515642.060606,
+    "ast_hash": "b5b124f4fe250359b4833d22c8df55fb",
+    "semantic_hash": "b5b124f4fe250359b4833d22c8df55fb"
+  },
+  "poultry-monitoring-system/backend/templates/farms/pen_detail.html": {
+    "mtime": 1782515642.071244,
+    "ast_hash": "b2d5e2a76fd6988d1161624472364321",
+    "semantic_hash": "b2d5e2a76fd6988d1161624472364321"
+  },
+  "poultry-monitoring-system/backend/templates/farms/pen_form.html": {
+    "mtime": 1782515187.0767095,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/farms/pen_list.html": {
+    "mtime": 1782515224.7341254,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/farms/simple_form.html": {
+    "mtime": 1782515187.1782777,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/farms/supplier_list.html": {
+    "mtime": 1782515314.457497,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/feeding/feedtype_list.html": {
+    "mtime": 1782515315.9908245,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/feeding/feedusage_list.html": {
+    "mtime": 1782515315.792603,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/feeding/record_form.html": {
+    "mtime": 1782515187.4156718,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/finance/expense_list.html": {
+    "mtime": 1782515642.1081605,
+    "ast_hash": "9e5377f0235f44e8fe905c3060213e2c",
+    "semantic_hash": "9e5377f0235f44e8fe905c3060213e2c"
+  },
+  "poultry-monitoring-system/backend/templates/finance/record_form.html": {
+    "mtime": 1782515187.7596078,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/finance/sale_detail.html": {
+    "mtime": 1782515642.1182177,
+    "ast_hash": "68667e59ca0c19804390d1210502470c",
+    "semantic_hash": "68667e59ca0c19804390d1210502470c"
+  },
+  "poultry-monitoring-system/backend/templates/finance/sale_list.html": {
+    "mtime": 1782515642.110967,
+    "ast_hash": "5dd6cbc2c2cbaa0feccb40df9200990f",
+    "semantic_hash": "5dd6cbc2c2cbaa0feccb40df9200990f"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/batch_detail.html": {
+    "mtime": 1782515642.0810921,
+    "ast_hash": "f731bdc1d64d2aa76156dca1cf1309ec",
+    "semantic_hash": "f731bdc1d64d2aa76156dca1cf1309ec"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/batch_form.html": {
+    "mtime": 1782515187.2591388,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/batch_list.html": {
+    "mtime": 1782515642.07673,
+    "ast_hash": "e1f97ad037d56d79cf6d4ddc6902f317",
+    "semantic_hash": "e1f97ad037d56d79cf6d4ddc6902f317"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/chickentry_list.html": {
+    "mtime": 1782515314.893259,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/mortality_list.html": {
+    "mtime": 1782515642.086401,
+    "ast_hash": "f9c84a1592671afc06db1dfb97b4fb22",
+    "semantic_hash": "f9c84a1592671afc06db1dfb97b4fb22"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/observation_list.html": {
+    "mtime": 1782515315.5748594,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/record_form.html": {
+    "mtime": 1782515187.337257,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/transfer_list.html": {
+    "mtime": 1782515315.135725,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/flocks/weight_list.html": {
+    "mtime": 1782515315.3456593,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/health/medication_list.html": {
+    "mtime": 1782515316.2059457,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/health/observation_detail.html": {
+    "mtime": 1782515642.092037,
+    "ast_hash": "30d006e436968e85387e82feb3ef06d9",
+    "semantic_hash": "30d006e436968e85387e82feb3ef06d9"
+  },
+  "poultry-monitoring-system/backend/templates/health/observation_list.html": {
+    "mtime": 1782515642.0874288,
+    "ast_hash": "006ed068f1ef183697df2e378f9910e6",
+    "semantic_hash": "006ed068f1ef183697df2e378f9910e6"
+  },
+  "poultry-monitoring-system/backend/templates/health/record_form.html": {
+    "mtime": 1782515187.497216,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/health/treatment_list.html": {
+    "mtime": 1782515316.421,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/health/vaccination_record_list.html": {
+    "mtime": 1782515316.8073235,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/health/vaccination_schedule_list.html": {
+    "mtime": 1782515316.6653206,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/inventory/item_detail.html": {
+    "mtime": 1782515642.1041641,
+    "ast_hash": "75942a9e85986ad2e1610e71a13e581c",
+    "semantic_hash": "75942a9e85986ad2e1610e71a13e581c"
+  },
+  "poultry-monitoring-system/backend/templates/inventory/item_form.html": {
+    "mtime": 1782515187.5950167,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/inventory/item_list.html": {
+    "mtime": 1782515642.0978298,
+    "ast_hash": "fd22904fe013b9d30fea931549b03c7d",
+    "semantic_hash": "fd22904fe013b9d30fea931549b03c7d"
+  },
+  "poultry-monitoring-system/backend/templates/inventory/movement_form.html": {
+    "mtime": 1782515187.6810124,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/inventory/movement_list.html": {
+    "mtime": 1782515316.9939923,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/iot/actuator_list.html": {
+    "mtime": 1782515317.2061436,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/iot/device_detail.html": {
+    "mtime": 1782515642.1242795,
+    "ast_hash": "b6c1d1a32e3ec660c3719aabfd57f5de",
+    "semantic_hash": "b6c1d1a32e3ec660c3719aabfd57f5de"
+  },
+  "poultry-monitoring-system/backend/templates/iot/device_form.html": {
+    "mtime": 1782515187.9096208,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/iot/device_list.html": {
+    "mtime": 1782515642.121618,
+    "ast_hash": "73b01d03085e979bbb5e9dbb009bb646",
+    "semantic_hash": "73b01d03085e979bbb5e9dbb009bb646"
+  },
+  "poultry-monitoring-system/backend/templates/iot/environment.html": {
+    "mtime": 1782515642.1314924,
+    "ast_hash": "1a8f60eddb78837d5afb09006d41df44",
+    "semantic_hash": "1a8f60eddb78837d5afb09006d41df44"
+  },
+  "poultry-monitoring-system/backend/templates/iot/threshold_form.html": {
+    "mtime": 1782515187.9914494,
+    "ast_hash": "c4257269e9153e44ad5b78439ce7b73f",
+    "semantic_hash": "c4257269e9153e44ad5b78439ce7b73f"
+  },
+  "poultry-monitoring-system/backend/templates/iot/threshold_list.html": {
+    "mtime": 1782515317.4370482,
+    "ast_hash": "c9bccfdfb60964e4daf47735926b2c3d",
+    "semantic_hash": "c9bccfdfb60964e4daf47735926b2c3d"
+  },
+  "poultry-monitoring-system/backend/templates/partials/_form_fields.html": {
+    "mtime": 1782509281.3912718,
+    "ast_hash": "239ef010597316b53c3807afbbdffebb",
+    "semantic_hash": "239ef010597316b53c3807afbbdffebb"
+  },
+  "poultry-monitoring-system/backend/templates/partials/_messages.html": {
+    "mtime": 1782509264.8263187,
+    "ast_hash": "724e8a01bf6490d8f75203c87101d707",
+    "semantic_hash": "724e8a01bf6490d8f75203c87101d707"
+  },
+  "poultry-monitoring-system/backend/templates/partials/_pagination.html": {
+    "mtime": 1782509273.0071762,
+    "ast_hash": "18edbb49618f3357574faf34e71d92cf",
+    "semantic_hash": "18edbb49618f3357574faf34e71d92cf"
+  },
+  "poultry-monitoring-system/backend/templates/reports/index.html": {
+    "mtime": 1782515642.1548564,
+    "ast_hash": "a36d68a2d9b00df9a8d2209f47537696",
+    "semantic_hash": "a36d68a2d9b00df9a8d2209f47537696"
+  },
+  "poultry-monitoring-system/backend/templates/reports/report_table.html": {
+    "mtime": 1782515642.1568823,
+    "ast_hash": "4b8a7a58e33a3603f431e1bf03e8b30f",
+    "semantic_hash": "4b8a7a58e33a3603f431e1bf03e8b30f"
+  },
+  "poultry-monitoring-system/backend/templates/vision/result_detail.html": {
+    "mtime": 1782515642.1402123,
+    "ast_hash": "b972c213fc6bfb8b5b4dbbfe2d95266f",
+    "semantic_hash": "b972c213fc6bfb8b5b4dbbfe2d95266f"
+  },
+  "poultry-monitoring-system/backend/templates/vision/result_list.html": {
+    "mtime": 1782515642.1350553,
+    "ast_hash": "98c4d3abce20a6d8e73ab6e1e673b100",
+    "semantic_hash": "98c4d3abce20a6d8e73ab6e1e673b100"
+  },
+  "poultry-monitoring-system/docker-compose.yml": {
+    "mtime": 1782522804.3325062,
+    "ast_hash": "9680320b56f3229495885259880e6442",
+    "semantic_hash": "9680320b56f3229495885259880e6442"
+  },
+  "poultry-monitoring-system/docs/api/README.md": {
+    "mtime": 1782546375.71595,
+    "ast_hash": "aef993669f69cc3da07f68015162f42f",
+    "semantic_hash": "aef993669f69cc3da07f68015162f42f"
+  },
+  "poultry-monitoring-system/docs/architecture-decisions.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "e23ef14e44be5268c8b3e9325b94476c",
+    "semantic_hash": "e23ef14e44be5268c8b3e9325b94476c"
+  },
+  "poultry-monitoring-system/docs/backend-setup.md": {
+    "mtime": 1782546685.1375685,
+    "ast_hash": "891c4d8bd14ffcf52cf808dfb4c1d76c",
+    "semantic_hash": "891c4d8bd14ffcf52cf808dfb4c1d76c"
+  },
+  "poultry-monitoring-system/docs/database-dictionary.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "29243b2c9e9ac5e151952fe3ae85e347",
+    "semantic_hash": "29243b2c9e9ac5e151952fe3ae85e347"
+  },
+  "poultry-monitoring-system/docs/deployment.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "eebee8889428717a893b99bcfa75a155",
+    "semantic_hash": "eebee8889428717a893b99bcfa75a155"
+  },
+  "poultry-monitoring-system/docs/dissertation-evidence/PENDING_ML_EVIDENCE.md": {
+    "mtime": 1782546511.7604263,
+    "ast_hash": "274a6e7617419a4b928211d9626a8ce6",
+    "semantic_hash": "274a6e7617419a4b928211d9626a8ce6"
+  },
+  "poultry-monitoring-system/docs/screenshots/PENDING_SCREENSHOTS.md": {
+    "mtime": 1782546498.4418962,
+    "ast_hash": "801333ec345619677d7ca896af53f417",
+    "semantic_hash": "801333ec345619677d7ca896af53f417"
+  },
+  "poultry-monitoring-system/docs/troubleshooting.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "5627affab66d573d7f30233f5fd5f449",
+    "semantic_hash": "5627affab66d573d7f30233f5fd5f449"
+  },
+  "poultry-monitoring-system/docs/user-roles.md": {
+    "mtime": 1782546353.120781,
+    "ast_hash": "699e359ce86807faf8103827cd4d9932",
+    "semantic_hash": "699e359ce86807faf8103827cd4d9932"
+  },
+  "poultry-monitoring-system/edge/README.md": {
+    "mtime": 1782546474.9890666,
+    "ast_hash": "8b74e82c3e0d87e4a96703219dc1fa6e",
+    "semantic_hash": "8b74e82c3e0d87e4a96703219dc1fa6e"
+  },
+  "poultry-monitoring-system/ml/README.md": {
+    "mtime": 1782546457.585767,
+    "ast_hash": "980404db8fa628e2a63797ba403fa230",
+    "semantic_hash": "980404db8fa628e2a63797ba403fa230"
+  },
+  "poultry-monitoring-system/ml/configs/class_mapping.yaml": {
+    "mtime": 1782508744.2296944,
+    "ast_hash": "eb16d973c77cb34a2aed7577ffeb6499",
+    "semantic_hash": "eb16d973c77cb34a2aed7577ffeb6499"
+  },
+  "poultry-monitoring-system/ml/configs/train.yaml": {
+    "mtime": 1782521190.302596,
+    "ast_hash": "286c424c13f23dd31af27db6423c3471",
+    "semantic_hash": "286c424c13f23dd31af27db6423c3471"
+  },
+  "poultry-monitoring-system/ml/requirements.txt": {
+    "mtime": 1782521231.051362,
+    "ast_hash": "46038c46954310447216007540d5ea44",
+    "semantic_hash": "46038c46954310447216007540d5ea44"
+  },
+  "poultry_system_component_images/poultry_system_component_images/SOURCES_AND_LICENCES.txt": {
+    "mtime": 1782009527.770455,
+    "ast_hash": "e358cdffe7eebf6dba566d8f2202f370",
+    "semantic_hash": "e358cdffe7eebf6dba566d8f2202f370"
+  },
+  "Dissertation_IoT_AI_Poultry.pdf": {
+    "mtime": 1784846373.155134,
+    "ast_hash": "daf06c360b3cd5408216a1c5f9cacfaf",
+    "semantic_hash": "daf06c360b3cd5408216a1c5f9cacfaf"
+  },
+  "Dissertation_with_figures.pdf": {
+    "mtime": 1784725485.9222047,
+    "ast_hash": "eabdb596823bc0af2baa68455579e0fc",
+    "semantic_hash": "eabdb596823bc0af2baa68455579e0fc"
+  },
+  "SOURCE_VERIFICATION.md": {
+    "mtime": 1782430897.455566,
+    "ast_hash": "3e1cee6ffd6fbada4b42a5fa3bd1a236",
+    "semantic_hash": "3e1cee6ffd6fbada4b42a5fa3bd1a236"
+  },
+  "figures/generated/activity_diagram.pdf": {
+    "mtime": 1782428842.8246884,
+    "ast_hash": "f5e6d4742cc0b013fb1e9ab614a9f471",
+    "semantic_hash": "f5e6d4742cc0b013fb1e9ab614a9f471"
+  },
+  "figures/generated/alert_state_diagram.pdf": {
+    "mtime": 1782433863.7231083,
+    "ast_hash": "1f12dd81a41f4da0c9421c02d0a23244",
+    "semantic_hash": "1f12dd81a41f4da0c9421c02d0a23244"
+  },
+  "figures/generated/class_diagram.pdf": {
+    "mtime": 1782428842.844768,
+    "ast_hash": "342b4a08886bd1e30bebc5f9c0055ec6",
+    "semantic_hash": "342b4a08886bd1e30bebc5f9c0055ec6"
+  },
+  "figures/generated/component_diagram.pdf": {
+    "mtime": 1782433523.6803665,
+    "ast_hash": "679d327541cbfe75a80c63a92c202c5f",
+    "semantic_hash": "679d327541cbfe75a80c63a92c202c5f"
+  },
+  "figures/generated/deployment_diagram.pdf": {
+    "mtime": 1782428842.8647912,
+    "ast_hash": "ac5d90306e6f3b7abcf8673bdf9a1fb3",
+    "semantic_hash": "ac5d90306e6f3b7abcf8673bdf9a1fb3"
+  },
+  "figures/generated/django_app_architecture.pdf": {
+    "mtime": 1782428842.8713489,
+    "ast_hash": "eb2c4bc90807a008856bda36760bd932",
+    "semantic_hash": "eb2c4bc90807a008856bda36760bd932"
+  },
+  "figures/generated/environmental_control_algorithm.pdf": {
+    "mtime": 1782428842.882206,
+    "ast_hash": "b078adcba0efdf025f702828cd604240",
+    "semantic_hash": "b078adcba0efdf025f702828cd604240"
+  },
+  "figures/generated/erd.pdf": {
+    "mtime": 1782428842.8883781,
+    "ast_hash": "50aa71e5a3f7d16a6b9e546dd9fdbeef",
+    "semantic_hash": "50aa71e5a3f7d16a6b9e546dd9fdbeef"
+  },
+  "figures/generated/hardware_architecture.pdf": {
+    "mtime": 1782428842.8991687,
+    "ast_hash": "9022986dc086c83c47070101b0ccaf30",
+    "semantic_hash": "9022986dc086c83c47070101b0ccaf30"
+  },
+  "figures/generated/iterative_lifecycle.pdf": {
+    "mtime": 1782433523.630945,
+    "ast_hash": "d0564f0efb77d32b99b0462305bb0d2b",
+    "semantic_hash": "d0564f0efb77d32b99b0462305bb0d2b"
+  },
+  "figures/generated/ml_inference_flow.pdf": {
+    "mtime": 1782428842.9406135,
+    "ast_hash": "51943d7783a1ef93618d9fadb25de771",
+    "semantic_hash": "51943d7783a1ef93618d9fadb25de771"
+  },
+  "figures/generated/ml_pipeline.pdf": {
+    "mtime": 1782433523.6539385,
+    "ast_hash": "37199ed1238f587f6c4ab8b27c8ed5fb",
+    "semantic_hash": "37199ed1238f587f6c4ab8b27c8ed5fb"
+  },
+  "figures/generated/ml_result_submission_sequence.pdf": {
+    "mtime": 1782428842.9571023,
+    "ast_hash": "31cbbc3d1d4ad6141abae1e72a2b92fb",
+    "semantic_hash": "31cbbc3d1d4ad6141abae1e72a2b92fb"
+  },
+  "figures/generated/overall_system_architecture.pdf": {
+    "mtime": 1782428842.9656568,
+    "ast_hash": "2c69d0da56478ec1f3fec4afcde82b9c",
+    "semantic_hash": "2c69d0da56478ec1f3fec4afcde82b9c"
+  },
+  "figures/generated/rest_api_integration.pdf": {
+    "mtime": 1782428842.9732692,
+    "ast_hash": "409b372508662e55e424df1ee64f6eab",
+    "semantic_hash": "409b372508662e55e424df1ee64f6eab"
+  },
+  "figures/generated/sensor_acquisition_workflow.pdf": {
+    "mtime": 1782428842.9840393,
+    "ast_hash": "da5b4139284371d5a97c3cacd6bd5fbe",
+    "semantic_hash": "da5b4139284371d5a97c3cacd6bd5fbe"
+  },
+  "figures/generated/sensor_submission_sequence.pdf": {
+    "mtime": 1782428842.9978068,
+    "ast_hash": "b7176bc3c01d2035d43c895c8d6afc5f",
+    "semantic_hash": "b7176bc3c01d2035d43c895c8d6afc5f"
+  },
+  "figures/generated/system_workflow.pdf": {
+    "mtime": 1782428843.0047956,
+    "ast_hash": "bc265fce3b595363330b2c318edc22b8",
+    "semantic_hash": "bc265fce3b595363330b2c318edc22b8"
+  },
+  "figures/generated/three_subsystem_integration.pdf": {
+    "mtime": 1782428843.014743,
+    "ast_hash": "5c19be4bad2bc8278583363972d708cd",
+    "semantic_hash": "5c19be4bad2bc8278583363972d708cd"
+  },
+  "figures/generated/usecase_diagram.pdf": {
+    "mtime": 1783570694.4981194,
+    "ast_hash": "ec9b34a78cb4ded2cdafbf76b675f278",
+    "semantic_hash": "ec9b34a78cb4ded2cdafbf76b675f278"
+  },
+  "figures/generated/wireframe_dashboard.pdf": {
+    "mtime": 1784711827.7299778,
+    "ast_hash": "e6339413db576573521f35022ec53670",
+    "semantic_hash": "e6339413db576573521f35022ec53670"
+  },
+  "figures/generated/wireframe_form.pdf": {
+    "mtime": 1784711828.4281414,
+    "ast_hash": "d22f8a9c24fa3fd98352d647cc68fd4f",
+    "semantic_hash": "d22f8a9c24fa3fd98352d647cc68fd4f"
+  },
+  "figures/generated/wireframe_list.pdf": {
+    "mtime": 1784711828.1475637,
+    "ast_hash": "db492b7b27f0e0a046a136fee5cbd5ea",
+    "semantic_hash": "db492b7b27f0e0a046a136fee5cbd5ea"
+  },
+  "figures/generated/wireframe_login.pdf": {
+    "mtime": 1784711827.3615746,
+    "ast_hash": "8189f54db233d71166895f92270b397b",
+    "semantic_hash": "8189f54db233d71166895f92270b397b"
+  },
+  "figures/usecase/uc01.pdf": {
+    "mtime": 1783570655.681635,
+    "ast_hash": "8e956016b39586af27c33dedf0198a99",
+    "semantic_hash": "8e956016b39586af27c33dedf0198a99"
+  },
+  "figures/usecase/uc02.pdf": {
+    "mtime": 1783570655.7214181,
+    "ast_hash": "9be7411f5b3cb9e8623532a3c66ca23f",
+    "semantic_hash": "9be7411f5b3cb9e8623532a3c66ca23f"
+  },
+  "figures/usecase/uc03.pdf": {
+    "mtime": 1783570655.7548199,
+    "ast_hash": "b3e03cbca1496c0298fb549634ecf216",
+    "semantic_hash": "b3e03cbca1496c0298fb549634ecf216"
+  },
+  "figures/usecase/uc04.pdf": {
+    "mtime": 1783570655.800738,
+    "ast_hash": "f8f7393e5d648e42cc90a2952bd54c22",
+    "semantic_hash": "f8f7393e5d648e42cc90a2952bd54c22"
+  },
+  "figures/usecase/uc05.pdf": {
+    "mtime": 1783570655.8325105,
+    "ast_hash": "d40629779739bc6958170951a5d0bbcc",
+    "semantic_hash": "d40629779739bc6958170951a5d0bbcc"
+  },
+  "figures/usecase/uc06.pdf": {
+    "mtime": 1783570655.867561,
+    "ast_hash": "3306895c0b56f301dd14aaeeef231cd7",
+    "semantic_hash": "3306895c0b56f301dd14aaeeef231cd7"
+  },
+  "figures/usecase/uc07.pdf": {
+    "mtime": 1783570655.9035397,
+    "ast_hash": "d7e7bb2477516749b4e27ad23c86aa50",
+    "semantic_hash": "d7e7bb2477516749b4e27ad23c86aa50"
+  },
+  "figures/usecase/uc08.pdf": {
+    "mtime": 1783570655.9354877,
+    "ast_hash": "5b888033e1b01b5129a6e43f676530f1",
+    "semantic_hash": "5b888033e1b01b5129a6e43f676530f1"
+  },
+  "figures/usecase/uc09.pdf": {
+    "mtime": 1783570655.9848447,
+    "ast_hash": "0e3032f4b77acda57a4a7fa89eeb4ff9",
+    "semantic_hash": "0e3032f4b77acda57a4a7fa89eeb4ff9"
+  },
+  "figures/usecase/uc10.pdf": {
+    "mtime": 1783570656.019632,
+    "ast_hash": "ef4eedbb5364d76c805145960eeccf23",
+    "semantic_hash": "ef4eedbb5364d76c805145960eeccf23"
+  },
+  "figures/usecase/uc11.pdf": {
+    "mtime": 1783570656.0513844,
+    "ast_hash": "12fc5c23c5ab6a823462c817b62ecf7d",
+    "semantic_hash": "12fc5c23c5ab6a823462c817b62ecf7d"
+  },
+  "figures/usecase/uc12.pdf": {
+    "mtime": 1783570656.0855873,
+    "ast_hash": "ea01071d1c9602a295fb6d98d021e3db",
+    "semantic_hash": "ea01071d1c9602a295fb6d98d021e3db"
+  },
+  "figures/usecase/uc13.pdf": {
+    "mtime": 1783570656.125975,
+    "ast_hash": "efc54c4f10570c27f3deba1c9234143e",
+    "semantic_hash": "efc54c4f10570c27f3deba1c9234143e"
+  },
+  "figures/usecase/uc14.pdf": {
+    "mtime": 1783570656.1692662,
+    "ast_hash": "38cf7ac599e21450a7d5f0c2a6e3cef0",
+    "semantic_hash": "38cf7ac599e21450a7d5f0c2a6e3cef0"
+  },
+  "figures/usecase/uc15.pdf": {
+    "mtime": 1783570656.203848,
+    "ast_hash": "83fd553f41fc4f027a6835267e42f484",
+    "semantic_hash": "83fd553f41fc4f027a6835267e42f484"
+  },
+  "figures/usecase/uc16.pdf": {
+    "mtime": 1783570656.2324693,
+    "ast_hash": "8ecb0a6a9fe93d287d1122db98e2b28a",
+    "semantic_hash": "8ecb0a6a9fe93d287d1122db98e2b28a"
+  },
+  "figures/usecase/uc17.pdf": {
+    "mtime": 1783570656.275619,
+    "ast_hash": "06976019d72c706591a159214789ab52",
+    "semantic_hash": "06976019d72c706591a159214789ab52"
+  },
+  "figures/usecase/uc18.pdf": {
+    "mtime": 1783570656.321089,
+    "ast_hash": "9f34a5239ddabd66c65cea13cfab02ea",
+    "semantic_hash": "9f34a5239ddabd66c65cea13cfab02ea"
+  },
+  "figures/usecase/uc19.pdf": {
+    "mtime": 1783570656.3526778,
+    "ast_hash": "34933ee23d877560f514496f50eccac0",
+    "semantic_hash": "34933ee23d877560f514496f50eccac0"
+  },
+  "figures/usecase/uc20.pdf": {
+    "mtime": 1783570656.4046218,
+    "ast_hash": "7eed37add2bd600a2cd76b6fd3aa20a3",
+    "semantic_hash": "7eed37add2bd600a2cd76b6fd3aa20a3"
+  },
+  "figures/usecase/uc21.pdf": {
+    "mtime": 1783570656.4324965,
+    "ast_hash": "439976085dba7a9e5ba93698f45a9d42",
+    "semantic_hash": "439976085dba7a9e5ba93698f45a9d42"
+  },
+  "figures/usecase/uc22.pdf": {
+    "mtime": 1783570656.4683647,
+    "ast_hash": "5f08a0c2832cf51888622856fb07734c",
+    "semantic_hash": "5f08a0c2832cf51888622856fb07734c"
+  },
+  "figures/usecase/uc23.pdf": {
+    "mtime": 1783570656.504433,
+    "ast_hash": "80f1796a709bea0d6067211a5484fc3a",
+    "semantic_hash": "80f1796a709bea0d6067211a5484fc3a"
+  },
+  "figures/usecase/uc24.pdf": {
+    "mtime": 1783570656.5333457,
+    "ast_hash": "0705a5138e5f8cb8ce6b6f4eb01c6a7b",
+    "semantic_hash": "0705a5138e5f8cb8ce6b6f4eb01c6a7b"
+  },
+  "figures/usecase/uc25.pdf": {
+    "mtime": 1783570656.579398,
+    "ast_hash": "7288c7bc5803811272691c13cfed45bf",
+    "semantic_hash": "7288c7bc5803811272691c13cfed45bf"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00001.png": {
+    "mtime": 1782004121.332539,
+    "ast_hash": "3b7d2000b29836d9504860237ffd630b",
+    "semantic_hash": "3b7d2000b29836d9504860237ffd630b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame001.png": {
+    "mtime": 1782004121.4044416,
+    "ast_hash": "085a4f63cc71620a71bfa6409b42a61e",
+    "semantic_hash": "085a4f63cc71620a71bfa6409b42a61e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00101.png": {
+    "mtime": 1782004121.4538047,
+    "ast_hash": "c130b7c84917c8e763f73e9c7dc2a9c4",
+    "semantic_hash": "c130b7c84917c8e763f73e9c7dc2a9c4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00201.png": {
+    "mtime": 1782004121.493822,
+    "ast_hash": "09d2d211370623f10ccfc84e94249292",
+    "semantic_hash": "09d2d211370623f10ccfc84e94249292"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00401.png": {
+    "mtime": 1782004121.549691,
+    "ast_hash": "37255bb387e9d0373bd0ae5774557c39",
+    "semantic_hash": "37255bb387e9d0373bd0ae5774557c39"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame004011.png": {
+    "mtime": 1782004121.6127546,
+    "ast_hash": "b0b91026eb74047d7c24a4f748c6d589",
+    "semantic_hash": "b0b91026eb74047d7c24a4f748c6d589"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00501.png": {
+    "mtime": 1782004121.665594,
+    "ast_hash": "9c9906084a1898aa96eed4211192621a",
+    "semantic_hash": "9c9906084a1898aa96eed4211192621a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame00801.png": {
+    "mtime": 1782004121.7046378,
+    "ast_hash": "817cdcb68459e9b863247027f512163e",
+    "semantic_hash": "817cdcb68459e9b863247027f512163e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame01.png": {
+    "mtime": 1782004121.7545938,
+    "ast_hash": "ef61e6e506caa1f948e1194c7f5a61b1",
+    "semantic_hash": "ef61e6e506caa1f948e1194c7f5a61b1"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame01801.png": {
+    "mtime": 1782004121.8011706,
+    "ast_hash": "0e59f694a72b3596aee9abb6aa72fa26",
+    "semantic_hash": "0e59f694a72b3596aee9abb6aa72fa26"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame018011.png": {
+    "mtime": 1782004121.8510401,
+    "ast_hash": "3f2b7b40b188aecc9d728eb66f295494",
+    "semantic_hash": "3f2b7b40b188aecc9d728eb66f295494"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame02101.png": {
+    "mtime": 1782004121.9047818,
+    "ast_hash": "629ba4633d6dbb651ecc04c157a09c79",
+    "semantic_hash": "629ba4633d6dbb651ecc04c157a09c79"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame02501.png": {
+    "mtime": 1782004121.9683883,
+    "ast_hash": "0ed01cc78e6ee6ba9d2754ce83fa8b9a",
+    "semantic_hash": "0ed01cc78e6ee6ba9d2754ce83fa8b9a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame025501.png": {
+    "mtime": 1782004122.0351267,
+    "ast_hash": "166d59a493cddffa82c07e4488064cfd",
+    "semantic_hash": "166d59a493cddffa82c07e4488064cfd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame02701.png": {
+    "mtime": 1782004122.1222446,
+    "ast_hash": "4270d476e28996b022adc721cb51f230",
+    "semantic_hash": "4270d476e28996b022adc721cb51f230"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame03201.png": {
+    "mtime": 1782004122.172407,
+    "ast_hash": "a3b4c0eb17538eee3b1442c075a4037f",
+    "semantic_hash": "a3b4c0eb17538eee3b1442c075a4037f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame03801.png": {
+    "mtime": 1782004122.2256136,
+    "ast_hash": "f7a6eea1894292ca881131004b78c3dd",
+    "semantic_hash": "f7a6eea1894292ca881131004b78c3dd"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame04701.png": {
+    "mtime": 1782004122.305323,
+    "ast_hash": "0a3ff2dcb6ba753f82f02b8b6d442aa4",
+    "semantic_hash": "0a3ff2dcb6ba753f82f02b8b6d442aa4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame06701.png": {
+    "mtime": 1782004122.3944042,
+    "ast_hash": "58c02706155a1a4a99e507e87c834ba9",
+    "semantic_hash": "58c02706155a1a4a99e507e87c834ba9"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img/frame07101.png": {
+    "mtime": 1782004122.4435337,
+    "ast_hash": "fbc2eb0ffc29c5751cb5deb82bd72c42",
+    "semantic_hash": "fbc2eb0ffc29c5751cb5deb82bd72c42"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00097.png": {
+    "mtime": 1782004122.5415468,
+    "ast_hash": "c00415dd4d01ff0b95092cfaec95ce0f",
+    "semantic_hash": "c00415dd4d01ff0b95092cfaec95ce0f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00201.png": {
+    "mtime": 1782004122.6293652,
+    "ast_hash": "1d8426b1791d9e70867089a448efe993",
+    "semantic_hash": "1d8426b1791d9e70867089a448efe993"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00289.png": {
+    "mtime": 1782004122.6994858,
+    "ast_hash": "1f90c6cce7393a456210b2007e026263",
+    "semantic_hash": "1f90c6cce7393a456210b2007e026263"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00301.png": {
+    "mtime": 1782004122.7705321,
+    "ast_hash": "dfdedc5d3c8378cd8b589815f3a7ec0c",
+    "semantic_hash": "dfdedc5d3c8378cd8b589815f3a7ec0c"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00601.png": {
+    "mtime": 1782004122.8595273,
+    "ast_hash": "c16459be1a23914ed262b3d45199d6d5",
+    "semantic_hash": "c16459be1a23914ed262b3d45199d6d5"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00801.png": {
+    "mtime": 1782004122.9207306,
+    "ast_hash": "b09958db9e3bd714b4ff76f4d871a1f4",
+    "semantic_hash": "b09958db9e3bd714b4ff76f4d871a1f4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame00901.png": {
+    "mtime": 1782004123.0055597,
+    "ast_hash": "566bed435ee80b2f379961674f414fea",
+    "semantic_hash": "566bed435ee80b2f379961674f414fea"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01001.png": {
+    "mtime": 1782004123.081207,
+    "ast_hash": "a30c50768e0ada44298b8a5e1b2d1df4",
+    "semantic_hash": "a30c50768e0ada44298b8a5e1b2d1df4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01101.png": {
+    "mtime": 1782004123.1615815,
+    "ast_hash": "3ad91d027f0ff92ea75880323aed6952",
+    "semantic_hash": "3ad91d027f0ff92ea75880323aed6952"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01201 (1)(1).png": {
+    "mtime": 1782004123.235757,
+    "ast_hash": "d9ea88d5cb6d5296325353ebbab23c5b",
+    "semantic_hash": "d9ea88d5cb6d5296325353ebbab23c5b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01201 (1).png": {
+    "mtime": 1782004123.3078318,
+    "ast_hash": "845b75ee0a33ae90b5e316b36cd59547",
+    "semantic_hash": "845b75ee0a33ae90b5e316b36cd59547"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01201.png": {
+    "mtime": 1782004123.3503172,
+    "ast_hash": "e6f358463b3490087a0a8a5f77ae54a4",
+    "semantic_hash": "e6f358463b3490087a0a8a5f77ae54a4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01301.png": {
+    "mtime": 1782004123.4210496,
+    "ast_hash": "0b0cb01cb7b2b2e697ad86e4dd0a2592",
+    "semantic_hash": "0b0cb01cb7b2b2e697ad86e4dd0a2592"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01401.png": {
+    "mtime": 1782004123.4849017,
+    "ast_hash": "53e548e3078fd00a4c3ee48a1d63648a",
+    "semantic_hash": "53e548e3078fd00a4c3ee48a1d63648a"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01501.png": {
+    "mtime": 1782004123.5647497,
+    "ast_hash": "6c097340d59852a3f214f1209c6de0a8",
+    "semantic_hash": "6c097340d59852a3f214f1209c6de0a8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame01701.png": {
+    "mtime": 1782004123.605008,
+    "ast_hash": "ee8af48f2236a8f290d4d0d4280fc227",
+    "semantic_hash": "ee8af48f2236a8f290d4d0d4280fc227"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame02001.png": {
+    "mtime": 1782004123.662172,
+    "ast_hash": "f9c7fc3cb691de1e3219455c4da5d49b",
+    "semantic_hash": "f9c7fc3cb691de1e3219455c4da5d49b"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame02201 (1).png": {
+    "mtime": 1782004123.711654,
+    "ast_hash": "1f5a86de22cbe14a1eda96d7815e3405",
+    "semantic_hash": "1f5a86de22cbe14a1eda96d7815e3405"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame02201.png": {
+    "mtime": 1782004123.7731378,
+    "ast_hash": "724f624cf832e8850ee1eb485106f9b8",
+    "semantic_hash": "724f624cf832e8850ee1eb485106f9b8"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame02601.png": {
+    "mtime": 1782004123.8514636,
+    "ast_hash": "03d3c08368ee675407024b338c7ec2bb",
+    "semantic_hash": "03d3c08368ee675407024b338c7ec2bb"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame02901.png": {
+    "mtime": 1782004123.923419,
+    "ast_hash": "9f4dac9f957365c6c1cf1eaf396f13ae",
+    "semantic_hash": "9f4dac9f957365c6c1cf1eaf396f13ae"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame03901.png": {
+    "mtime": 1782004123.996945,
+    "ast_hash": "938f0165b7938bdbc3b5f6d787a05d33",
+    "semantic_hash": "938f0165b7938bdbc3b5f6d787a05d33"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame04101.png": {
+    "mtime": 1782004124.077534,
+    "ast_hash": "4567dad4e96147daf44af98283cf382f",
+    "semantic_hash": "4567dad4e96147daf44af98283cf382f"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame04901.png": {
+    "mtime": 1782004124.1564205,
+    "ast_hash": "47a4dcf77952487f691855a21e42ccc7",
+    "semantic_hash": "47a4dcf77952487f691855a21e42ccc7"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame05101.png": {
+    "mtime": 1782004124.2190769,
+    "ast_hash": "cba8d4a1098dfaf151e7603ccea9d4af",
+    "semantic_hash": "cba8d4a1098dfaf151e7603ccea9d4af"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame05401.png": {
+    "mtime": 1782004124.300048,
+    "ast_hash": "606e2b30dc36e7c85b524aa66b40b5c4",
+    "semantic_hash": "606e2b30dc36e7c85b524aa66b40b5c4"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame05601.png": {
+    "mtime": 1782004124.3674173,
+    "ast_hash": "8e8b232a19d9b392c7723123b84836b2",
+    "semantic_hash": "8e8b232a19d9b392c7723123b84836b2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/img_test/frame05701.png": {
+    "mtime": 1782004124.4580388,
+    "ast_hash": "f0fbcae0c0fe4b38facee8a2651998d9",
+    "semantic_hash": "f0fbcae0c0fe4b38facee8a2651998d9"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/assets/cars.gif": {
+    "mtime": 1782004124.7850022,
+    "ast_hash": "47d5226fc5d07c1b41ae1b0e540b9129",
+    "semantic_hash": "47d5226fc5d07c1b41ae1b0e540b9129"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/multi-object-tracker/examples/assets/cows.gif": {
+    "mtime": 1782004125.044039,
+    "ast_hash": "a11f4873a33303b172c452d153711649",
+    "semantic_hash": "a11f4873a33303b172c452d153711649"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/asset/pred.png": {
+    "mtime": 1782004126.9611397,
+    "ast_hash": "ba0da8eef08f4185b5c88cdbe2963861",
+    "semantic_hash": "ba0da8eef08f4185b5c88cdbe2963861"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/img/street.jpeg": {
+    "mtime": 1782004127.1505787,
+    "ast_hash": "6a493bf5a6767954956a201886ebdbd0",
+    "semantic_hash": "6a493bf5a6767954956a201886ebdbd0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/img/test.jpg": {
+    "mtime": 1782004127.209646,
+    "ast_hash": "6c256a8ae23e843391614c128f824d59",
+    "semantic_hash": "6c256a8ae23e843391614c128f824d59"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/img/test2.jpg": {
+    "mtime": 1782004127.2368977,
+    "ast_hash": "8a71c46ff99479e65832435296fe3880",
+    "semantic_hash": "8a71c46ff99479e65832435296fe3880"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/img/test3.jpg": {
+    "mtime": 1782004127.2593005,
+    "ast_hash": "f002e2d936df7c943590a39f9777db52",
+    "semantic_hash": "f002e2d936df7c943590a39f9777db52"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/img/test6.jpg": {
+    "mtime": 1782004127.2992022,
+    "ast_hash": "c8dea9e1c66dc884298db20729e59490",
+    "semantic_hash": "c8dea9e1c66dc884298db20729e59490"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/assets/cars.gif": {
+    "mtime": 1782004127.6204789,
+    "ast_hash": "47d5226fc5d07c1b41ae1b0e540b9129",
+    "semantic_hash": "47d5226fc5d07c1b41ae1b0e540b9129"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/yolo-v4-tf.keras/multi-object-tracker/examples/assets/cows.gif": {
+    "mtime": 1782004127.7736194,
+    "ast_hash": "a11f4873a33303b172c452d153711649",
+    "semantic_hash": "a11f4873a33303b172c452d153711649"
+  },
+  "fig 2.1.png": {
+    "mtime": 1784721050.291463,
+    "ast_hash": "6f394287ba3bab1cc2832a498a4dfff7",
+    "semantic_hash": "6f394287ba3bab1cc2832a498a4dfff7"
+  },
+  "fig 2.2.jpg": {
+    "mtime": 1784722766.52764,
+    "ast_hash": "79f7665626adcb7f068492c97ee944dd",
+    "semantic_hash": "79f7665626adcb7f068492c97ee944dd"
+  },
+  "fig 2.3.png": {
+    "mtime": 1784722677.3994372,
+    "ast_hash": "33258a3da6c34de1c42f42bdaec16e06",
+    "semantic_hash": "33258a3da6c34de1c42f42bdaec16e06"
+  },
+  "fig 2.4.jpg": {
+    "mtime": 1784722865.2807286,
+    "ast_hash": "444e630ac43e73dfedc3aceebb9cf31b",
+    "semantic_hash": "444e630ac43e73dfedc3aceebb9cf31b"
+  },
+  "fig 2.5.png": {
+    "mtime": 1784723474.7296605,
+    "ast_hash": "9b24a80486e17fb6c50ca3be49c95766",
+    "semantic_hash": "9b24a80486e17fb6c50ca3be49c95766"
+  },
+  "fig 2.6.webp": {
+    "mtime": 1784723376.441862,
+    "ast_hash": "be57d36e806f6a5b8ca8d8fcd6d43b4d",
+    "semantic_hash": "be57d36e806f6a5b8ca8d8fcd6d43b4d"
+  },
+  "figures/external/edge_ai_vision_pipeline.png": {
+    "mtime": 1784725017.9345348,
+    "ast_hash": "c0148734bf6683b35354419a4ca929cb",
+    "semantic_hash": "c0148734bf6683b35354419a4ca929cb"
+  },
+  "figures/external/elmessery_broiler_samples.png": {
+    "mtime": 1784725017.950081,
+    "ast_hash": "65b536aa3bce062c326613af9222b72b",
+    "semantic_hash": "65b536aa3bce062c326613af9222b72b"
+  },
+  "figures/external/heat_stress_effects.png": {
+    "mtime": 1784725017.4690592,
+    "ast_hash": "fcc9e012f3e8f0f52b0679dbaac0550c",
+    "semantic_hash": "fcc9e012f3e8f0f52b0679dbaac0550c"
+  },
+  "figures/external/poultry_disease_dataset_samples.png": {
+    "mtime": 1784725018.199189,
+    "ast_hash": "9b34dbb8170583fc597c73ccade00ff0",
+    "semantic_hash": "9b34dbb8170583fc597c73ccade00ff0"
+  },
+  "figures/external/raspberry_pi_board.png": {
+    "mtime": 1784725017.650655,
+    "ast_hash": "f0249970fc549946af4644e3dffc2376",
+    "semantic_hash": "f0249970fc549946af4644e3dffc2376"
+  },
+  "figures/external/yolo_architecture.png": {
+    "mtime": 1784725018.0355976,
+    "ast_hash": "ac975c2adb1fa6bd54c45fe046ad30fd",
+    "semantic_hash": "ac975c2adb1fa6bd54c45fe046ad30fd"
+  },
+  "figures/photos/01_DHT22_temperature_humidity_sensor.jpg": {
+    "mtime": 1782428532.21746,
+    "ast_hash": "439296ae3d23353375812d9a6bc9d636",
+    "semantic_hash": "439296ae3d23353375812d9a6bc9d636"
+  },
+  "figures/photos/02_MQ135_gas_sensor.jpg": {
+    "mtime": 1782428532.2289655,
+    "ast_hash": "c1dffe182644d4d19069a296bd931756",
+    "semantic_hash": "c1dffe182644d4d19069a296bd931756"
+  },
+  "figures/photos/03_Raspberry_Pi_4_Model_B.jpg": {
+    "mtime": 1782428533.5974,
+    "ast_hash": "49dd03d396c8162eeb3aef0e27f51d0e",
+    "semantic_hash": "49dd03d396c8162eeb3aef0e27f51d0e"
+  },
+  "figures/photos/04_USB_webcam.jpg": {
+    "mtime": 1782428533.6343212,
+    "ast_hash": "f7005948b2dad105772bdfdba134bf4b",
+    "semantic_hash": "f7005948b2dad105772bdfdba134bf4b"
+  },
+  "figures/photos/05_2_channel_relay_module.jpg": {
+    "mtime": 1782428533.7115219,
+    "ast_hash": "4b2eb84e4c78dffca768f40b8776731d",
+    "semantic_hash": "4b2eb84e4c78dffca768f40b8776731d"
+  },
+  "figures/photos/06_ventilation_fan.jpg": {
+    "mtime": 1782428533.7534149,
+    "ast_hash": "bb3183d8733cfdbfa99f54c01ac17634",
+    "semantic_hash": "bb3183d8733cfdbfa99f54c01ac17634"
+  },
+  "figures/photos/07_infrared_heat_lamp.jpg": {
+    "mtime": 1782428533.8956585,
+    "ast_hash": "df6c0944af3d4aa548a795f359c3a892",
+    "semantic_hash": "df6c0944af3d4aa548a795f359c3a892"
+  },
+  "figures/photos/08_Raspberry_Pi_5V_power_supply.jpg": {
+    "mtime": 1782428533.9238546,
+    "ast_hash": "883bea4de9aa680555bf9b8658dd5548",
+    "semantic_hash": "883bea4de9aa680555bf9b8658dd5548"
+  },
+  "figures/photos/COMPONENTS_CONTACT_SHEET.jpg": {
+    "mtime": 1782428533.9760885,
+    "ast_hash": "c0caf0859a74cbf4d9a959e2509d90d2",
+    "semantic_hash": "c0caf0859a74cbf4d9a959e2509d90d2"
+  },
+  "figures/screenshots/p10_web_login.png": {
+    "mtime": 1784709506.5671022,
+    "ast_hash": "56290e84cc9a2128b115d18478008b91",
+    "semantic_hash": "56290e84cc9a2128b115d18478008b91"
+  },
+  "figures/screenshots/p11_web_dashboard.png": {
+    "mtime": 1784709511.042854,
+    "ast_hash": "1b834281aee3bee16a88116132959924",
+    "semantic_hash": "1b834281aee3bee16a88116132959924"
+  },
+  "figures/screenshots/web_ai_review.png": {
+    "mtime": 1784709532.8993266,
+    "ast_hash": "1e0dd3bc90ea24bd9ca997302679a6a9",
+    "semantic_hash": "1e0dd3bc90ea24bd9ca997302679a6a9"
+  },
+  "figures/screenshots/web_alert.png": {
+    "mtime": 1784709531.2111685,
+    "ast_hash": "ff8681bce34d6a79f81cbae104ebc837",
+    "semantic_hash": "ff8681bce34d6a79f81cbae104ebc837"
+  },
+  "figures/screenshots/web_batches.png": {
+    "mtime": 1784709514.3979087,
+    "ast_hash": "ae56c46d17c0b22a77a9cf779ce052e6",
+    "semantic_hash": "ae56c46d17c0b22a77a9cf779ce052e6"
+  },
+  "figures/screenshots/web_charts.png": {
+    "mtime": 1784709527.9276526,
+    "ast_hash": "15d1bd31bf36f4c4fb2750d5233c722b",
+    "semantic_hash": "15d1bd31bf36f4c4fb2750d5233c722b"
+  },
+  "figures/screenshots/web_dashboard.png": {
+    "mtime": 1784709511.042854,
+    "ast_hash": "1b834281aee3bee16a88116132959924",
+    "semantic_hash": "1b834281aee3bee16a88116132959924"
+  },
+  "figures/screenshots/web_expenses.png": {
+    "mtime": 1784709522.5825486,
+    "ast_hash": "68d7e592bbf481392997a4098947eb95",
+    "semantic_hash": "68d7e592bbf481392997a4098947eb95"
+  },
+  "figures/screenshots/web_farms.png": {
+    "mtime": 1784709512.7280612,
+    "ast_hash": "1c927468c848831583e0b22ec09020df",
+    "semantic_hash": "1c927468c848831583e0b22ec09020df"
+  },
+  "figures/screenshots/web_feed.png": {
+    "mtime": 1784709517.7274752,
+    "ast_hash": "3863808a384b2720220ac740c8124847",
+    "semantic_hash": "3863808a384b2720220ac740c8124847"
+  },
+  "figures/screenshots/web_health.png": {
+    "mtime": 1784709519.324653,
+    "ast_hash": "2fd9cd8ba813c49f3ee70ce4c147b37a",
+    "semantic_hash": "2fd9cd8ba813c49f3ee70ce4c147b37a"
+  },
+  "figures/screenshots/web_inventory.png": {
+    "mtime": 1784709521.044008,
+    "ast_hash": "76656c46ef11648d4fe2418c87af6154",
+    "semantic_hash": "76656c46ef11648d4fe2418c87af6154"
+  },
+  "figures/screenshots/web_iot.png": {
+    "mtime": 1784709525.7694457,
+    "ast_hash": "e750e8b0db7e1f608db5b6cb666ef77f",
+    "semantic_hash": "e750e8b0db7e1f608db5b6cb666ef77f"
+  },
+  "figures/screenshots/web_login.png": {
+    "mtime": 1784709506.5671022,
+    "ast_hash": "56290e84cc9a2128b115d18478008b91",
+    "semantic_hash": "56290e84cc9a2128b115d18478008b91"
+  },
+  "figures/screenshots/web_mobile.png": {
+    "mtime": 1784709535.0519402,
+    "ast_hash": "bc276d991090f9884b30041d8163a6bd",
+    "semantic_hash": "bc276d991090f9884b30041d8163a6bd"
+  },
+  "figures/screenshots/web_mortality.png": {
+    "mtime": 1784709516.1540592,
+    "ast_hash": "e505263dab542c806f32148b44bdb3a9",
+    "semantic_hash": "e505263dab542c806f32148b44bdb3a9"
+  },
+  "figures/screenshots/web_reports.png": {
+    "mtime": 1784709529.5722566,
+    "ast_hash": "b32dcf61208e5d9159bd6ee41906e9b1",
+    "semantic_hash": "b32dcf61208e5d9159bd6ee41906e9b1"
+  },
+  "figures/screenshots/web_sales.png": {
+    "mtime": 1784709524.1734626,
+    "ast_hash": "5f8583c5ad8b5643cf0ab471edfd39d8",
+    "semantic_hash": "5f8583c5ad8b5643cf0ab471edfd39d8"
+  },
+  "figures/usecase/actor.png": {
+    "mtime": 1783570410.1593833,
+    "ast_hash": "8804eec1d3c687557410819c5de93b9f",
+    "semantic_hash": "8804eec1d3c687557410819c5de93b9f"
+  },
+  "poultry_system_component_images/poultry_system_component_images/01_DHT22_temperature_humidity_sensor.jpg": {
+    "mtime": 1782009527.3144763,
+    "ast_hash": "439296ae3d23353375812d9a6bc9d636",
+    "semantic_hash": "439296ae3d23353375812d9a6bc9d636"
+  },
+  "poultry_system_component_images/poultry_system_component_images/02_MQ135_gas_sensor.jpg": {
+    "mtime": 1782009527.2375126,
+    "ast_hash": "c1dffe182644d4d19069a296bd931756",
+    "semantic_hash": "c1dffe182644d4d19069a296bd931756"
+  },
+  "poultry_system_component_images/poultry_system_component_images/03_Raspberry_Pi_4_Model_B.jpg": {
+    "mtime": 1782009527.6065123,
+    "ast_hash": "49dd03d396c8162eeb3aef0e27f51d0e",
+    "semantic_hash": "49dd03d396c8162eeb3aef0e27f51d0e"
+  },
+  "poultry_system_component_images/poultry_system_component_images/04_USB_webcam.jpg": {
+    "mtime": 1782009527.6335902,
+    "ast_hash": "f7005948b2dad105772bdfdba134bf4b",
+    "semantic_hash": "f7005948b2dad105772bdfdba134bf4b"
+  },
+  "poultry_system_component_images/poultry_system_component_images/05_2_channel_relay_module.jpg": {
+    "mtime": 1782009527.6590645,
+    "ast_hash": "4b2eb84e4c78dffca768f40b8776731d",
+    "semantic_hash": "4b2eb84e4c78dffca768f40b8776731d"
+  },
+  "poultry_system_component_images/poultry_system_component_images/06_ventilation_fan.jpg": {
+    "mtime": 1782009527.6809325,
+    "ast_hash": "bb3183d8733cfdbfa99f54c01ac17634",
+    "semantic_hash": "bb3183d8733cfdbfa99f54c01ac17634"
+  },
+  "poultry_system_component_images/poultry_system_component_images/07_infrared_heat_lamp.jpg": {
+    "mtime": 1782009527.7106514,
+    "ast_hash": "df6c0944af3d4aa548a795f359c3a892",
+    "semantic_hash": "df6c0944af3d4aa548a795f359c3a892"
+  },
+  "poultry_system_component_images/poultry_system_component_images/08_Raspberry_Pi_5V_power_supply.jpg": {
+    "mtime": 1782009527.7459066,
+    "ast_hash": "883bea4de9aa680555bf9b8658dd5548",
+    "semantic_hash": "883bea4de9aa680555bf9b8658dd5548"
+  },
+  "poultry_system_component_images/poultry_system_component_images/COMPONENTS_CONTACT_SHEET.jpg": {
+    "mtime": 1782009527.8042867,
+    "ast_hash": "c0caf0859a74cbf4d9a959e2509d90d2",
+    "semantic_hash": "c0caf0859a74cbf4d9a959e2509d90d2"
+  },
+  "ubalogo.jpg": {
+    "mtime": 1782433523.3638563,
+    "ast_hash": "cf52bac2411feb8f94ad478be069bd03",
+    "semantic_hash": "cf52bac2411feb8f94ad478be069bd03"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracker_Distance_Measure_1.mp4": {
+    "mtime": 1782004109.3022208,
+    "ast_hash": "a813ce6d895c526ea2f6e9feb078d546",
+    "semantic_hash": "a813ce6d895c526ea2f6e9feb078d546"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracker_Distance_Measure_2.mp4": {
+    "mtime": 1782004111.1233041,
+    "ast_hash": "055968185ff44ac51f0a8179e0d89615",
+    "semantic_hash": "055968185ff44ac51f0a8179e0d89615"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracker_Distance_Measure_3.mp4": {
+    "mtime": 1782004112.1079526,
+    "ast_hash": "297286747080067a0480a567b6d90643",
+    "semantic_hash": "297286747080067a0480a567b6d90643"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracker_Distance_Measure_4.mp4": {
+    "mtime": 1782004113.0473292,
+    "ast_hash": "b3f8fdf9aca8adf4b6f816d0e3f8faa2",
+    "semantic_hash": "b3f8fdf9aca8adf4b6f816d0e3f8faa2"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracking_Result_1.mp4": {
+    "mtime": 1782004113.5821767,
+    "ast_hash": "0f1b736aa70ff0c2070a3a87e6ec089d",
+    "semantic_hash": "0f1b736aa70ff0c2070a3a87e6ec089d"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracking_Result_2.mp4": {
+    "mtime": 1782004114.6307168,
+    "ast_hash": "eb995d895043bdbcd254934494a1767e",
+    "semantic_hash": "eb995d895043bdbcd254934494a1767e"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracking_Result_3.mp4": {
+    "mtime": 1782004115.622736,
+    "ast_hash": "da9ebaab72973ec9581cb51b0b65b5f0",
+    "semantic_hash": "da9ebaab72973ec9581cb51b0b65b5f0"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracking_Result_4.mp4": {
+    "mtime": 1782004116.372598,
+    "ast_hash": "d1edcae2313b6347f3a135d7c0d00668",
+    "semantic_hash": "d1edcae2313b6347f3a135d7c0d00668"
+  },
+  "Chicken-Behavior-Analysis-main/Chicken-Behavior-Analysis-main/Tracker_Distance_Measure/Tracking_Result_5.mp4": {
+    "mtime": 1782004117.0725677,
+    "ast_hash": "64949bd56871ad93f682b93a4d6047f1",
+    "semantic_hash": "64949bd56871ad93f682b93a4d6047f1"
+  }
+}

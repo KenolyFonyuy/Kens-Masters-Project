@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block page_title %}Alerts{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Alerts</h1>
+<form class="d-flex gap-1" method="get">
+<select name="status" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All statuses</option>{% for v,l in statuses %}<option value="{{ v }}" {% if request.GET.status == v %}selected{% endif %}>{{ l }}</option>{% endfor %}</select>
+<select name="severity" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All severities</option>{% for v,l in severities %}<option value="{{ v }}" {% if request.GET.severity == v %}selected{% endif %}>{{ l }}</option>{% endfor %}</select>
+</form></div>
+<div class="card"><div class="table-responsive"><table class="table table-hover align-middle mb-0">
+<thead><tr><th>Severity</th><th>Type</th><th>Title</th><th>Status</th><th>Count</th><th>Last</th><th></th></tr></thead><tbody>
+{% for a in alerts %}<tr><td><span class="badge sev-{{ a.severity }}">{{ a.get_severity_display }}</span></td><td>{{ a.get_alert_type_display }}</td>
+<td><a href="{% url 'alerts:alert_detail' a.uid %}">{{ a.title }}</a></td><td>{{ a.get_status_display }}</td><td>{{ a.trigger_count }}</td>
+<td class="small text-muted">{{ a.last_triggered_at|naturaltime }}</td>
+<td><a class="btn btn-sm btn-outline-primary" href="{% url 'alerts:alert_detail' a.uid %}">Open</a></td></tr>
+{% empty %}<tr><td colspan="7"><div class="empty-state"><i class="bi bi-check2-circle"></i> No alerts.</div></td></tr>{% endfor %}
+</tbody></table></div></div>{% include "partials/_pagination.html" %}{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block page_title %}{{ request.resolver_match.url_name|cut:"_list"|title }} list{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>{{ request.resolver_match.url_name|cut:"_list"|title }} records</h1>
+  <form class="d-flex" method="get">
+    <input type="search" name="q" value="{{ request.GET.q }}" class="form-control form-control-sm me-2" placeholder="Search…">
+    <button class="btn btn-outline-primary btn-sm">Search</button>
+  </form>
+</div>
+<div class="card">
+  <div class="table-responsive">
+    <table class="table table-hover mb-0 align-middle">
+      <thead><tr><th>Record</th><th>Created</th></tr></thead>
+      <tbody>
+        {% for obj in object_list %}
+        <tr><td>{{ obj }}</td><td class="text-muted small">{{ obj.created_at|default:"" }}</td></tr>
+        {% empty %}
+        <tr><td colspan="2">
+          <div class="empty-state"><i class="bi bi-inbox"></i> No records yet.</div>
+        </td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% include "partials/_pagination.html" %}
+{% endblock %}

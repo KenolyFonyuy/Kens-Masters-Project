@@ -1,0 +1,26 @@
+# YOLO training configuration. Override paths via environment variables in Colab
+# (DATASET_YAML, PROJECT_DIR). Conservative, biologically-realistic augmentation.
+model: yolo11n.pt          # lightweight nano detector (documented default)
+data: data/processed/dataset.yaml
+epochs: 100
+imgsz: 640
+batch: 16
+optimizer: auto
+lr0: 0.01
+patience: 20               # early stopping
+seed: 42                   # deterministic where possible
+name: broiler_yolo11n
+resume: false
+project: outputs/runs
+
+# Conservative augmentation — avoid unrealistic poultry postures.
+augment:
+  fliplr: 0.5              # horizontal flip OK
+  flipud: 0.0             # never vertical-flip a bird
+  hsv_v: 0.2              # moderate brightness
+  hsv_s: 0.2              # moderate saturation
+  degrees: 5.0            # very limited rotation
+  scale: 0.3             # limited scaling
+  translate: 0.1
+  mosaic: 0.5
+  mixup: 0.0

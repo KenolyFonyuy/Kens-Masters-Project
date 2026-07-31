@@ -1,0 +1,73 @@
+# ===== Python / virtualenv =====
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.coverage
+htmlcov/
+
+# ===== Django =====
+*.sqlite3
+db.sqlite3
+/poultry-monitoring-system/backend/media/
+/poultry-monitoring-system/backend/staticfiles/
+**/staticfiles/
+local_settings.py
+
+# ===== Secrets / environment =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+secrets.json
+
+# ===== Machine learning artefacts (regenerable / large) =====
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+*_ncnn_model/
+**/outputs/runs/
+**/data/raw/
+**/data/interim/
+**/data/processed/
+
+# ===== LaTeX build artefacts (PDF and .tex are kept) =====
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# ===== Node =====
+node_modules/
+
+# ===== Third-party reference repo (downloaded separately, ~500 MB) =====
+Chicken-Behavior-Analysis-main/
+
+# ===== Editor / OS / local agent config =====
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

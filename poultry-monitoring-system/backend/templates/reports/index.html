@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block page_title %}Reports{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Reports</h1></div>
+<div class="row g-3">
+{% for label,urlname,icon,fin in reports %}{% endfor %}
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:batch_performance' %}"><div class="card-body"><i class="bi bi-collection stat-icon"></i><h5 class="mt-2">Batch performance</h5><p class="text-muted small mb-0">Placement, mortality and current flock per batch.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:mortality' %}"><div class="card-body"><i class="bi bi-clipboard-x stat-icon"></i><h5 class="mt-2">Mortality</h5><p class="text-muted small mb-0">Daily mortality with causes and date filters.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:feeding' %}"><div class="card-body"><i class="bi bi-basket stat-icon"></i><h5 class="mt-2">Feeding</h5><p class="text-muted small mb-0">Feed usage by batch and feed type.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:health' %}"><div class="card-body"><i class="bi bi-heart-pulse stat-icon"></i><h5 class="mt-2">Health</h5><p class="text-muted small mb-0">Observations and severities.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:vaccination' %}"><div class="card-body"><i class="bi bi-shield-plus stat-icon"></i><h5 class="mt-2">Vaccination</h5><p class="text-muted small mb-0">Vaccination records.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:inventory' %}"><div class="card-body"><i class="bi bi-box-seam stat-icon"></i><h5 class="mt-2">Inventory</h5><p class="text-muted small mb-0">Stock levels and reorder warnings.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:environmental' %}"><div class="card-body"><i class="bi bi-thermometer-half stat-icon"></i><h5 class="mt-2">Environmental</h5><p class="text-muted small mb-0">Sensor readings history.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:vision' %}"><div class="card-body"><i class="bi bi-camera-video stat-icon"></i><h5 class="mt-2">Vision results</h5><p class="text-muted small mb-0">Prediction classes and review outcomes.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:alert_response' %}"><div class="card-body"><i class="bi bi-bell stat-icon"></i><h5 class="mt-2">Alert response</h5><p class="text-muted small mb-0">Alert acknowledgement and resolution.</p></div></a></div>
+{% if can_finance %}
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:sales' %}"><div class="card-body"><i class="bi bi-bag-check stat-icon"></i><h5 class="mt-2">Sales</h5><p class="text-muted small mb-0">Confirmed and draft sales.</p></div></a></div>
+<div class="col-md-4"><a class="card text-decoration-none h-100" href="{% url 'reports:expenses' %}"><div class="card-body"><i class="bi bi-cash-stack stat-icon"></i><h5 class="mt-2">Expenses</h5><p class="text-muted small mb-0">Expenses by category.</p></div></a></div>
+{% endif %}
+</div>{% endblock %}

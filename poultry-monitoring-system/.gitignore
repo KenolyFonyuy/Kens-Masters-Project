@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+.env
+backend/.env
+
+# Secrets / tokens — never commit
+*.pem
+*.key
+edge_queue.db
+edge/*.db
+
+# ML — never commit large data or weights
+ml/data/raw/
+ml/data/interim/
+ml/data/processed/
+ml/data/crops/
+ml/models/*.pt
+ml/models/*.onnx
+ml/models/*.engine
+ml/outputs/runs/
+*.weights
+# keep example configs and metadata
+!ml/configs/*.yaml
+!ml/configs/*.example
+!ml/data/metadata/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

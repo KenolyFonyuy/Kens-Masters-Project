@@ -1,0 +1,56 @@
+POULTRY MONITORING SYSTEM COMPONENT IMAGE SOURCES
+Prepared: 21 June 2026
+
+This folder contains reference photographs for the major components shown in the supplied system diagram.
+Always retain attribution when using Creative Commons images in a report, slide deck, website, or publication.
+
+1. DHT22 temperature and humidity sensor
+File: 01_DHT22_temperature_humidity_sensor.jpg
+Creator: L293D
+Source: https://commons.wikimedia.org/wiki/File:DHT_22_Sensor.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+
+2. MQ135 gas/air-quality sensor module
+File: 02_MQ135_gas_sensor.jpg
+Source page: https://soldered.com/product/h2s-gas-sensor-mq135-breakout/
+Image endpoint: https://solde.red/333111/image
+Note: The source project is published as open hardware, but the photograph's separate reuse terms were not explicitly stated on the product page. Treat it as a source-attributed reference image unless you obtain confirmation for publication reuse.
+
+3. Raspberry Pi 4 Model B
+File: 03_Raspberry_Pi_4_Model_B.jpg
+Creator: Laserlicht
+Source: https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Top.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+
+4. USB webcam
+File: 04_USB_webcam.jpg
+Creator: Angerdan
+Source: https://commons.wikimedia.org/wiki/File:MS_LifeCam_Cinema.jpg
+License: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)
+
+5. Two-channel 5 V relay module
+File: 05_2_channel_relay_module.jpg
+Source: https://osoyoo.com/2017/07/31/2-channel-relay-module/
+Image: https://osoyoo.com/wp-content/uploads/2017/07/2-channel-relay.jpg
+Note: The page does not clearly state a separate open-content licence for this photograph. Treat it as a source-attributed reference image unless permission is confirmed for publication reuse.
+
+6. Ventilation/exhaust fan
+File: 06_ventilation_fan.jpg
+Creator: Timothy Goh
+Source: https://commons.wikimedia.org/wiki/File:KDK_20WHCT_ventilation_fan.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+
+7. Ceramic infrared heater/heat lamp
+File: 07_infrared_heat_lamp.jpg
+Creator: Lionel Allorge
+Source: https://commons.wikimedia.org/wiki/File:Ampoule_céramique_infrarouge_1.jpg
+License: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)
+
+8. Raspberry Pi 5.1 V, 3.0 A USB-C power supply
+File: 08_Raspberry_Pi_5V_power_supply.jpg
+Creator: SparkFun Electronics
+Source: https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Wall_Adapter_Power_Supply_-_5.1VDC,_3.0A,_15.3W_(USB-C).jpg
+License: Creative Commons Attribution 2.0 (CC BY 2.0)
+
+IMPORTANT SAFETY NOTE
+The relay, fan, and heater section of the proposed system involves approximately 230 V AC mains electricity. Photographs are only visual references; mains wiring should be designed and installed using properly rated enclosures, protection devices, isolation, earthing, and qualified supervision.

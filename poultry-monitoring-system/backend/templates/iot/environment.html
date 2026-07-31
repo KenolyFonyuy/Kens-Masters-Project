@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block page_title %}Environment{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Environmental monitoring</h1>
+<form class="d-flex gap-1"><select id="deviceSel" class="form-select form-select-sm"><option value="">All devices</option>{% for d in devices %}<option value="{{ d.device_id }}">{{ d.name }}</option>{% endfor %}</select>
+<select id="metricSel" class="form-select form-select-sm"><option value="temperature">Temperature</option><option value="humidity">Humidity</option><option value="gas">Gas risk</option></select></form></div>
+<div class="card mb-3"><div class="card-body"><canvas id="histChart" height="90"></canvas></div></div>
+<div class="card"><div class="card-header">Latest readings</div><div class="table-responsive"><table class="table mb-0">
+<thead><tr><th>Time</th><th>Device</th><th>Temp</th><th>Humidity</th><th>Gas risk</th><th>Quality</th></tr></thead><tbody>
+{% for r in readings %}<tr><td>{{ r.server_timestamp }}</td><td>{{ r.device.device_id }}</td><td>{{ r.temperature_c }}</td><td>{{ r.humidity_pct }}</td><td>{{ r.gas_risk_value }} ({{ r.gas_risk_category }})</td><td>{{ r.quality }}</td></tr>
+{% empty %}<tr><td colspan="6"><div class="empty-state"><i class="bi bi-thermometer"></i> No readings.</div></td></tr>{% endfor %}
+</tbody></table></div></div>{% include "partials/_pagination.html" %}
+<p class="disclaimer mt-3"><i class="bi bi-info-circle"></i> Gas readings are a relative ammonia-risk indicator, not a calibrated ppm measurement.</p>
+{% endblock %}
+{% block extra_js %}<script>
+let chart;
+function load(){
+ const d=document.getElementById('deviceSel').value, m=document.getElementById('metricSel').value;
+ fetch("{% url 'iot:sensor_chart_data' %}?device="+d+"&metric="+m+"&days=14").then(r=>r.json()).then(j=>{
+  if(chart)chart.destroy();
+  chart=new Chart(document.getElementById('histChart'),{type:'line',data:{labels:j.labels,datasets:[{label:j.metric,data:j.values,borderColor:'#1B5E20',tension:.3}]},options:{responsive:true,maintainAspectRatio:false}});
+ });
+}
+document.getElementById('deviceSel').onchange=load;document.getElementById('metricSel').onchange=load;load();
+</script>{% endblock %}

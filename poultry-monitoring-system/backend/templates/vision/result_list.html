@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block page_title %}Vision review{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Vision predictions</h1>
+<form class="d-flex gap-1" method="get">
+<select name="review_status" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All statuses</option>{% for v,l in review_statuses %}<option value="{{ v }}" {% if request.GET.review_status == v %}selected{% endif %}>{{ l }}</option>{% endfor %}</select>
+<select name="predicted_class" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All classes</option>{% for c in classes %}<option value="{{ c }}" {% if request.GET.predicted_class == c %}selected{% endif %}>{{ c }}</option>{% endfor %}</select>
+</form></div>
+<div class="card"><div class="table-responsive"><table class="table table-hover align-middle mb-0">
+<thead><tr><th>Time</th><th>Predicted</th><th>Confidence</th><th>Risk</th><th>Review</th><th></th></tr></thead><tbody>
+{% for r in results %}<tr><td class="small">{{ r.server_timestamp }}</td><td>{{ r.predicted_class }}</td><td>{{ r.confidence|floatformat:2 }}</td>
+<td>{{ r.risk_category }}</td><td><span class="badge status-{{ r.review_status }}">{{ r.get_review_status_display }}</span></td>
+<td><a class="btn btn-sm btn-outline-primary" href="{% url 'vision:result_detail' r.result_uuid %}">Review</a></td></tr>
+{% empty %}<tr><td colspan="6"><div class="empty-state"><i class="bi bi-camera-video"></i> No predictions yet.</div></td></tr>{% endfor %}
+</tbody></table></div></div>{% include "partials/_pagination.html" %}
+<p class="disclaimer mt-3"><i class="bi bi-info-circle"></i> Predictions are early-warning indicators and do not replace veterinary diagnosis.</p>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block page_title %}Alert{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ object.title }}</h1><span class="badge sev-{{ object.severity }}">{{ object.get_severity_display }}</span></div>
+<div class="row g-3">
+<div class="col-md-7"><div class="card"><div class="card-header">Details</div><div class="card-body">
+<p><strong>Type:</strong> {{ object.get_alert_type_display }}</p>
+<p><strong>Status:</strong> {{ object.get_status_display }}</p>
+<p><strong>Source:</strong> {{ object.get_source_display }}</p>
+<p><strong>Farm / pen:</strong> {{ object.farm.name }} / {{ object.pen|default:"—" }}</p>
+<p><strong>Triggered:</strong> {{ object.trigger_count }} time(s), last {{ object.last_triggered_at }}</p>
+<p><strong>Message:</strong><br>{{ object.message|linebreaksbr }}</p>
+{% if object.sensor_reading %}<p><strong>Sensor reading:</strong> {{ object.sensor_reading }}</p>{% endif %}
+{% if object.vision_result %}<p><strong>Vision result:</strong> <a href="{% url 'vision:result_detail' object.vision_result.result_uuid %}">{{ object.vision_result.predicted_class }}</a></p>{% endif %}
+</div></div>
+<div class="card mt-3"><div class="card-header">History</div><ul class="list-group list-group-flush">
+{% for ac in actions %}<li class="list-group-item">{{ ac.created_at }} — {{ ac.actor|default:"system" }}: {{ ac.from_status }} → {{ ac.to_status }} {% if ac.note %}<em>({{ ac.note }})</em>{% endif %}</li>{% empty %}<li class="list-group-item text-muted">No actions yet.</li>{% endfor %}</ul></div>
+</div>
+<div class="col-md-5"><div class="card"><div class="card-header">Actions</div><div class="card-body">
+<form method="post" action="{% url 'alerts:alert_transition' object.uid 'acknowledge' %}">{% csrf_token %}<button class="btn btn-outline-primary btn-sm w-100 mb-2">Acknowledge</button></form>
+{% if can_resolve %}
+<form method="post" action="{% url 'alerts:alert_transition' object.uid 'investigate' %}">{% csrf_token %}<button class="btn btn-outline-primary btn-sm w-100 mb-2">Mark investigating</button></form>
+<form method="post" action="{% url 'alerts:alert_transition' object.uid 'resolve' %}">{% csrf_token %}
+<textarea name="corrective_action" class="form-control form-control-sm mb-2" placeholder="Corrective action"></textarea>
+<textarea name="note" class="form-control form-control-sm mb-2" placeholder="Resolution notes"></textarea>
+<button class="btn btn-success btn-sm w-100 mb-2">Resolve</button></form>
+<form method="post" action="{% url 'alerts:alert_transition' object.uid 'false' %}">{% csrf_token %}<button class="btn btn-outline-secondary btn-sm w-100 mb-2">Mark false alert</button></form>
+<form method="post" action="{% url 'alerts:alert_transition' object.uid 'escalate' %}">{% csrf_token %}<button class="btn btn-outline-danger btn-sm w-100">Escalate</button></form>
+{% endif %}
+</div></div></div></div>{% endblock %}

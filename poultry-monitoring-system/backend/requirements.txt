@@ -1,0 +1,16 @@
+# Poultry Monitoring System — backend dependencies (Python 3.12+; tested on 3.14)
+Django==5.2.15
+djangorestframework==3.17.1
+django-filter==25.2
+psycopg[binary]==3.3.4        # PostgreSQL driver (production database)
+Pillow==12.2.0                # ImageField support (avatars, vision images)
+python-dotenv==1.2.2          # .env loading
+PyYAML==6.0.3                 # class-mapping config
+whitenoise==6.12.0            # static file serving
+gunicorn==26.0.0              # production WSGI server
+
+# Development / testing / quality
+pytest==9.1.1
+pytest-django==4.12.0
+ruff==0.15.20
+black==26.5.1

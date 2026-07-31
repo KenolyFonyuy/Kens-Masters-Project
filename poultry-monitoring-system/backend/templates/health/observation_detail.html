@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block page_title %}{{ object.title }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ object.title }}</h1><span class="badge sev-{{ object.severity }}">{{ object.get_severity_display }}</span></div>
+<div class="row g-3">
+<div class="col-md-7"><div class="card"><div class="card-header">Observation</div><div class="card-body">
+<p><strong>Batch:</strong> {{ object.batch.code }}</p>
+<p><strong>Date:</strong> {{ object.observation_date }}</p>
+<p><strong>Affected:</strong> {{ object.affected_count }}</p>
+<p><strong>Symptoms:</strong><br>{{ object.symptoms|linebreaksbr|default:"—" }}</p>
+{% if object.vision_result %}<p><strong>Linked vision result:</strong> <a href="{% url 'vision:result_detail' object.vision_result.result_uuid %}">{{ object.vision_result.predicted_class }}</a></p>{% endif %}
+</div></div></div>
+<div class="col-md-5"><div class="card"><div class="card-header">Veterinary review</div><div class="card-body">
+{% if object.reviewed_by %}<p class="text-muted small">Reviewed by {{ object.reviewed_by }} on {{ object.reviewed_at }}</p><p>{{ object.vet_comment|linebreaksbr }}</p>{% endif %}
+{% if can_review or user.role == 'VET' or user.is_superuser %}
+<form method="post" action="{% url 'health:observation_review' object.uid %}">{% csrf_token %}
+{% include "partials/_form_fields.html" with form=review_form %}
+<button class="btn btn-primary btn-sm">Save review</button></form>{% endif %}
+</div></div></div></div>{% endblock %}

@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block page_title %}Dashboard{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Farm overview</h1>
+  <span class="text-muted small">Signed in as {{ user.get_full_name|default:user.username }} ({{ user.role_label }})</span>
+</div>
+
+<div class="row g-3 mb-1">
+  {% include "dashboard/_stat.html" with label="Active batches" value=active_batch_count icon="bi-collection" %}
+  {% include "dashboard/_stat.html" with label="Current population" value=current_population icon="bi-egg" %}
+  {% include "dashboard/_stat.html" with label="Mortality today" value=mortality_today icon="bi-clipboard-x" %}
+  {% include "dashboard/_stat.html" with label="Mortality rate %" value=mortality_rate icon="bi-graph-down" %}
+</div>
+<div class="row g-3 mb-3">
+  {% include "dashboard/_stat.html" with label="Feed today (kg)" value=feed_today_kg icon="bi-basket" %}
+  {% include "dashboard/_stat.html" with label="Critical alerts" value=critical_alert_count icon="bi-exclamation-octagon" %}
+  {% include "dashboard/_stat.html" with label="Devices online" value=devices_online icon="bi-cpu" %}
+  {% include "dashboard/_stat.html" with label="Devices offline" value=devices_offline icon="bi-plug" %}
+</div>
+
+<div class="row g-3">
+  <div class="col-lg-7">
+    <div class="card mb-3">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-thermometer-half"></i> Environment (last 24h average)</span>
+      </div>
+      <div class="card-body">
+        <div class="row text-center">
+          <div class="col"><div class="stat-value">{{ env_summary.temperature|default:"–" }}{% if env_summary.temperature %}°C{% endif %}</div><div class="text-muted small">Temperature</div></div>
+          <div class="col"><div class="stat-value">{{ env_summary.humidity|default:"–" }}{% if env_summary.humidity %}%{% endif %}</div><div class="text-muted small">Humidity</div></div>
+          <div class="col"><div class="stat-value">{{ env_summary.gas_risk|default:"–" }}</div><div class="text-muted small">Gas-risk index</div></div>
+        </div>
+        <p class="text-muted small mt-2 mb-0">Based on {{ env_summary.count }} good-quality readings. Gas-risk is a relative ammonia-risk indicator (0–1), not a calibrated ppm value.</p>
+      </div>
+    </div>
+
+    <div class="card mb-3">
+      <div class="card-header"><i class="bi bi-bell"></i> Open alerts</div>
+      <div class="list-group list-group-flush">
+        {% for a in recent_alerts %}
+        <a href="{% url 'alerts:alert_detail' a.uid %}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+          <span><span class="badge sev-{{ a.severity }}">{{ a.get_severity_display }}</span> {{ a.title }}</span>
+          <small class="text-muted">{{ a.last_triggered_at|naturaltime }}</small>
+        </a>
+        {% empty %}
+        <div class="empty-state"><i class="bi bi-check2-circle"></i> No open alerts.</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-5">
+    {% if show_finance %}
+    <div class="card mb-3">
+      <div class="card-header"><i class="bi bi-cash-coin"></i> This month</div>
+      <div class="card-body">
+        <div class="d-flex justify-content-between"><span>Sales (confirmed)</span><strong>{{ sales_month|floatformat:0|intcomma }}</strong></div>
+        <div class="d-flex justify-content-between"><span>Expenses</span><strong>{{ expenses_month|floatformat:0|intcomma }}</strong></div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="card mb-3">
+      <div class="card-header"><i class="bi bi-camera-video"></i> Recent vision predictions</div>
+      <div class="list-group list-group-flush">
+        {% for p in recent_predictions %}
+        <a href="{% url 'vision:result_detail' p.result_uuid %}" class="list-group-item list-group-item-action d-flex justify-content-between">
+          <span>{{ p.predicted_class }} <small class="text-muted">{{ p.confidence|floatformat:2 }}</small></span>
+          <span class="badge status-{{ p.review_status }}">{{ p.get_review_status_display }}</span>
+        </a>
+        {% empty %}
+        <div class="empty-state"><i class="bi bi-camera"></i> No predictions yet.</div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><i class="bi bi-box-seam"></i> Inventory warnings</div>
+      <div class="list-group list-group-flush">
+        {% for i in low_stock_items %}
+        <div class="list-group-item d-flex justify-content-between">
+          <span>{{ i.name }}</span>
+          <span class="badge sev-warning">{{ i.current_stock }} {{ i.unit }}</span>
+        </div>
+        {% empty %}
+        <div class="empty-state"><i class="bi bi-check2"></i> Stock levels OK.</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="disclaimer mt-3"><i class="bi bi-info-circle"></i> Machine-vision predictions are early-warning indicators and do not replace veterinary diagnosis.</p>
+{% endblock %}

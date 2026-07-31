@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block page_title %}My profile{% endblock %}
+{% block content %}
+<div class="page-head"><h1>My profile</h1></div>
+<div class="row g-3"><div class="col-md-8"><div class="card"><div class="card-header">Account details</div><div class="card-body">
+<form method="post" enctype="multipart/form-data" novalidate>{% csrf_token %}
+{% include "partials/_form_fields.html" %}
+<hr><h6>Profile</h6>
+{% include "partials/_form_fields.html" with form=profile_form %}
+<button class="btn btn-primary">Save</button></form>
+</div></div></div>
+<div class="col-md-4"><div class="card"><div class="card-body text-center">
+<i class="bi bi-person-circle" style="font-size:3rem;color:var(--accent-green)"></i>
+<h5 class="mt-2">{{ user.get_full_name|default:user.username }}</h5>
+<p class="text-muted">{{ user.role_label }}</p>
+<a class="btn btn-outline-primary btn-sm" href="{% url 'accounts:password_change' %}">Change password</a>
+</div></div></div></div>{% endblock %}

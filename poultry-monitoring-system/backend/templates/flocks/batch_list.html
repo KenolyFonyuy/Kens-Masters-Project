@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block page_title %}Batches{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Batches</h1>
+<div class="d-flex gap-2">
+<form class="d-flex gap-1" method="get">
+<select name="status" class="form-select form-select-sm" onchange="this.form.submit()"><option value="">All statuses</option>{% for v,l in statuses %}<option value="{{ v }}" {% if request.GET.status == v %}selected{% endif %}>{{ l }}</option>{% endfor %}</select>
+<input class="form-control form-control-sm" type="search" name="q" value="{{ request.GET.q }}" placeholder="Code…"><button class="btn btn-outline-primary btn-sm">Go</button></form>
+{% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' or user.role == 'MANAGER' %}<a class="btn btn-primary btn-sm" href="{% url 'flocks:batch_create' %}"><i class="bi bi-plus-lg"></i> Add batch</a>{% endif %}
+</div></div>
+<div class="card"><div class="table-responsive"><table class="table table-hover align-middle mb-0">
+<thead><tr><th>Code</th><th>Farm</th><th>Status</th><th>Age (d)</th><th>Current</th><th>Mortality %</th><th></th></tr></thead><tbody>
+{% for b in batches %}
+<tr><td><a href="{% url 'flocks:batch_detail' b.uid %}">{{ b.code }}</a></td><td>{{ b.farm.name }}</td>
+<td><span class="badge status-ok">{{ b.get_status_display }}</span></td><td>{{ b.age_days }}</td>
+<td>{{ b.current_quantity }}</td><td>{{ b.cumulative_mortality_rate }}</td>
+<td><a class="btn btn-sm btn-outline-primary" href="{% url 'flocks:batch_detail' b.uid %}">View</a></td></tr>
+{% empty %}<tr><td colspan="7"><div class="empty-state"><i class="bi bi-collection"></i> No batches yet.</div></td></tr>{% endfor %}
+</tbody></table></div></div>{% include "partials/_pagination.html" %}{% endblock %}

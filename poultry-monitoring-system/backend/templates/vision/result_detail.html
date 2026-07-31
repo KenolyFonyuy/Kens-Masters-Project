@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block page_title %}Prediction review{% endblock %}
+{% block content %}
+<div class="page-head"><h1>Prediction review</h1><span class="badge status-{{ object.review_status }}">{{ object.get_review_status_display }}</span></div>
+<div class="row g-3">
+<div class="col-md-6"><div class="card"><div class="card-header">Original machine output (immutable)</div><div class="card-body">
+<p><strong>Predicted class:</strong> {{ object.predicted_class }}</p>
+<p><strong>Confidence:</strong> {{ object.confidence|floatformat:3 }}</p>
+<p><strong>Risk category:</strong> {{ object.risk_category }} &middot; <strong>Severity:</strong> {{ object.severity }}</p>
+<p><strong>Model:</strong> {{ object.model_name }} {{ object.model_version }}</p>
+<p><strong>Detections ({{ object.detection_count }}):</strong></p>
+<pre class="small bg-light p-2 rounded">{{ object.detections }}</pre>
+{% if object.image_reference %}<p><strong>Image reference:</strong> {{ object.image_reference }}</p>{% endif %}
+{% if object.image %}<img src="{{ object.image.url }}" class="img-fluid rounded border">{% endif %}
+</div></div></div>
+<div class="col-md-6"><div class="card"><div class="card-header">Human review</div><div class="card-body">
+{% if object.reviewed_by %}<p class="text-muted small">Reviewed by {{ object.reviewed_by }} on {{ object.reviewed_at }}</p>
+{% if object.corrected_class %}<p><strong>Corrected class:</strong> {{ object.corrected_class }}</p>{% endif %}
+<p>{{ object.review_notes|linebreaksbr }}</p><hr>{% endif %}
+{% if can_review %}
+<form method="post" action="{% url 'vision:result_review' object.result_uuid %}">{% csrf_token %}
+<div class="mb-2"><label class="form-label">Decision</label>
+<select name="decision" class="form-select"><option value="accept">Accept</option><option value="correct">Correct class</option><option value="uncertain">Mark uncertain</option><option value="false">False alert</option><option value="escalate">Escalate</option></select></div>
+<div class="mb-2"><label class="form-label">Corrected class (if correcting)</label>
+<select name="corrected_class" class="form-select"><option value="">—</option>{% for c in classes %}<option value="{{ c }}">{{ c }}</option>{% endfor %}</select></div>
+<div class="mb-2"><label class="form-label">Notes</label><textarea name="review_notes" class="form-control" rows="3"></textarea></div>
+<button class="btn btn-primary">Submit review</button></form>
+{% else %}<p class="text-muted">You do not have permission to review predictions.</p>{% endif %}
+</div></div></div></div>
+<p class="disclaimer mt-3"><i class="bi bi-info-circle"></i> The original prediction is never overwritten — corrections are stored separately.</p>
+{% endblock %}

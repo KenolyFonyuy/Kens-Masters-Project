@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block page_title %}{{ object.username }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ object.get_full_name|default:object.username }}</h1>
+<a class="btn btn-outline-primary btn-sm" href="{% url 'accounts:user_update' object.pk %}">Edit</a></div>
+<div class="card"><div class="card-body">
+<p><strong>Username:</strong> {{ object.username }}</p>
+<p><strong>Email:</strong> {{ object.email|default:"—" }}</p>
+<p><strong>Role:</strong> {{ object.role_label }}</p>
+<p><strong>Active:</strong> {{ object.is_active|yesno:"Yes,No" }}</p>
+<p class="mb-0"><strong>Assigned farms:</strong> {% for f in object.assigned_farms.all %}{{ f.name }}{% if not forloop.last %}, {% endif %}{% empty %}—{% endfor %}</p>
+</div></div>{% endblock %}

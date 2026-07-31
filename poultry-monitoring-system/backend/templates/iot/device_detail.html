@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block page_title %}{{ object.name }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ object.name }} <small class="text-muted">{{ object.device_id }}</small></h1>
+{% if object.is_online %}<span class="badge status-ok">Online</span>{% else %}<span class="badge status-muted">Offline</span>{% endif %}</div>
+{% if latest_reading %}
+<div class="row g-3 mb-3">
+{% include "dashboard/_stat.html" with label="Temperature" value=latest_reading.temperature_c icon="bi-thermometer" %}
+{% include "dashboard/_stat.html" with label="Humidity" value=latest_reading.humidity_pct icon="bi-droplet" %}
+{% include "dashboard/_stat.html" with label="Gas risk" value=latest_reading.gas_risk_value icon="bi-wind" %}
+{% include "dashboard/_stat.html" with label="Category" value=latest_reading.get_gas_risk_category_display icon="bi-exclamation-triangle" %}
+</div>{% endif %}
+<div class="card mb-3"><div class="card-header">Temperature & humidity (last 7 days)</div><div class="card-body"><canvas id="envChart" height="90"></canvas></div></div>
+<div class="row g-3">
+<div class="col-md-6"><div class="card"><div class="card-header">Recent actuator events</div><ul class="list-group list-group-flush">
+{% for e in actuator_events %}<li class="list-group-item d-flex justify-content-between">{{ e.get_actuator_display }} → {{ e.new_state|yesno:"ON,OFF" }}<small class="text-muted">{{ e.server_timestamp }}</small></li>{% empty %}<li class="list-group-item text-muted">None.</li>{% endfor %}</ul></div></div>
+<div class="col-md-6"><div class="card"><div class="card-header">Recent heartbeats</div><ul class="list-group list-group-flush">
+{% for h in heartbeats %}<li class="list-group-item d-flex justify-content-between">CPU {{ h.cpu_percent|default:"–" }}% / Mem {{ h.memory_percent|default:"–" }}%<small class="text-muted">{{ h.server_timestamp }}</small></li>{% empty %}<li class="list-group-item text-muted">None.</li>{% endfor %}</ul></div></div>
+</div>
+{% endblock %}
+{% block extra_js %}<script>
+fetch("{% url 'iot:sensor_chart_data' %}?device={{ object.device_id }}&metric=temperature&days=7").then(r=>r.json()).then(temp=>{
+ fetch("{% url 'iot:sensor_chart_data' %}?device={{ object.device_id }}&metric=humidity&days=7").then(r=>r.json()).then(hum=>{
+  new Chart(document.getElementById('envChart'),{type:'line',data:{labels:temp.labels,datasets:[
+   {label:'Temp °C',data:temp.values,borderColor:'#1B5E20',tension:.3},
+   {label:'Humidity %',data:hum.values,borderColor:'#0369A1',tension:.3}]},
+   options:{responsive:true,maintainAspectRatio:false}});
+ });
+});
+</script>{% endblock %}

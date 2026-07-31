@@ -1,0 +1,18 @@
+# ML subsystem dependencies. Install in a SEPARATE environment from the backend
+# (PyTorch/Ultralytics are large). Tested targets: Python 3.10-3.12 + CUDA or CPU.
+ultralytics>=8.3.0          # YOLO11 (detection). Pulls in torch/torchvision.
+torch>=2.2                  # installed automatically by ultralytics if absent
+torchvision>=0.17
+opencv-python>=4.9
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.4
+Pillow>=10.0
+PyYAML>=6.0
+albumentations>=1.4         # only where extra augmentation is justified
+onnx>=1.16                  # ONNX export
+onnxruntime>=1.17           # ONNX inference / benchmarking
+# ncnn export is handled by ultralytics; tflite export needs tensorflow (optional)
+jupyter>=1.0
+pytest>=8.0

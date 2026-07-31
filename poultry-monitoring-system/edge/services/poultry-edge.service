@@ -1,0 +1,24 @@
+# Systemd unit for the Raspberry Pi edge client.
+# Install:
+#   sudo cp poultry-edge.service /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now poultry-edge
+# Configure secrets in /etc/poultry-edge.env (NOT committed; chmod 600).
+[Unit]
+Description=Poultry Monitoring Edge Client
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/opt/poultry-edge/edge
+EnvironmentFile=/etc/poultry-edge.env
+ExecStart=/opt/poultry-edge/.venv/bin/python -m src.main
+Restart=always
+RestartSec=10
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

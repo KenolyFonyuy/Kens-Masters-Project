@@ -1,0 +1,93 @@
+{
+  "info": {
+    "name": "Poultry Monitoring System API v1",
+    "description": "Device ingestion + config endpoints. Set collection variables base_url and device_token.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000/api/v1" },
+    { "key": "device_token", "value": "REPLACE_WITH_TOKEN" },
+    { "key": "device_id", "value": "DEMO-PI-001" }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      { "key": "key", "value": "Authorization" },
+      { "key": "value", "value": "Device {{device_token}}" },
+      { "key": "in", "value": "header" }
+    ]
+  },
+  "item": [
+    {
+      "name": "Register device (user auth)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/devices/register/",
+        "body": { "mode": "raw", "raw": "{\n  \"device_id\": \"PI-001\",\n  \"name\": \"House 1 Pi\",\n  \"farm\": \"DEMO-YDE-01\",\n  \"pen_code\": \"P1\"\n}" }
+      }
+    },
+    {
+      "name": "Heartbeat",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/devices/heartbeat/",
+        "body": { "mode": "raw", "raw": "{\n  \"cpu_percent\": 18.2,\n  \"memory_percent\": 41.0,\n  \"queued_records\": 0\n}" }
+      }
+    },
+    {
+      "name": "Sensor reading",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/sensor-readings/",
+        "body": { "mode": "raw", "raw": "{\n  \"reading_uuid\": \"f1e2d3c4-0000-0000-0000-000000000001\",\n  \"pen_code\": \"P1\",\n  \"temperature_c\": 31.4,\n  \"humidity_pct\": 64.0,\n  \"raw_gas_value\": 320.0,\n  \"gas_risk_value\": 0.55,\n  \"fan_state\": true\n}" }
+      }
+    },
+    {
+      "name": "Vision result",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/vision-results/",
+        "body": { "mode": "raw", "raw": "{\n  \"result_uuid\": \"a1b2c3d4-0000-0000-0000-000000000002\",\n  \"pen_code\": \"P1\",\n  \"predicted_class\": \"lethargic\",\n  \"confidence\": 0.78,\n  \"detections\": [{ \"cls\": \"lethargic\", \"confidence\": 0.78, \"bbox\": [0.31, 0.42, 0.18, 0.22] }]\n}" }
+      }
+    },
+    {
+      "name": "Actuator event",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/actuator-events/",
+        "body": { "mode": "raw", "raw": "{\n  \"event_uuid\": \"b2c3d4e5-0000-0000-0000-000000000003\",\n  \"pen_code\": \"P1\",\n  \"actuator\": \"fan\",\n  \"new_state\": true,\n  \"trigger\": \"threshold\"\n}" }
+      }
+    },
+    {
+      "name": "Device alert",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/device-alerts/",
+        "body": { "mode": "raw", "raw": "{\n  \"alert_type\": \"camera_failure\",\n  \"severity\": \"warning\",\n  \"title\": \"Camera offline\",\n  \"pen_code\": \"P1\"\n}" }
+      }
+    },
+    {
+      "name": "Sync batch",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/sync/batch/",
+        "body": { "mode": "raw", "raw": "{\n  \"records\": [\n    {\n      \"idempotency_key\": \"PI-001:2026-06-27T08:00:00:sr\",\n      \"record_type\": \"sensor_reading\",\n      \"payload\": { \"reading_uuid\": \"c3d4e5f6-0000-0000-0000-000000000004\", \"temperature_c\": 24.0, \"humidity_pct\": 50.0 }\n    }\n  ]\n}" }
+      }
+    },
+    {
+      "name": "Get configuration",
+      "request": { "method": "GET", "url": "{{base_url}}/devices/{{device_id}}/configuration/" }
+    },
+    {
+      "name": "Get thresholds",
+      "request": { "method": "GET", "url": "{{base_url}}/devices/{{device_id}}/thresholds/" }
+    }
+  ]
+}

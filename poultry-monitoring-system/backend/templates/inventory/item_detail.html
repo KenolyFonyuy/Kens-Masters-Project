@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page_title %}{{ inventoryitem.name }}{% endblock %}
+{% block content %}
+<div class="page-head"><h1>{{ object.name }}</h1>
+{% if user.is_superuser or user.role == 'ADMIN' or user.role == 'OWNER' or user.role == 'MANAGER' %}<a class="btn btn-outline-primary btn-sm" href="{% url 'inventory:item_update' object.uid %}"><i class="bi bi-pencil"></i> Edit</a>{% endif %}</div>
+<div class="row g-3 mb-3">
+{% include "dashboard/_stat.html" with label="Current stock" value=object.current_stock icon="bi-box" %}
+{% include "dashboard/_stat.html" with label="Opening" value=object.opening_stock icon="bi-box-seam" %}
+{% include "dashboard/_stat.html" with label="Reorder level" value=object.reorder_level icon="bi-exclamation-triangle" %}
+{% include "dashboard/_stat.html" with label="Unit" value=object.unit icon="bi-rulers" %}
+</div>
+<div class="card"><div class="card-header">Stock movements</div><div class="table-responsive"><table class="table mb-0">
+<thead><tr><th>Date</th><th>Type</th><th>Qty</th><th>Signed</th><th>Reference</th></tr></thead><tbody>
+{% for m in movements %}<tr><td>{{ m.movement_date }}</td><td>{{ m.get_movement_type_display }}</td><td>{{ m.quantity }}</td><td>{{ m.signed_quantity }}</td><td>{{ m.reference }}</td></tr>
+{% empty %}<tr><td colspan="5" class="text-muted">No movements.</td></tr>{% endfor %}
+</tbody></table></div></div>{% endblock %}
