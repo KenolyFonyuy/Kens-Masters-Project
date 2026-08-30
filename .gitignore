@@ -71,3 +71,6 @@ Chicken-Behavior-Analysis-main/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Redundant archive: the same Roboflow dataset is committed in extracted form beside it
+ml-1/*.zip

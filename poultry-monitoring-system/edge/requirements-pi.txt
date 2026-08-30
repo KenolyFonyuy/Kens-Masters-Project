@@ -1,0 +1,23 @@
+# Raspberry Pi runtime dependencies. Install on the Pi only:
+#   pip install -r requirements-pi.txt
+# The rest of the edge client has no third-party dependencies, so the test
+# suite and MOCK mode run on a laptop without any of these.
+
+# GPIO: relays, digital inputs, MCP3008. lgpio is the backend that works on
+# Pi 5 (RPi.GPIO does not); it is harmless on Pi 3/4.
+gpiozero>=2.0
+lgpio>=0.2.2.0
+
+# DHT22. Blinka provides the `board` pin map that adafruit_dht expects.
+adafruit-circuitpython-dht>=4.0
+Adafruit-Blinka>=8.0
+
+# ADS1115 ADC over I2C. Omit if you are using an MCP3008 (gpiozero covers it)
+# or the dout backend.
+adafruit-circuitpython-ads1x15>=2.2
+
+# Heartbeat host metrics (optional; the client degrades gracefully without it).
+psutil>=5.9
+
+# Camera capture. Prefer the distro build: sudo apt install -y python3-opencv
+# opencv-python-headless>=4.8

@@ -123,3 +123,46 @@ Captured with `poultry-monitoring-system/backend/capture_screenshots.py`
 
 Chapter 4 reports these as pending rather than asserting them, consistent with the
 anti-fabrication requirement.
+
+---
+
+## Revision 4 — ML results and hardware photographs CAPTURED (2026-08-29)
+
+Eight of the nine remaining inline placeholders are now filled with genuine artefacts,
+delivered in `ml-1/`. Full provenance and every reported number: `ML_RESULTS_VERIFIED.md`
+(that file is the single source of truth; do not quote a figure that is not in it).
+
+**Machine learning — produced by a real training run, no longer pending:**
+
+| Fig. | File | Content |
+|------|------|---------|
+| 3.12 | `figures/screenshots/p04_class_distribution.png` | Detection instances (3,829 train / 974 val) and health-class crops |
+| 3.13 | `figures/screenshots/p05_bbox_distribution.png` | 3,211 boxes; median size 56 px, median aspect 0.92 |
+| 3.14 | `figures/screenshots/p06_colab_environment.png` | Genuine Colab session with the project notebook |
+| 3.15 | `figures/screenshots/p07_training_curves.png` | box/cls/dfl loss, train vs val, 40 epochs |
+| 3.16 | `figures/screenshots/p08_pr_curve.png` | PR curve, mAP@0.5 = 0.861 |
+| 3.17 | `figures/screenshots/p09_confusion_matrix.png` | Classification stage, 66 held-out crops |
+
+**Hardware — photographed, no longer pending:**
+
+| Fig. | File | Content |
+|------|------|---------|
+| 3.9 | `figures/photos/p02_breadboard_prototype.jpg` | Assembled circuit on bench, live reading on screen |
+| 3.10 | `figures/photos/p03_installed_prototype.jpg` | Unit deployed inside an operating broiler house (GreenFarms) |
+
+**DHT22 calibration — CAPTURED 2026-08-30:** `figures/screenshots/p01_sensor_calibration.png`
+(Fig. 3.7) supplies the DHT22-against-reference comparison: temperature Y = 0.985x + 0.2
+(R2 = 0.998) over approx. 16-39 °C, humidity Y = 0.99x + 0.1 (R2 = 0.999) over approx. 23-78 %RH.
+This covers the DHT22 only, not the gas sensor.
+
+**STILL genuinely pending (must NOT be fabricated):**
+- **Gas-sensor calibration** against a reference ammonia concentration: not measured. The gas
+  channel stays a relative risk index throughout.
+- **Long-run sensor behaviour** under house conditions, and drift over a production cycle.
+- **Raspberry Pi inference latency**: the exported ONNX model was benchmarked at ~47 ms/frame
+  **on CPU only**. No measurement has been taken on Pi hardware.
+- **Six-class visible-condition performance**: only 1 detection class (`chicken`) and 2 health
+  classes (`Healthy`/`Sick`) were trained. The six-class mapping contract remains implemented
+  and unit-tested but unexercised by a trained model.
+- **Locally collected GreenFarms training data**: the trained models use public datasets
+  (Broiler-Net, Apache-2.0; Roboflow healthy/sick, CC BY 4.0), not local imagery.
